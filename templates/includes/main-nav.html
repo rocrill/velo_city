@@ -17,10 +17,11 @@
                 Bikes
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="bikes-link">
-                <a href="" class="dropdown-item">Road Bikes</a>
-                <a href="" class="dropdown-item">Vintage Bikes</a>
-                <a href="" class="dropdown-item">Hybrid Bikes</a>
-                <a href="" class="dropdown-item">Electric Bikes</a>
+                <a href="{% url 'products' %}?category=road_bikes" class="dropdown-item">Road Bikes</a>
+                <a href="{% url 'products' %}?category=vintage_bikes"  class="dropdown-item">Vintage Bikes</a>
+                <a href="{% url 'products' %}?category=hybrid_bikes"  class="dropdown-item">Hybrid Bikes</a>
+                <a href="{% url 'products' %}?category=mountain_bikes"  class="dropdown-item">Mountain Bikes</a>
+                <a href="{% url 'products' %}?category=fixie_bikes"  class="dropdown-item">Fixie Bikes</a>
             </div>
         </li>
 
@@ -29,9 +30,9 @@
                 Clothing
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Jackets</a>
-                <a href="" class="dropdown-item">Bibs and Trousers </a>
-                <a href="" class="dropdown-item">Base Layers</a>
+                <a href="{% url 'products' %}?category=jackets" class="dropdown-item">Jackets</a>
+                <a href="{% url 'products' %}?category=bibs_trousers"  class="dropdown-item">Bibs and Trousers </a>
+                <a href="{% url 'products' %}?category=base_layers"  class="dropdown-item">Base Layers</a>
             </div>
         </li>
 
@@ -40,10 +41,10 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
-                <a href="" class="dropdown-item">Bags</a>
-                <a href="" class="dropdown-item">Shoes</a>
-                <a href="" class="dropdown-item">Drinkware</a>
-                <a href="" class="dropdown-item">Lights</a>
+                <a href="{% url 'products' %}?category=helmets" class="dropdown-item">Helmets</a>
+                <a href="{% url 'products' %}?category=shoes_bags" class="dropdown-item">Shoes & Bags</a>
+                <a href="{% url 'products' %}?category=drinkware" class="dropdown-item">Drinkware</a>
+                <a href="{% url 'products' %}?category=lights" class="dropdown-item">Lights</a>
             </div>
         </li>
     </ul>
