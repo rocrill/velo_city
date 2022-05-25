@@ -51,6 +51,7 @@ body {
     color: white !important;
 }
 
+
 .bg-orange {
     background: #C35817 !important;
 }
@@ -86,6 +87,20 @@ body {
 a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
 }
 
 /* Media Queries */
