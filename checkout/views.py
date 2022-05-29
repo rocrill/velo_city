@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.conf import settings
 
@@ -31,7 +31,7 @@ def checkout(request):
         order_form = OrderForm(form_data)
         if order_form.is_valid():
             order = order_form.save()
-            for item_id, item_data cart.items():
+            for item_id, item_data in cart.items():
                 try:
                     product = Product.objects.get(id=item_id)
                     if isinstance(item_data, int):
