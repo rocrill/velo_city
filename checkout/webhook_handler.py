@@ -2,6 +2,7 @@ from django.http import HttpResponse
 
 from .models import Order, OrderLineItem
 from products.models import Product
+from profiles.models import UserProfile
 
 import json
 import time
@@ -26,7 +27,7 @@ class StripeWH_Handler:
         """
         intent = event.data.object
         pid = intent.id
-        bag = intent.metadata.bag
+        cart = intent.metadata.cart
         save_info = intent.metadata.save_info
 
         billing_details = intent.charges.data[0].billing_details
@@ -37,6 +38,21 @@ class StripeWH_Handler:
         for field, value in shipping_details.address.items():
             if value == "":
                 shipping_details.address[field] = None
+
+        # Update profile information if save_info was checked
+        profile = None
+        username = intent.metadata.username
+        if username != 'AnonymousUser':
+            profile = UserProfile.objects.get(user__username=username)
+            if save_info:
+                profile.default_phone_number = shipping_details.phone
+                profile.default_country = shipping_details.address.country
+                profile.default_postcode = shipping_details.address.postal_code
+                profile.default_town_or_city = shipping_details.address.city
+                profile.default_street_address1 = shipping_details.address.line1
+                profile.default_street_address2 = shipping_details.address.line2
+                profile.default_county = shipping_details.address.state
+                profile.save()
 
         order_exists = False
         attempt = 1
@@ -53,7 +69,7 @@ class StripeWH_Handler:
                     street_address2__iexact=shipping_details.address.line2,
                     county__iexact=shipping_details.address.state,
                     grand_total=grand_total,
-                    original_bag=bag,
+                    original_cart=cart,
                     stripe_pid=pid,
                 )
                 order_exists = True
@@ -70,6 +86,7 @@ class StripeWH_Handler:
             try:
                 order = Order.objects.create(
                     full_name=shipping_details.name,
+                    user_profile=profile,
                     email=billing_details.email,
                     phone_number=shipping_details.phone,
                     country=shipping_details.address.country,
@@ -78,10 +95,10 @@ class StripeWH_Handler:
                     street_address1=shipping_details.address.line1,
                     street_address2=shipping_details.address.line2,
                     county=shipping_details.address.state,
-                    original_bag=bag,
+                    original_cart=cart,
                     stripe_pid=pid,
                 )
-                for item_id, item_data in json.loads(bag).items():
+                for item_id, item_data in json.loads(cart).items():
                     product = Product.objects.get(id=item_id)
                     if isinstance(item_data, int):
                         order_line_item = OrderLineItem(
