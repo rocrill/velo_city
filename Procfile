@@ -1,1 +1,1 @@
-web: gunicorn velo-city-rc.wsgi:application
+web: gunicorn velo_city.wsgi:application
