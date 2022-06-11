@@ -268,7 +268,20 @@ a.category-badge > span.badge:hover {
     border-radius: 0;
 }
 
+#topnav {
+    background-color: pink !important;
+}
 
+
+.navbar {
+    background-color: pink;
+}
+
+/* Footer */ 
+
+.footer {
+    background-color: pink;
+}
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -332,11 +345,6 @@ a.category-badge > span.badge:hover {
     .service-link{
         padding-left:0 !important;
     }
-    
+}
 
-   /* Footer */ 
-
-    footer {
-        background-color: pink;
-    }
     
