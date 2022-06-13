@@ -34,30 +34,46 @@
                 <h1 class="display-4 logo-font text-black">
                     Booking form here
                 </h1>
+                <form action="{% url 'bookservice' %}" method="POST" id="booking-form">
+                    {% csrf_token %}
                 <div class="booking_form">
-                    <form action="#" method="post">
-                        {% csrf_token %}
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group mb-30">
-                                    <input type="text" name="your-name" class="form-control" placeholder="your name" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group mb-30">
-                                    <input type="text" name="your-name" class="form-control" placeholder="your name" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group mb-30">
-                                    <input type="text" name="your-name" class="form-control" placeholder="your name" required>
-                                </div>
-                            </div>
-
+                    <div class="col-md-6">
+                        <div class="form-group mb-30">
+                            {{ booking_form.first_name | as_crispy_field }}
                         </div>
-
-                    </form>
-                </div>     
+                    </div>    
+                    <div class="col-md-6">
+                        <div class="form-group mb-30">
+                            {{ booking_form.last_name | as_crispy_field }}
+                        </div>
+                    </div>    
+                    <div class="col-md-6">
+                        <div class="form-group mb-30">
+                            {{ booking_form.service_type | as_crispy_field }}
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mb-30">
+                            {{ booking_form.bike_type | as_crispy_field }}
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mb-30">
+                            {{ booking_form.date | as_crispy_field }}
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mb-30">
+                            <button id="submit-button" class="btn btn-black rounded-0">
+                                <span class="font-weight-bold">Book Service</span>
+                                <span class="icon">
+                                    <i class="fas fa-wrench"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>  
+                </form>   
             </div>
         </div>    
     </div>
