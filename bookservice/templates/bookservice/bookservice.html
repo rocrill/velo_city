@@ -37,22 +37,32 @@
                 <form action="{% url 'bookservice' %}" method="POST" id="booking-form">
                     {% csrf_token %}
                 <div class="booking_form">
-                    <div class="col-md-6">
+                    <div class="col-md-6-lg-2">
                         <div class="form-group mb-30">
                             {{ booking_form.first_name | as_crispy_field }}
                         </div>
                     </div>    
-                    <div class="col-md-6">
+                    <div class="col-md-6-lg-2">
                         <div class="form-group mb-30">
                             {{ booking_form.last_name | as_crispy_field }}
                         </div>
                     </div>    
-                    <div class="col-md-6">
+                    <div class="col-md-6-lg-2">
+                        <div class="form-group mb-30">
+                            {{ booking_form.phone_number | as_crispy_field }}
+                        </div>
+                    </div>    
+                    <div class="col-md-6-lg-2">
+                        <div class="form-group mb-30">
+                            {{ booking_form.email_address | as_crispy_field }}
+                        </div>
+                    </div>    
+                    <div class="col-md-6-lg-2">
                         <div class="form-group mb-30">
                             {{ booking_form.service_type | as_crispy_field }}
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6-lg-2">
                         <div class="form-group mb-30">
                             {{ booking_form.bike_type | as_crispy_field }}
                         </div>
