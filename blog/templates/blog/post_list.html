@@ -8,11 +8,15 @@
 
     
                 {% for post in post_list %}
-                <div class="col-md-4">
-                    <div class="card mb-4 col-sm-12 col-lg-6">
-                        <div class="card-body card h-100">
-                            <div class="image-container">
-                                <img class="card-img-top" src=" {{ post.featured_image.url }}" alt="Uploaded blog post picture.">
+                <div class="col-md-8">
+                    <div class="card mb-4 col-sm-12 col-lg-8 bg-orange">
+                        <div class="card-body card h-100 bg-blue">
+                            <div class="image-container bg-green">
+                                <a href="{% url 'post_detail' post.slug %}">
+                                    <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.title }}">
+                                </a>
+                               
+                               
                                 <div class="image-flash">
                                     <p class="author">Author: {{ post.author }}</p>
                                     <!-- Additional functionality available if user is post author. -->
@@ -23,7 +27,7 @@
                                     {% endif %}
                                 </div>
                             </div>
-                            <a href="#" class="post-link">
+                            <a href="" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
