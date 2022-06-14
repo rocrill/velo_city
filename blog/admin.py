@@ -16,5 +16,5 @@ class EventAdmin(admin.ModelAdmin):
     """This class defines admin page for the Event model."""
     prepopulated_fields = {}
     list_filter = ('status', 'created_on')
-    list_display = ('title', 'status', 'created_on', 'image_url', 'image')
+    list_display = ('title', 'status', 'created_on', 'image_url', 'image', 'event_category')
     search_fields = ('title', 'content')

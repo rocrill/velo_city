@@ -36,6 +36,18 @@ class Event(models.Model):
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
 
+    CATEGORY_TYPES = [
+            ('Ladies cycling', 'Ladies cycling'),
+            ('Mens cycling', 'Mens cycling'),
+            ('Racing', 'Racing'),
+            ('Social', 'Social'),
+        ]
+        
+    event_category = models.CharField(
+        max_length=40,
+        choices=CATEGORY_TYPES,
+        default='Racing',
+    )
 
     class Meta:
         ordering = ['-event_date']
