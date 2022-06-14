@@ -15,6 +15,8 @@ class Post(models.Model):
     content = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
+    image = models.ImageField(null=True, blank=True)
 
     class Meta:
         ordering = ['-created_on']
@@ -31,6 +33,9 @@ class Event(models.Model):
     content = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
+    image = models.ImageField(null=True, blank=True)
+
 
     class Meta:
         ordering = ['-event_date']
@@ -39,22 +44,4 @@ class Event(models.Model):
         return self.title
 
 
-
-class Comment (models.Model):
-    """Model for comments under blog posts."""
-    post = models.ForeignKey(
-        Post,
-        on_delete=models.CASCADE,
-        related_name="comments")
-    name = models.CharField(max_length=80)
-    email = models.EmailField(blank=True)
-    body = models.TextField()
-    created_on = models.DateTimeField(auto_now_add=True)
-    approved = models.BooleanField(default=False)
-
-    class Meta:
-        ordering = ['created_on']
-
-    def __str__(self):
-        return f"Comment {self.body} by {self.name}"
 

@@ -35,7 +35,12 @@
         {% for event in event_list %}
             <div>
                 <h2 class="event-title">{{ event.title }}</h2>
-                <p>{{ event.content }}</p>
+                <div>
+                    <a href="#">
+                        <img class="card-img-top img-fluid" src="{{ event.image.url }}" alt="{{ event.name }}">
+                    </a>
+                </div>
+                <div>{{ event.content }}</div>
             </div>
             <hr/>
         {% endfor %}

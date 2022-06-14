@@ -42,18 +42,6 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="accessories-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Accessories
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
-                <a href="{% url 'products' %}?category=helmets" class="dropdown-item">Helmets</a>
-                <a href="{% url 'products' %}?category=shoes_bags" class="dropdown-item">Shoes & Bags</a>
-                <a href="{% url 'products' %}?category=drinkware" class="dropdown-item">Drinkware</a>
-                <a href="{% url 'products' %}?category=lights" class="dropdown-item">Lights</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black service-link" href="#" id="service-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Service
             </a>
@@ -68,6 +56,13 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="service-link">
                 <a href="{% url 'post_list' %}" class="dropdown-item">Blog</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black service-link" href="#" id="service-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Events
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="service-link">
                 <a href="{% url 'events' %}" class="dropdown-item">Events</a>
             </div>
         </li>
