@@ -69,11 +69,13 @@
                                 {% endif %}
                                 <div class="card-body pb-0">
                                     <p class="mb-0">{{ event.title }}</p>
+                                    <p class="mb-0">{{ event.event_date }}</p>
+                                    <p class="mb-0">{{ event.content }}</p>
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
-                                            <p class="lead mb-0 text-left font-weight-bold">${{ event.category }}</p>
+                                            <p class="lead mb-0 text-left font-weight-bold">{{ event.category }}</p>
                                             {% if event.category %}
                                             <p class="small mt-1 mb-0">
                                                 <a class="text-muted" href="{% url 'events' %}?category={{ event.category.name }}">

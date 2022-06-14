@@ -15,6 +15,7 @@ def all_events(request):
     """ A view to show all events, possibly filtered by category """
 
     events = Event.objects.all()
+    events = events.order_by('event_date')
     query = None
     category = None
     direction = None
