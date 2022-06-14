@@ -11,7 +11,7 @@ class PostAdmin(admin.ModelAdmin):
     list_display = ('title', 'slug', 'status', 'created_on')
     search_fields = ('title', 'content')
     
-@admin.register(Post)
+@admin.register(Event)
 class EventAdmin(admin.ModelAdmin):
     """This class defines admin page for the Event model."""
     prepopulated_fields = {}

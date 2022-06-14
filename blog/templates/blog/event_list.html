@@ -14,7 +14,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col text-center mt-3">
-                <h2 class="logo-font">Events</h2>
+                <h2 class="logo-font text-black">Events</h2>
                 {% for c in current_categories %}
                     <a class="category-badge text-decoration-none" href="{% url 'events' %}?category={{ c.name }}">
                         <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ c.friendly_name }}</span>
@@ -23,6 +23,25 @@
                 <hr class="w-50 mb-1">
             </div>
         </div>
+
+
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        {% for event in event_list %}
+            <div>
+                <h2 class="event-title">{{ event.title }}</h2>
+                <p>{{ event.content }}</p>
+            </div>
+            <hr/>
+        {% endfor %}
+
+
+
         <div class="row">
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2">
@@ -64,16 +83,16 @@
                                 </a>
                                 {% endif %}
                                 <div class="card-body pb-0">
-                                    <p class="mb-0">{{ event.name }}</p>
+                                    <p class="mb-0">{{ event.title }}</p>
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
-                                            <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
-                                            {% if product.category %}
+                                            <p class="lead mb-0 text-left font-weight-bold">${{ event.category }}</p>
+                                            {% if event.category %}
                                             <p class="small mt-1 mb-0">
                                                 <a class="text-muted" href="{% url 'events' %}?category={{ product.category.name }}">
-                                                    <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                                                    <i class="fas fa-tag mr-1"></i>{{ event.category }}
                                                 </a>
                                             </p>
                                             {% endif %}

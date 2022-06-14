@@ -268,6 +268,11 @@ a.category-badge > span.badge:hover {
     border-radius: 0;
 }
 
+.event-title {
+    text-align: center;
+}
+
+/*
 #topnav {
     background-color: pink !important;
 }
@@ -276,12 +281,16 @@ a.category-badge > span.badge:hover {
 .navbar {
     background-color: pink;
 }
+*/
 
 /* Footer */ 
 
+/*
 .footer {
     background-color: pink;
 }
+*/
+
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
