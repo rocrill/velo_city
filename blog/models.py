@@ -22,6 +22,23 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+class Event(models.Model):
+    title = models.CharField(max_length=200, unique=True)
+    event_category = models.CharField(max_length=200, unique=True)
+    bike_type = models.CharField(max_length=200, unique=True)
+    event_date = models.DateTimeField(auto_now_add=True)
+    updated_on = models.DateTimeField(auto_now= True)
+    content = models.TextField()
+    created_on = models.DateTimeField(auto_now_add=True)
+    status = models.IntegerField(choices=STATUS, default=0)
+
+    class Meta:
+        ordering = ['-event_date']
+
+    def __str__(self):
+        return self.title
+
+
 
 class Comment (models.Model):
     """Model for comments under blog posts."""
@@ -40,3 +57,4 @@ class Comment (models.Model):
 
     def __str__(self):
         return f"Comment {self.body} by {self.name}"
+
