@@ -67,6 +67,8 @@
                             {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
                                     <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                                    <a href="{% url 'add_post' %}" class="dropdown-item">Blog Management</a>
+                                    <a href="{% url 'add_event' %}" class="dropdown-item">Events Management</a>
                                 {% endif %}
                                 <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                                 <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
@@ -196,7 +198,7 @@
     <div id="mc_embed_signup">
     <form action="https://github.us10.list-manage.com/subscribe/post?u=130053553d1ae3bbbed27533a&amp;id=49e9968f20" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
-        <h2>Subscribe</h2>
+        <h2>Love cycling? Subscribe to our mailing list!</h2>
     <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
     <div class="mc-field-group">
         <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
