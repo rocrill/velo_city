@@ -1,6 +1,7 @@
 from django.views import generic
 from .models import Post, Event
 from .forms import PostForm, EventForm
+from django.contrib import messages
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib.auth.decorators import login_required
 
@@ -94,7 +95,7 @@ def add_event(request):
         if form.is_valid():
             event = form.save()
             messages.success(request, 'Successfully added event!')
-            return redirect(reverse('event_list'))
+            return redirect(reverse('events'))
         else:
             messages.error(request, 'Failed to add event. Please ensure the form is valid.')
     else:
@@ -106,3 +107,83 @@ def add_event(request):
     }
 
     return render(request, template, context)
+
+@login_required
+def edit_event(request, event_id):
+    """ Edit an event """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    event = get_object_or_404(Event, pk=event_id)
+    if request.method == 'POST':
+        form = EventForm(request.POST, request.FILES, instance=event)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated event!')
+            return redirect(reverse('events'))
+        else:
+            messages.error(request, 'Failed to update event. Please ensure the form is valid.')
+    else:
+        form = EventForm(instance=event)
+        messages.info(request, f'You are editing {event.title}')
+
+    template = 'blog/edit_event.html'
+    context = {
+        'form': form,
+        'event': event,
+    }
+
+    return render(request, template, context)
+
+@login_required
+def edit_post(request, post_slug):
+    """ Edit a blog post """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    post = get_object_or_404(Post, slug=post_slug)
+    if request.method == 'POST':
+        form = PostForm(request.POST, request.FILES, instance=post)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated blog post!')
+            return redirect(reverse('post_detail', args=[post.slug]))
+        else:
+            messages.error(request, 'Failed to update blog post. Please ensure the form is valid.')
+    else:
+        form = PostForm(instance=post)
+        messages.info(request, f'You are editing {post.title}')
+
+    template = 'blog/edit_post.html'
+    context = {
+        'form': form,
+        'post': post,
+    }
+
+    return render(request, template, context)
+
+@login_required
+def delete_post(request, post_slug):
+    """ Delete a blog post from the website"""
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    post = get_object_or_404(Post, pk=post_slug)
+    post.delete()
+    messages.success(request, 'Blog post deleted!')
+    return redirect(reverse('post_list'))
+
+@login_required
+def delete_event(request, event_id):
+    """ Delete an event from the website"""
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    event = get_object_or_404(Post, pk=event_id)
+    event.delete()
+    messages.success(request, 'Event deleted!')
+    return redirect(reverse('events'))

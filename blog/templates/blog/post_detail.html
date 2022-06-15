@@ -23,6 +23,12 @@
 <p>{{ post.author }}</p>
 <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.name }}">
 <p>{{ post.content }}</p>
+{% if request.user.is_superuser %}
+    <small class="ml-3">
+        <a href="{% url 'edit_post' post.slug %}">Edit</a> | 
+        <a class="text-danger" href="{% url 'delete_post' post.slug %}">Delete</a>
+    </small>
+{% endif %}
 {% endblock %}
 
 {% block postloadjs %}
