@@ -149,16 +149,10 @@
     
               <ul class="list-unstyled mb-4">
                 <li>
-                  <a href="#!" class="text-black">About us</a>
+                  <a href="{% url 'about' %}" class="text-black">About us</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-black">Collections</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-black">Environmental philosophy</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-black">Artist collaborations</a>
+                  <a href="{% url 'privacy' %}" class="text-black">Privacy Policy</a>
                 </li>
               </ul>
             </div>
@@ -166,23 +160,16 @@
     
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-              <h5 class="text-uppercase mb-4">Assistance</h5>
     
               <ul class="list-unstyled">
                 <li>
-                  <a href="#!" class="text-black">Contact us</a>
+                  <a href="{% url 'contact' %}"  class="text-black">Contact us</a>
                 </li>
                 <li>
-                  <a href="https://www.giant-bicycles.com/_upload_au/rider_height_frame_size.PDF" class="text-black">Size Guide</a>
+                  <a href="{{ MEDIA_URL }}velo-city-size-chart.pdf" class="text-black" rel="noopener">Size Guide</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-black">Shipping Information</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-black">Returns & Exchanges</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-black">Payment</a>
+                  <a href="{% url 'returns' %}" class="text-black">Returns & Exchanges</a>
                 </li>
               </ul>
             </div>

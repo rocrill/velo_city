@@ -302,6 +302,9 @@ a.category-badge > span.badge:hover {
         z-index: 1030;
     }
 
+    .header-container {
+        padding-top: 164px;
+    }
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
@@ -355,5 +358,3 @@ a.category-badge > span.badge:hover {
         padding-left:0 !important;
     }
 }
-
-    
