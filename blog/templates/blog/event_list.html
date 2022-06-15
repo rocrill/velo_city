@@ -15,40 +15,27 @@
         <div class="row">
             <div class="col text-center mt-3">
                 <h2 class="logo-font text-black">Dublin Cycling Events</h2>
-                <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ category }}</span>
                 <hr class="w-50 mb-1">
             </div>
         </div>
-
-
-
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-
-
-
 
         <div class="row">
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2">
                     <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
                         <div class="sort-select-wrapper w-50">
-                            <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
-                                <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Select category...</option>
-                                <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>All</option>
-                                <option value="Ladies cycling" {% if current_sorting == 'Ladies cycling' %}selected{% endif %}>Ladies Cycling</option>
-                                <option value="Mens cycling" {% if current_sorting == 'Mens cycling' %}selected{% endif %}>Mens Cycling</option>
-                                <option value="Racing" {% if current_sorting == 'Racing' %}selected{% endif %}>Racing</option>
-                                <option value="Social" {% if current_sorting == 'Social' %}selected{% endif %}>Social</option>
+                            <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border border-{% if category != None %}info{% else %}black{% endif %}">
+                                <option value="reset" {% if category == None %}selected{% endif %}>All</option>
+                                <option value="Ladies cycling" {% if category == 'Ladies cycling' %}selected{% endif %}>Ladies Cycling</option>
+                                <option value="Mens cycling" {% if category == 'Mens cycling' %}selected{% endif %}>Mens Cycling</option>
+                                <option value="Racing" {% if category == 'Racing' %}selected{% endif %}>Racing</option>
+                                <option value="Social" {% if category == 'Social' %}selected{% endif %}>Social</option>
                             </select>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 order-md-first">
                         <p class="text-muted mt-3 text-center text-md-left">
-                            {% if search_term or current_categories or current_sorting != 'None_None' %}
+                            {% if search_term or current_categories or category != 'None_None' %}
                                 <span class="small"><a href="{% url 'events' %}">events Home</a> | </span>
                             {% endif %}
                             {{ events|length }} events{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
