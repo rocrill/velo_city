@@ -1,12 +1,32 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
 {% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col text-center mt-3">
+            <br>
+            <h2 class="logo-font">About Us</h2>
+            <br>
+            <br>
+            <p>Vélo City is a Dublin bike shop and website run by a group of passsionate cyclists since 2012. We are located in the village of Rathgar.</p> 
 
-Vélo City is a Dublin bike shop and website run by a group of passsionate cyclists since 2012. We are located in the village of Rathgar. 
+            <p>We offer a wide range of bicycles and cycling accessories, in addition to bike maintenance services.</p> 
 
-We offer a wide range of bicycles and cycling accessories, in addition to bike maintenance services.
-
-Whether you are looking for a new bike, or your old bike needs some TLC, we look forward to welcoming you at Vélo City.
-
+            <p>Whether you are looking for a new bike, or your old bike needs some TLC, we look forward to welcoming you at Vélo City.</p>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+</div>     
 {% endblock %}

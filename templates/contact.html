@@ -1,14 +1,34 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
 {% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col text-center mt-3">
+            <br>
+            <h2 class="logo-font">Contact Us</h2>
+            <br>
+            <p>You can find us at:</p>
+            56 Lotsbourgh Ave, 
+            Rathgar, 
+            Dublin 6.
+            <br>
+            <p>Call us on +3531 4952283</p>
+            <br>
+            <p>Or email at info@velocity.com</p>
+            <br>
+            <br>
 
-You can find us at:
-56 Lotsbourgh Ave, 
-Rathgar, 
-Dublin 6.
-
-Call us on +3531 4952283
-Or email at info@velocity.com
-
+        </div>
+    </div>
+</div>     
 {% endblock %}
