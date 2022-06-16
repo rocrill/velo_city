@@ -1,24 +1,35 @@
 {% extends "base.html" %}
 {% load static %}
 
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
 {% block content %}
-
-<div class="container-fluid">
-    <div class="row-home overflow-hidden">
-
+    <div class="overlay"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center mt-3">
+                <h2 class="logo-font text-black">Welcome to our Cycling Blog!</h2>
+                <hr class="w-50 mb-1">
+            </div>
+        </div>
     
                 {% for post in post_list %}
-                <div class="col-md-8">
-                    <div class="card mb-4 col-sm-12 col-lg-8 bg-orange">
-                        <div class="card-body card h-100 bg-blue">
-                            <div class="image-container bg-green">
-                                <a href="{% url 'post_detail' post.slug %}">
-                                    <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.title }}">
-                                </a>
-                               
+
+                <div class="blog-card-container">
+                    <a href="{% url 'post_detail' post.slug %}">
+                        <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.title }}">
+                    </a> 
+                </div>            
                                
                                 <div class="image-flash">
-                                    <p class="author">Author: {{ post.author }}</p>
+                                    <p class="author blog-card-container">Author: {{ post.author }}</p>
                                     <!-- Additional functionality available if user is post author. -->
                                     {% if user == post.author %}
                                     <small>
@@ -28,8 +39,8 @@
                                 </div>
                             </div>
                             <a href="{% url 'post_detail' post.slug %}" class="post-link">
-                                <h2 class="card-title">{{ post.title }}</h2>
-                                <p class="card-text">{{ post.excerpt }}</p>
+                                <h2 class="card-title blog-card-container">{{ post.title }}</h2>
+                                <p class="card-text blog-card-container">{{ post.excerpt }}</p>
                             </a>
                             <hr/>
                             

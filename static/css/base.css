@@ -10,6 +10,19 @@ body {
     font-family: 'Bodoni Moda', serif;
 }
 
+
+.blog-card-container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+.blog-list-outer-container {
+    padding-right: 0px !important;
+}
+
+
 /* Navigation bar */
 
 .service-link {
@@ -332,7 +345,15 @@ a.category-badge > span.badge:hover {
 
 
 
+/* Media query for blog list page on mobile */
+/*@media (max-width: 750px) {
+    .blog-card-container {
+        width: 300px;
+    
+    }
 
+    }
+*/
 
 
 /* pad the top a bit when navbar is collapsed on mobile */
