@@ -124,7 +124,7 @@
                         <div class="card h-100 border-0">
                             {% if rp.image %}
                             <a href="{% url 'product_detail' rp.id %}">
-                                <img class="card-img-top img-fluid" src="{{ rp.image.url }}" alt="{{ rp.name }}">
+                                <img class="card-img-top img-fluid fit-products" src="{{ rp.image.url }}" alt="{{ rp.name }}">
                             </a>
                             {% else %}
                             <a href="{% url 'product_detail' rp.id %}">
