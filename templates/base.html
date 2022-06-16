@@ -35,10 +35,10 @@
   </head>
   <body>
     <header class="container-fluid fixed-top">
-        <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
+        <div id="topnav" class="row nav-style pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0"><strong>Vélo</strong>City</h2>
+                    <h2 class="logo-font my-0"><strong>Vélo</strong>City</h2>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -58,7 +58,7 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="text-white nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div><i class="fas fa-user fa-lg"></i></div>
                                 <p class="my-0">My Account</p>
@@ -146,14 +146,18 @@
           <div class="row">
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-              <h5 class="text-uppercase mb-4">OUR WORLD</h5>
+              
     
               <ul class="list-unstyled mb-4">
                 <li>
-                  <a href="{% url 'about' %}" class="text-black">About us</a>
+                  <br>
+                  <a href="{% url 'about' %}" class="text-white">About us</a>
                 </li>
                 <li>
-                  <a href="{% url 'privacy' %}" class="text-black">Privacy Policy</a>
+                  <a href="{% url 'privacy' %}" class="text-white">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="{% url 'bookservice' %}" class="text-white">Book a bike service</a>
                 </li>
               </ul>
             </div>
@@ -164,13 +168,14 @@
     
               <ul class="list-unstyled">
                 <li>
-                  <a href="{% url 'contact' %}"  class="text-black">Contact us</a>
+                    <br>
+                  <a href="{% url 'contact' %}"  class="text-white">Contact us</a>
                 </li>
                 <li>
-                  <a href="{{ MEDIA_URL }}velo-city-size-chart.pdf" class="text-black" rel="noopener">Size Guide</a>
+                  <a href="{{ MEDIA_URL }}velo-city-size-chart.pdf" class="text-white" rel="noopener">Size Guide</a>
                 </li>
                 <li>
-                  <a href="{% url 'returns' %}" class="text-black">Returns & Exchanges</a>
+                  <a href="{% url 'returns' %}" class="text-white">Returns & Exchanges</a>
                 </li>
               </ul>
             </div>
