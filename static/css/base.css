@@ -13,7 +13,7 @@ body {
 /* Navigation bar */
 
 .service-link {
-    padding-left:55px !important;
+    padding-right: 50px !important;
 }
 
 /* from Bulma */
@@ -271,6 +271,8 @@ a.category-badge > span.badge:hover {
 .event-title {
     text-align: center;
 }
+
+
 
 /*
 #topnav {
