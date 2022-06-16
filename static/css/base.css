@@ -352,6 +352,10 @@ a.category-badge > span.badge:hover {
     max-width: 600px;
 }
 
+.mc-form {
+    background: #EDDDD4;
+}
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
