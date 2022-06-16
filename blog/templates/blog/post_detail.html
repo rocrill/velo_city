@@ -10,25 +10,27 @@
 {% endblock %}
 
 {% block content %}
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col text-center mt-3">
+            <br>
+            <h2 class="logo-font">{{ post.title }}</h2>
+            <br>
+            <br>
+            <p>{{ post.author }}</p>
+            <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.name }}">
+            <p>{{ post.content }}</p>
+            {% if request.user.is_superuser %}
+                <small class="ml-3">
+                    <a href="{% url 'edit_post' post.slug %}">Edit</a> | 
+                    <a class="text-danger" href="{% url 'delete_post' post.slug %}">Delete</a>
+                </small>
+            {% endif %}
 
-<h1>{{ post.title }}</h1>
-<p>{{ post.author }}</p>
-<img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.name }}">
-<p>{{ post.content }}</p>
-{% if request.user.is_superuser %}
-    <small class="ml-3">
-        <a href="{% url 'edit_post' post.slug %}">Edit</a> | 
-        <a class="text-danger" href="{% url 'delete_post' post.slug %}">Delete</a>
-    </small>
-{% endif %}
+        </div>
+    </div>
+</div>     
 {% endblock %}
 
 {% block postloadjs %}
