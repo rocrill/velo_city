@@ -1,6 +1,7 @@
 from django import forms
 from .widgets import CustomClearableFileInput
 from .models import Post, Event
+from django.core.exceptions import ValidationError
 
 
 class PostForm(forms.ModelForm):
@@ -24,6 +25,7 @@ class EventForm(forms.ModelForm):
         model = Event
         fields = '__all__'
 
+    event_date = forms.DateTimeField(widget=forms.widgets.DateTimeInput(attrs={'type': 'date'}))
     image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)
 
 

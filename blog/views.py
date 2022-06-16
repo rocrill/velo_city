@@ -4,6 +4,7 @@ from .forms import PostForm, EventForm
 from django.contrib import messages
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib.auth.decorators import login_required
+from django.core.exceptions import ValidationError
 
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by('-created_on')
@@ -93,13 +94,16 @@ def add_event(request):
     if request.method == 'POST':
         form = EventForm(request.POST, request.FILES)
         if form.is_valid():
-            event = form.save()
-            messages.success(request, 'Successfully added event!')
-            return redirect(reverse('events'))
-        else:
-            messages.error(request, 'Failed to add event. Please ensure the form is valid.')
-    else:
-        form = PostForm()
+            try:
+                form.save()
+                messages.success(request,
+                                "Success!" +
+                                " Your event has been" +
+                                " added.")
+            except ValidationError as e:
+                messages.error(request, e.message)
+
+    form = EventForm()
         
     template = 'blog/add_event.html'
     context = {
@@ -119,9 +123,12 @@ def edit_event(request, event_id):
     if request.method == 'POST':
         form = EventForm(request.POST, request.FILES, instance=event)
         if form.is_valid():
-            form.save()
-            messages.success(request, 'Successfully updated event!')
-            return redirect(reverse('events'))
+            try:
+                form.save()
+                messages.success(request, 'Successfully updated event!')
+                return redirect(reverse('events'))
+            except ValidationError as e:
+                messages.error(request, e.message)
         else:
             messages.error(request, 'Failed to update event. Please ensure the form is valid.')
     else:

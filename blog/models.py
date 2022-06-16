@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
-
+import datetime
+from django.core.exceptions import ValidationError
 
 STATUS = (
     (0,"Draft"),
@@ -27,7 +28,6 @@ class Post(models.Model):
 class Event(models.Model):
     title = models.CharField(max_length=200, unique=True)
     event_category = models.CharField(max_length=200, unique=True)
-    bike_type = models.CharField(max_length=200, unique=True)
     event_date = models.DateTimeField()
     updated_on = models.DateTimeField(auto_now= True)
     content = models.TextField()
@@ -55,5 +55,9 @@ class Event(models.Model):
     def __str__(self):
         return self.title
 
+    def save(self, *args, **kwargs):
+        if self.event_date.date() < datetime.date.today():
+            raise ValidationError("The date cannot be in the past!")
+        super(Event, self).save(*args, **kwargs)
 
 

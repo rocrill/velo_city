@@ -112,7 +112,10 @@
                 </div>
             </div>
         </div>
+
+
         <h2>You may also like...</h2>
+        </div>
         {% for rp in related_products %}
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
             <div class="card h-100 border-0">
@@ -153,8 +156,11 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
+        </div>
+
         {% if forloop.counter|divisibleby:1 %}
             <div class="col-12 d-sm-none mb-5">
                 <hr>
@@ -176,55 +182,7 @@
             </div>
         {% endif %}
         {% endfor %}
-        <!--div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="image-container my-5">
-                        {% if product.image %}
-                            <a href="{{ product.image.url }}" target="_blank">
-                                <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
-                            </a>
-                            {% else %}
-                            <a href="">
-                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
-                            </a>
-                        {% endif %}
-                        <p class="mb-0">{{ product.name }}</p>
-                        <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="image-container my-5">
-                        {% if product.image %}
-                            <a href="{{ product.image.url }}" target="_blank">
-                                <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
-                            </a>
-                            {% else %}
-                            <a href="">
-                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
-                            </a>
-                        {% endif %}
-                        <p class="mb-0">{{ product.name }}</p>
-                        <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="image-container my-5">
-                        {% if product.image %}
-                            <a href="{{ product.image.url }}" target="_blank">
-                                <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
-                            </a>
-                            {% else %}
-                            <a href="">
-                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
-                            </a>
-                        {% endif %}
-                        <p class="mb-0">{{ product.name }}</p>
-                        <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
-                    </div>
-                </div>
-            </div>
-        </div-->
+       
 
     </div>
 {% endblock %}

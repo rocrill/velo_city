@@ -1,6 +1,5 @@
 from django.db import models
 import datetime
-from django.forms.fields import DateField
 from django.core.exceptions import ValidationError
 
 class Booking (models.Model):
