@@ -27,6 +27,12 @@ body {
 }
 
 
+.fit-test {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
 
 .blog-list-outer-container {
     padding-right: 0px !important;
