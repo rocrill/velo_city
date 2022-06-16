@@ -370,15 +370,16 @@ a.category-badge > span.badge:hover {
 
 
 
-/* Media query for blog list page on mobile */
-/*@media (max-width: 750px) {
-    .blog-card-container {
-        width: 300px;
-    
-    }
+/* Media query for recommended products on product detail page on mobile */
+    @media (max-width: 750px) {
+        .fit-products {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
 
     }
-*/
+
 
 
 /* pad the top a bit when navbar is collapsed on mobile */
