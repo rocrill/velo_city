@@ -290,7 +290,27 @@ a.category-badge > span.badge:hover {
     background-color: pink;
 }
 
+.service-header {
+    text-align: center;
+}
 
+.service-bg {
+    padding-left: 50px;
+}
+
+
+
+.service-container {
+    padding: 30px;
+}
+
+.service-form-element {
+    max-width:600px;
+}
+
+.service-form-p {
+    max-width: 600px;
+}
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -306,6 +326,12 @@ a.category-badge > span.badge:hover {
         padding-top: 164px;
     }
 }
+
+
+
+
+
+
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {

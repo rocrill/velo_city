@@ -14,79 +14,84 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-white">
-                    Book your bike service now
+
+    <div class="container h-150">
+        <div class="bg-white row h-100 w-100 service-container">
+            <div class="col-10 col-md-10 my-auto">
+                <h1 class="display-8 logo-font text-black">
+                    Book your Bike Service Now
                 </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Book Service</a>    
-                    </h4>
-                </div>    
+                <div class="col-md-6-lg-2">
+                    <div class="mb-30 form-container">
+                    <p class="service-form-p">
+                        Vélo City offers a range of bike services, including repairs, 
+                        bike fit consultations, and general servicing. To book in, 
+                        fill out the form and select your preferred date. One of our team 
+                        will be in touch to confirm a time slot. 
+                    </p>
+                        <div>
+                        <form action="{% url 'bookservice' %}" method="POST" id="booking-form">
+                            {% csrf_token %}
+                        <div class="booking_form">
+                            <div>
+                                <div class="service-form-element">
+                                    {{ booking_form.first_name | as_crispy_field }}
+                                </div>
+                                </div>    
+                                <div>
+                                    <div class="service-form-element">
+                                        {{ booking_form.last_name | as_crispy_field }}
+                                    </div>
+                                </div>    
+                                <div>
+                                    <div class="service-form-element">
+                                        {{ booking_form.phone_number | as_crispy_field }}
+                                    </div>
+                                </div>    
+                                <div>
+                                    <div class="service-form-element">
+                                        {{ booking_form.email_address | as_crispy_field }}
+                                    </div>
+                                </div>    
+                                <div>
+                                    <div class="service-form-element">
+                                        {{ booking_form.service_type | as_crispy_field }}
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-form-element">
+                                        {{ booking_form.bike_type | as_crispy_field }}
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-form-element">
+                                        {{ booking_form.date | as_crispy_field }}
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group mb-30">
+                                        <button id="submit-button" class="btn btn-black rounded-0">
+                                            <span class="font-weight-bold">Book Service</span>
+                                            <span class="icon">
+                                                <i class="fas fa-wrench"></i>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                             </div>  
+                        </form>   
+                        </div>
+            
+                        </div>    
+                    </div>
+                    
             </div>
         </div>    
     </div>
-    <div class="container h-100">
-        <div class="bg-white row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
-                    Book your bike service now
-                </h1>
-                <form action="{% url 'bookservice' %}" method="POST" id="booking-form">
-                    {% csrf_token %}
-                <div class="booking_form">
-                    <div class="col-md-6-lg-2">
-                        <div class="form-group mb-30">
-                            {{ booking_form.first_name | as_crispy_field }}
-                        </div>
-                    </div>    
-                    <div class="col-md-6-lg-2">
-                        <div class="form-group mb-30">
-                            {{ booking_form.last_name | as_crispy_field }}
-                        </div>
-                    </div>    
-                    <div class="col-md-6-lg-2">
-                        <div class="form-group mb-30">
-                            {{ booking_form.phone_number | as_crispy_field }}
-                        </div>
-                    </div>    
-                    <div class="col-md-6-lg-2">
-                        <div class="form-group mb-30">
-                            {{ booking_form.email_address | as_crispy_field }}
-                        </div>
-                    </div>    
-                    <div class="col-md-6-lg-2">
-                        <div class="form-group mb-30">
-                            {{ booking_form.service_type | as_crispy_field }}
-                        </div>
-                    </div>
-                    <div class="col-md-6-lg-2">
-                        <div class="form-group mb-30">
-                            {{ booking_form.bike_type | as_crispy_field }}
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group mb-30">
-                            {{ booking_form.date | as_crispy_field }}
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group mb-30">
-                            <button id="submit-button" class="btn btn-black rounded-0">
-                                <span class="font-weight-bold">Book Service</span>
-                                <span class="icon">
-                                    <i class="fas fa-wrench"></i>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </div>  
-                </form>   
-            </div>
-        </div>    
-    </div>
+    
+            
+           
 
 
 {% endblock %}
