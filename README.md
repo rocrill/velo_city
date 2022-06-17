@@ -23,4 +23,9 @@ Visit the live site here:
 
 ### Project Goals
 
+* To create an e-commerce cycling website git diff
+
+
+
+
 
