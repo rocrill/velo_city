@@ -20,20 +20,21 @@ class Booking (models.Model):
         choices=SERVICE_CHOICES,
         default='Repair',
     )
-    BIKE_CHOICES = [
-        ('Hybrid', 'Hybrid'),
-        ('Road', 'Road'),
-        ('Mountain', 'Mountain'),
-        ('Vintage', 'Vintage'),
+    #BIKE_CHOICES = [
+     #   ('Hybrid', 'Hybrid'),
+      #  ('Road', 'Road'),
+       # ('Mountain', 'Mountain'),
+        #('Vintage', 'Vintage'),
     
-    ]
-    bike_type = models.CharField(
-        max_length=15,
-        choices=BIKE_CHOICES,
-        default='Hybrid',
-    )
+    #]
+    #bike_type = models.CharField(
+    #    max_length=15,
+    #    choices=BIKE_CHOICES,
+    #    default='Hybrid',
+    #)
 
     def save(self, *args, **kwargs):
         if self.date < datetime.date.today():
             raise ValidationError("The date cannot be in the past!")
         super(Booking, self).save(*args, **kwargs)
+
