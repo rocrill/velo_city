@@ -156,6 +156,27 @@ For consistency of user experience, the site logo, navigation links and footer r
 
 ## Scope
 
+* First Time Visitor Goals
+
+  * As a First Time Visitor, 
+  * As a First Time Visitor, 
+  * As a First Time Visitor,
+ 
+* Returning Visitor Goals
+
+  * As a Returning Visitor,
+  * As a Returning Visitor, 
+  
+* Frequent User Goals
+
+  * As a Frequent User, I
+
+* Site Owner Goals
+
+ 
+More specific user stories are discussed in the context of website features in the Features section below.
+
+Note: Throughout the project, this [Kanban board](https://github.com/rocrill/velo_city/projects/1) was used to organise and track the progress of the user story development, however the final user stories are documented fully within this Readme. 
 
 
 
