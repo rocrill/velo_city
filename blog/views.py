@@ -190,7 +190,7 @@ def delete_event(request, event_id):
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
 
-    event = get_object_or_404(Post, pk=event_id)
+    event = get_object_or_404(Event, pk=event_id)
     event.delete()
     messages.success(request, 'Event deleted!')
     return redirect(reverse('events'))
