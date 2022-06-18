@@ -6,10 +6,19 @@ from django.contrib import messages
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.core.exceptions import ValidationError
+from django.core.paginator import Paginator
 
-class PostList(generic.ListView):
-    queryset = Post.objects.filter(status=1).order_by('-created_on')
-    template_name = 'post_list.html'
+
+def all_posts(request):
+    post_list = Post.objects.filter(status=1).order_by('-created_on')
+    paginator = Paginator(post_list, 3)
+    page = request.GET.get('page')
+
+    context = {
+        'post_list': paginator.get_page(page),
+    }
+
+    return render(request, 'blog/post_list.html', context)
 
 class EventList(generic.ListView):
     queryset = Event.objects.filter(status=1).order_by('-created_on')
