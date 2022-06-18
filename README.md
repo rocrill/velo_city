@@ -21,6 +21,27 @@ Visit the live site here:
 
 ## Strategy
 
+### Business Model
+
+Business Model
+The business model behind Vélo City is B2C or Business to Customer. The online store sells products from various cycling brands rather than their own branded products.
+
+In terms of the flow of the business model, Vélo City buys all products from their affiliated brands and manufacturers, and these products are then sold via the Vélo City website to the customer.
+
+Marketing
+Vélo City has a Facebook Business page which can be viewed here. This can also be accessed from the footer of the website.
+
+The website footer also contains a Mailchimp marketing comms subscription sign up form. When users sign up to the Mailchimp form, their details feed through the company's Audience Dashboard on Mailchimp account. These customers can now be included in Vélo City marketing campaigns. 
+
+### Search Engine Optimisation
+
+This project included a Sitemap.xml and Robots.txt file to ensure that Google can crawl only the relevant and unique pages of the Vélo City website.
+
+I have also researched the top search terms for bike store products, for which I used Google search and Wordtracker.com, in addition to reviewing other cycling e-commerce sites.
+
+The following keywords and key phrases were included in the project meta tags:
+
+
 ### Project Goals
 
 * To create an e-commerce cycling website which sells bikes and cycling kit. The site also features a cycling blog and events page which aims to attract cyclists to the site, and keep potential shoppers interested so that they might spend more time on the site.
