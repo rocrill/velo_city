@@ -123,8 +123,22 @@ body {
     color: white;
 }
 
+.pagination-btn {
+    color: white;
+    border: 1px solid #C44536;
+    background-color: #C44536;
+}
+
+.pagination-btn:hover {
+    text-decoration: underline;
+    border: 1px solid #C44536;
+    color: #C44536;
+}
+
+
 .text-black {
     color: #000 !important;
+
 }
 
 .border-black {

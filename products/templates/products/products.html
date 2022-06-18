@@ -124,12 +124,12 @@
         <ul class="pagination justify-content-center">
             {% if products.has_previous %}
             <li>
-                <a href="?category={{ category }}&direction={{ direction }}&sort={{ sort }}&q={{ q }}&page={{ products.previous_page_number }}" class="btn page-link">&laquo; PREV </a>
+                <a href="?category={{ category }}&direction={{ direction }}&sort={{ sort }}&q={{ q }}&page={{ products.previous_page_number }}" class="btn page-link pagination-btn">&laquo; PREV </a>
             </li>
             {% endif %}
             {% if products.has_next %}
             <li>
-                <a href="?category={{ category }}&direction={{ direction }}&sort={{ sort }}&q={{ q }}&page={{ products.next_page_number }}" class="btn page-link"> NEXT &raquo;</a>
+                <a href="?category={{ category }}&direction={{ direction }}&sort={{ sort }}&q={{ q }}&page={{ products.next_page_number }}" class="btn page-link pagination-btn"> NEXT &raquo;</a>
             </li>
             {% endif %}
         </ul>
