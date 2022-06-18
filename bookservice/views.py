@@ -17,7 +17,6 @@ def bookservice(request):
             'email_address': request.POST['email_address'],
             'date': request.POST['date'],
             'service_type': request.POST['service_type'],
-            'bike_type': request.POST['bike_type'],
             
         }
         form = BookingForm(form_data)

@@ -20,18 +20,6 @@ class Booking (models.Model):
         choices=SERVICE_CHOICES,
         default='Repair',
     )
-    #BIKE_CHOICES = [
-     #   ('Hybrid', 'Hybrid'),
-      #  ('Road', 'Road'),
-       # ('Mountain', 'Mountain'),
-        #('Vintage', 'Vintage'),
-    
-    #]
-    #bike_type = models.CharField(
-    #    max_length=15,
-    #    choices=BIKE_CHOICES,
-    #    default='Hybrid',
-    #)
 
     def save(self, *args, **kwargs):
         if self.date < datetime.date.today():
