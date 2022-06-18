@@ -19,13 +19,24 @@ class PostForm(forms.ModelForm):
             field.widget.attrs['class'] = 'border-black rounded-0'
 
 
+class Event_DateTimeInput(forms.DateTimeInput):
+    input_type = "datetime-local"
+    def __init__(self, **kwargs):
+        kwargs["format"] = "%Y-%m-%dT%H:%M"
+        super().__init__(**kwargs)
+
+
 class EventForm(forms.ModelForm):
 
     class Meta:
         model = Event
         fields = '__all__'
+        widgets = {
+            'image': forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput),
+            'event_date': Event_DateTimeInput(format=["%Y-%m-%dT%H:%M", "%Y-%m-%d %H:%M"],),
+        }
 
-    event_date = forms.DateTimeField(widget=forms.widgets.DateTimeInput(attrs={'type': 'date'}))
+
     image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)
 
 
