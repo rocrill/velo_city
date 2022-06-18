@@ -3,7 +3,7 @@ from .models import Booking
 from django.core.exceptions import ValidationError
 
 class BookingForm(forms.ModelForm):
-     """Form for the booking model."""
+    """Form for the booking model."""
     class Meta:
         model = Booking
         fields = ('first_name', 'last_name', 'phone_number', 'email_address', 'date', 'service_type',)
