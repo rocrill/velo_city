@@ -3,6 +3,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+from django.core.paginator import Paginator
 
 from .models import Product, Category
 from .forms import ProductForm
@@ -15,11 +16,12 @@ def all_products(request):
     products = Product.objects.all()
     query = None
     categories = None
+    category = None
     sort = None
     direction = None
 
     if request.GET:
-        if 'sort' in request.GET:
+        if 'sort' in request.GET and request.GET['sort'] != 'None':
             sortkey = request.GET['sort']
             sort = sortkey
             if sortkey == 'name':
@@ -32,28 +34,39 @@ def all_products(request):
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
+        else:
+            products = products.annotate(lower_name=Lower('name'))
+            products = products.order_by('lower_name')
             
-        if 'category' in request.GET:
+        if 'category' in request.GET and request.GET['category'] != 'None':
+            category = request.GET['category']
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
 
-        if 'q' in request.GET:
+        if 'q' in request.GET and request.GET['q'] != 'None':
             query = request.GET['q']
-            if not query:
-                messages.error(request, "You didn't enter any search criteria!")
-                return redirect(reverse('products'))
-            
-            queries = Q(name__icontains=query) | Q(description__icontains=query) | Q(category__name__icontains=query)
-            products = products.filter(queries)
+            if query is not None:
+                queries = Q(name__icontains=query) | Q(description__icontains=query) | Q(category__name__icontains=query)
+                products = products.filter(queries)
+    else:
+        products = products.annotate(lower_name=Lower('name'))
+        products = products.order_by('lower_name')
 
     current_sorting = f'{sort}_{direction}'
 
+    paginator = Paginator(products, 8)
+    page = request.GET.get('page')
+
     context = {
-        'products': products,
+        'products': paginator.get_page(page),
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
+        'category': category,
+        'direction': direction,
+        'sort': sort,
+        'q': query,
     }
 
     return render(request, 'products/products.html', context)
