@@ -11,6 +11,10 @@ body {
 
 }
 
+.logot {
+    background-color: #197278;
+}
+
 .size-guide {
     padding-left:8px;
     padding-top: 5px;
@@ -123,7 +127,9 @@ body {
     color: #C44536;
 }
 
-
+.fb-link {
+    padding-left: 100px;
+}
 
 .pagination-btn {
     color: white;
@@ -462,5 +468,10 @@ a.category-badge > span.badge:hover {
     .post-detail-container {
         padding-left: 50px;
         padding-right: 50px;
+    }
+
+    .fb-link {
+        padding-left: 25px;
+        padding-top:20px;
     }
 }

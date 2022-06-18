@@ -28,10 +28,13 @@ The business model behind Vélo City is B2C or Business to Customer. The online 
 
 In terms of the flow of the business model, Vélo City buys all products from their affiliated brands and manufacturers, and these products are then sold via the Vélo City website to the customer.
 
-Marketing
+### Marketing
+
 Vélo City has a Facebook Business page which can be viewed here. This can also be accessed from the footer of the website.
 
 The website footer also contains a Mailchimp marketing comms subscription sign up form. When users sign up to the Mailchimp form, their details feed through the company's Audience Dashboard on Mailchimp account. These customers can now be included in Vélo City marketing campaigns. 
+
+As these marketing strategies involve the collection of user data, to ensure that Vélo City adheres to GDPR standards, there is a Vélo City Privacy Policy which can be found on the footer of the website.
 
 ### Search Engine Optimisation
 
