@@ -10,6 +10,7 @@ from django.core.paginator import Paginator
 
 
 def all_posts(request):
+    """View to show list of blog posts, in order of most recently created."""
     post_list = Post.objects.filter(status=1).order_by('-created_on')
     paginator = Paginator(post_list, 3)
     page = request.GET.get('page')
@@ -20,14 +21,9 @@ def all_posts(request):
 
     return render(request, 'blog/post_list.html', context)
 
-class EventList(generic.ListView):
-    queryset = Event.objects.filter(status=1).order_by('-created_on')
-    event_category = Event.objects.filter()
-    template_name = 'event_list.html'
 
 def all_events(request):
-    """ A view to show all events, possibly filtered by category """
-
+    """ A view to show all events, filtered by event date, with option to filter by category."""
     events = Event.objects.all()
     events = events.filter(event_date__gte=date.today())
     events = events.order_by('event_date')
@@ -58,7 +54,6 @@ def all_events(request):
     return render(request, 'blog/event_list.html', context)
 
 
-
 def post_detail(request, post_slug):
     """ A view to show blog post detail page """
 
@@ -70,9 +65,10 @@ def post_detail(request, post_slug):
 
     return render(request, 'blog/post_detail.html', context)
 
+
 @login_required
 def add_post(request):
-    """ Add a blog post to the blog section of the website"""
+    """ Add a blog post to the blog section of the website."""
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -94,6 +90,7 @@ def add_post(request):
     }
 
     return render(request, template, context)
+
 
 @login_required
 def add_event(request):
@@ -123,9 +120,10 @@ def add_event(request):
 
     return render(request, template, context)
 
+
 @login_required
 def edit_event(request, event_id):
-    """ Edit an event """
+    """ Edit an event post. """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -154,9 +152,10 @@ def edit_event(request, event_id):
 
     return render(request, template, context)
 
+
 @login_required
 def edit_post(request, post_slug):
-    """ Edit a blog post """
+    """ Edit a blog post."""
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -182,9 +181,10 @@ def edit_post(request, post_slug):
 
     return render(request, template, context)
 
+
 @login_required
 def delete_post(request, post_slug):
-    """ Delete a blog post from the website"""
+    """ Delete a blog post from the website."""
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -194,9 +194,10 @@ def delete_post(request, post_slug):
     messages.success(request, 'Blog post deleted!')
     return redirect(reverse('post_list'))
 
+
 @login_required
 def delete_event(request, event_id):
-    """ Delete an event from the website"""
+    """ Delete an event post from the website"""
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))

@@ -9,6 +9,7 @@
     </div>
 {% endblock %}
 
+<!--Page to display blog post detail.-->
 {% block content %}
 <div class="overlay"></div>
 <div class="container-fluid">
@@ -31,9 +32,4 @@
         </div>
     </div>
 </div>     
-{% endblock %}
-
-{% block postloadjs %}
-{{ block.super }}
-{% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}

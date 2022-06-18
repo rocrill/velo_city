@@ -11,10 +11,6 @@ body {
 
 }
 
-.logot {
-    background-color: #197278;
-}
-
 .size-guide {
     padding-left:8px;
     padding-top: 5px;
@@ -128,7 +124,7 @@ body {
 }
 
 .fb-link {
-    padding-left: 100px;
+    padding-left: 100px; 
 }
 
 .pagination-btn {
