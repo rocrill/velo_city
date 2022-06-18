@@ -119,9 +119,11 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
-    color: white;
+    background: white;
+    color: #C44536;
 }
+
+
 
 .pagination-btn {
     color: white;

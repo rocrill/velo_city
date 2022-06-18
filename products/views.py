@@ -72,14 +72,14 @@ def all_products(request):
     return render(request, 'products/products.html', context)
 
 
-def product_detail(request, product_id):
+def product_detail(request, product_name, product_sku):
     """ A view to show individual product details """
 
-    product = get_object_or_404(Product, pk=product_id)
+    product = get_object_or_404(Product, name=product_name, sku=product_sku)
     products = Product.objects.all()
     products = products.order_by('?')
     products = products.filter(category__name__in=[product.category])
-    products = products.exclude(pk=product_id)
+    products = products.exclude(pk=product.id)
     products = products[:3]
 
 

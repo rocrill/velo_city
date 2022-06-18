@@ -123,11 +123,11 @@
                     <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                         <div class="card h-100 border-0">
                             {% if rp.image %}
-                            <a href="{% url 'product_detail' rp.id %}">
+                            <a href="{% url 'product_detail' rp.name rp.sku %}">
                                 <img class="card-img-top img-fluid fit-products" src="{{ rp.image.url }}" alt="{{ rp.name }}">
                             </a>
                             {% else %}
-                            <a href="{% url 'product_detail' rp.id %}">
+                            <a href="{% url 'product_detail' rp.name rp.sku %}">
                                 <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ rp.name }}">
                             </a>
                             {% endif %}
