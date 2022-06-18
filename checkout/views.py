@@ -13,8 +13,10 @@ from cart.contexts import cart_contents
 import stripe
 import json
 
+
 @require_POST
 def cache_checkout_data(request):
+    """View to cache customer's checkout data."""
     try:
         pid = request.POST.get('client_secret').split('_secret')[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
@@ -31,6 +33,7 @@ def cache_checkout_data(request):
 
 
 def checkout(request):
+    """Checkout view."""
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
@@ -136,9 +139,8 @@ def checkout(request):
 
 
 def checkout_success(request, order_number):
-    """
-    Handle successful checkouts
-    """
+    """View to handle successful checkouts."""
+    
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
 

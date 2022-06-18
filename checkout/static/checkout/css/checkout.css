@@ -1,3 +1,5 @@
+/* Styling for the Checkout app, including Stripe elements. */
+
 .StripeElement,
 .stripe-style-input {
   box-sizing: border-box;
