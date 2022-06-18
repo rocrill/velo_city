@@ -1,3 +1,4 @@
+from datetime import date
 from django.views import generic
 from .models import Post, Event
 from .forms import PostForm, EventForm
@@ -19,6 +20,7 @@ def all_events(request):
     """ A view to show all events, possibly filtered by category """
 
     events = Event.objects.all()
+    events = events.filter(event_date__gte=date.today())
     events = events.order_by('event_date')
     query = None
     category = None
