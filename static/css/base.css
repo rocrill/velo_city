@@ -43,6 +43,11 @@ body {
     padding-right: 100px;
 }
 
+.post-detail-container-text {
+    background-color: white;
+    padding: 50px;
+}
+
 /* Navigation bar */
 
 .service-link {
@@ -369,8 +374,8 @@ a.category-badge > span.badge:hover {
     .header-container {
         padding-top: 164px;
     }
-}
 
+}
 
 
 
@@ -435,5 +440,11 @@ a.category-badge > span.badge:hover {
 
     .service-link{
         padding-left:0 !important;
+    }
+
+
+    .post-detail-container {
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }

@@ -13,14 +13,14 @@
 <div class="overlay"></div>
 <div class="container-fluid">
     <div class="row">
-        <div class="col text-center mt-3 post-detail-container">
+        <div class="col mt-3 post-detail-container">
             <br>
             <h2 class="logo-font">{{ post.title }}</h2>
             <br>
             <br>
             <p>Author:{{ post.author }}</p>
             <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.name }}">
-            <p>{{ post.content|safe }}</p>
+            <div class="post-detail-container-text">{{ post.content|safe }}</div>
             {% if request.user.is_superuser %}
                 <small class="ml-3">
                     <a href="{% url 'edit_post' post.slug %}">Edit</a> | 
