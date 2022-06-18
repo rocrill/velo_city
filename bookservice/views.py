@@ -5,10 +5,9 @@ from profiles.models import UserProfile
 from django.contrib import messages
 from django.core.exceptions import ValidationError
 
-# Create your views here.
 
 def bookservice(request):
-    """ View to return to the bookservice page. """
+    """ View to return to the service booking page."""
     if request.method=="POST":
         form_data = {
             'first_name': request.POST['first_name'],

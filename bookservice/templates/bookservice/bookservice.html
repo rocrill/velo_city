@@ -13,8 +13,8 @@
     </div>
 {% endblock %}
 
+<!--Bike service booking form.-->
 {% block content %}
-
     <div class="container h-150">
         <div class="row h-100 w-100 service-container">
             <div class="col-10 col-md-10 my-auto">
@@ -23,71 +23,62 @@
                 </h1>
                 <div class="col-md-6-lg-2">
                     <div class="mb-30 form-container">
-                    <p class="service-form-p">
-                        Vélo City offers a range of bike services, including repairs, 
-                        bike fit consultations, and general servicing. To book in, 
-                        fill out the form and select your preferred date. One of our team 
-                        will be in touch to confirm a time slot. 
-                    </p>
+                        <p class="service-form-p">
+                            Vélo City offers a range of bike services, including repairs,
+                            bike fit consultations, and general servicing. To book in,
+                            fill out the form and select your preferred date. One of our team
+                            will be in touch to confirm a time slot.
+                        </p>
                         <div>
-                        <form action="{% url 'bookservice' %}" method="POST" id="booking-form">
-                            {% csrf_token %}
-                        <div class="booking_form">
-                            <div>
-                                <div class="service-form-element">
-                                    {{ booking_form.first_name | as_crispy_field }}
+                            <form action="{% url 'bookservice' %}" method="POST" id="booking-form">
+                                {% csrf_token %}
+                                <div class="booking_form">
+                                    <div>
+                                        <div class="service-form-element">
+                                            {{ booking_form.first_name | as_crispy_field }}
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="service-form-element">
+                                            {{ booking_form.last_name | as_crispy_field }}
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="service-form-element">
+                                            {{ booking_form.phone_number | as_crispy_field }}
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="service-form-element">
+                                            {{ booking_form.email_address | as_crispy_field }}
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="service-form-element">
+                                            {{ booking_form.service_type | as_crispy_field }}
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="service-form-element">
+                                            {{ booking_form.date | as_crispy_field }}
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group mb-30">
+                                            <button id="submit-button" class="btn btn-black rounded-0">
+                                                <span class="font-weight-bold">Book Service</span>
+                                                <span class="icon">
+                                                    <i class="fas fa-wrench"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
                                 </div>
-                                </div>    
-                                <div>
-                                    <div class="service-form-element">
-                                        {{ booking_form.last_name | as_crispy_field }}
-                                    </div>
-                                </div>    
-                                <div>
-                                    <div class="service-form-element">
-                                        {{ booking_form.phone_number | as_crispy_field }}
-                                    </div>
-                                </div>    
-                                <div>
-                                    <div class="service-form-element">
-                                        {{ booking_form.email_address | as_crispy_field }}
-                                    </div>
-                                </div>    
-                                <div>
-                                    <div class="service-form-element">
-                                        {{ booking_form.service_type | as_crispy_field }}
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="service-form-element">
-                                        {{ booking_form.date | as_crispy_field }}
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group mb-30">
-                                        <button id="submit-button" class="btn btn-black rounded-0">
-                                            <span class="font-weight-bold">Book Service</span>
-                                            <span class="icon">
-                                                <i class="fas fa-wrench"></i>
-                                            </span>
-                                        </button>
-                                    </div>
-                                </div>
-
-                             </div>  
-                        </form>   
+                            </form>
                         </div>
-            
-                        </div>    
                     </div>
-                    
+                </div>
             </div>
-        </div>    
+        </div>
     </div>
-    
-            
-           
-
-
 {% endblock %}
-
