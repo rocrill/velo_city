@@ -182,25 +182,38 @@ For consistency of user experience, the site logo, navigation links and footer r
 
 * First Time Visitor Goals
 
-  * As a First Time Visitor, 
-  * As a First Time Visitor, 
-  * As a First Time Visitor,
+  * As a First Time Visitor, I want to easily understand the purpose of the site.
+  * As a First Time Visitor, I want to easily navigate throughout the site to find content.
+  * As a First Time Visitor, I want to easily find information about the company.
  
 * Returning Visitor Goals
 
-  * As a Returning Visitor,
-  * As a Returning Visitor, 
+  * As a Returning Visitor, I want to easily access and navigate to the different product links, my profile and the blog, event and booking pages.
+  * As a Returning Visitor, I want to easily access the company's social media links so that I can follow them and keep up to date with news and offers.
   
 * Frequent User Goals
 
-  * As a Frequent User, I
+  * As a Frequent User, I want to be able to access the site from any device including mobile, even if I am on the go.
 
 * Site Owner Goals
 
+  * As a site owner, I want to create an a stylish and visually appealing website which elicits a positive emotional response in users.
+
+  * As a site owner, I want to create easy to use website where products and their categories can be easily found and purchased.
+
+  * As a site owner, I want to convey an impression of expertise on the sport of cycling and cycling products so that I can gain customer's trust and loyalty.
+
+  * As a site owner, I want to have a good marketing strategy, including easily found social media links and a marketing email subscription option.
  
 More specific user stories are discussed in the context of website features in the Features section below.
 
 Note: Throughout the project, this [Kanban board](https://github.com/rocrill/velo_city/projects/1) was used to organise and track the progress of the user story development, however the final user stories are documented fully within this Readme. 
+
+## Skeleton
+
+### Wireframes
+
+### Surface
 
 
 
