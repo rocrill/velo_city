@@ -210,10 +210,14 @@ More specific user stories are discussed in the context of website features in t
 Note: Throughout the project, this [Kanban board](https://github.com/rocrill/velo_city/projects/1) was used to organise and track the progress of the user story development, however the final user stories are documented fully within this Readme. 
 
 ## Skeleton
-
+to do
 ### Wireframes
-
+to do 
 ### Surface
+to do 
+
+# Features
+
 
 
 
