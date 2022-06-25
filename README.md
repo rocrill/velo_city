@@ -218,7 +218,65 @@ to do
 
 # Features
 
+## Existing Features
+
+**Feature 1. Navigation bar**
+
+  * The navigation bar is at the top and centre of all pages of the website for consistent user experience and so they can navigate easily.
+
+  * A pointing hand icon appears over the menu links when they are hovered over for responsiveness.
+
+  * On the drop-down menu for each main navigation link, each drop-down option is highlighted in grey when hovered over for responsiveness.
+
+  * On mobile, the navigation menu links are within a collapsed drop down menu instead of in-line.
+
+  * The home page features a bike 'hero' image and a centrally placed call to action 'shop now' button which takes the user to the all products page.
 
 
+  Desktop:
+
+  ![Image of desktop nav menu](media/images/README/navigation-desktop.png)
+
+  Tablet:
+
+  ![Image of tablet nav menu](media/images/README/navigation-tablet.png)
+
+  Mobile:
+
+  ![Image of mobile nav menu](media/images/README/navigation-mobile.png)
+
+ 
+
+User stories relating to Navigation bar and home page:
+
+  * 1.1 As a user, I see the navigation bar with a logo on all pages and with a search box on a desktop, tablet and mobile.
+  * 1.2 As a user not logged in, I see a Register/Login link in the nav bar. Clicking this leads me to the registration or sign in pages and enables me to register or sign in.
+  * 1.3 As a logged in user, I am notified when I am logged in and I see a logout link in the nav which enables me to click sign out which logs me out.
+  * 1.4 As a user I can view the website logo in the header at all times, and clicking this will bring me to the homepage.
+  * 1.5 As a user I can click the all product, service, blog and event nav links which bring me to the relevant pages.
+  * 1.6 As a user if I encounter an error on the site, an applicable error message will be shown.
+
+
+**Feature 2. Home page**
+
+  * 2.1 As a user, I want to see a homepage to contain a navigation bar and footer which clearly direct me to all available site pages.
+  * 2.2 As a user, I want to see call to action button which directs me to the primary purpose of the site - to shop.
+  
+  Desktop:
+
+  ![Image of desktop home page](static/images/homepage-desktop.png)
+
+  Mobile:
+
+  ![Image of mobile home page](static/images/homepage-mobile.png)
+
+
+**Feature 3. All products page**
+
+  * 3.1 As a user, I want to see a cl
+  * 3.2 As a returning user, I want to see the newest recipes displayed in date order with the most recent postings first on the page.
+  * 3.3 As a user, I want to see the number of comments and number of likes displayed on each recipe card on the post detail page, so that I have an idea of the popularity and engagement of a post when deciding which ones to look at.  
+  * 3.4 As a user and post author, I want to be able to edit or delete a recipe post for which I am the author. 
+  * 3.5 As a user if there are more than six recipes on the page, the page is paginated with six recipes per page.
 
 
