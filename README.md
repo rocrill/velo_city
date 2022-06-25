@@ -441,15 +441,54 @@ User stories relating to the All Products page:
   * 9.11 As a user who has completed a successful purchase, I will receive a confirmation email.
   * 9.12 As a user, I do not need to be logged in to make a purchase.
 
-**Feature 11. User Profile Page**
+**Feature 10. User Profile Page**
 
-* order shows up
+* The profile page contains the user's information including their phone number, address and a list of their past orders.
 
-**Feature 12. Admin CRUD pages for Products, Events and Blog**
+  Desktop checkout page:
 
-* 
+  ![Image of desktop checkout page](media/images/profile-page-desktop.png)
+  
+  Mobile checkout page:
 
-**Feature 13. Admin**
+  ![Image of mobile checkout page](media/images/profile-page-mobile.png)
+  
+  User stories relating to the user profile page:
+
+* 10.1 As a user, I can view my personal details on my profile page, including my name and address
+* 10.2 As a user, I can view my past orders on my profile page. 
+
+**Feature 11. Admin CRUD pages for Products, Events and Blog**
+
+* The my account dropdown menu contains links to Product, Blog and Event Management pages. The Product Management page is the example chosen in the screenshots below.
+* The Product Management Page contains the following fileds: Category, Sku, Name, Description, Has sizes, Price, Rating, Image url.
+* The Blog Management page contains the following fields: Title, Slug, Author, Content, Status.
+* The Events Management page contains the following fields: Title, Event category, Event date, Content, Status, Image.
+* All of the above pages contain the option to cancel or add/publish.
+* Products can be added/deleted from the all products page and product detail page.
+* Blog posts can be added/deleted from the blog post detail page.
+* Event posts can be added/deleted from the events list page.
+
+  Desktop product management page:
+
+  ![Image of desktop product management page](media/images/product-management-desktop-1.png)
+  ![Image of desktop product management page](media/images/product-management-desktop-2.png)
+
+  Mobile product management page:
+
+  ![Image of mobile product management page](media/images/product-management-mobile-1.png)
+  ![Image of mobile product management page](media/images/product-management-mobile-2.png)
+  
+  User stories relating to the Product, Blog and Event Management pages:
+
+* 10.1 As an admin user, I can add products on the Product Managmenet page
+* 10.2 As an admin user, I can add blog posts on the Blog Management page.
+* 10.3 As an admin user, I can add event posts on the Event Management page.
+* 10.4 As an admin user, I can edit and delete products on the all products and product detail pages.
+* 10.5 As an admin user, I can edit and delete Blog posts from the blog post detail page.
+* 10.6 As an admin user, I can edit and delete Event posts from the events list page.
+
+**Feature 12. Admin**
 
 want to view bookings
 
