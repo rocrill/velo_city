@@ -302,11 +302,11 @@ User stories relating to the All Products page:
 
   Desktop:
 
-  ![Image of desktop all products page](media/images/category-specific-product-page-desktop.png)
+  ![Image of desktop category specific products page](media/images/category-specific-product-page-desktop.png)
 
   Mobile:
 
-  ![Image of mobile all products page](media/images/category-specific-product-page-mobile.png)
+  ![Image of mobile category specific products page](media/images/category-specific-product-page-mobile.png)
 
   User stories relating to the category-specific products page:
 
@@ -322,16 +322,16 @@ User stories relating to the All Products page:
 
  Desktop:
 
-  ![Image of desktop all products page](media/images/product-detail-desktop-1.png)
-  ![Image of desktop all products page](media/images/product-detail-desktop-2.png)
+  ![Image of desktop product detail page](media/images/product-detail-desktop-1.png)
+  ![Image of desktop product detail page](media/images/product-detail-desktop-2.png)
 
   Mobile:
 
-  ![Image of mobile all products page](media/images/product-detail-mobile-1.png)
-  ![Image of mobile all products page](media/images/product-detail-mobile-2.png)
+  ![Image of mobile product detail page](media/images/product-detail-mobile-1.png)
+  ![Image of mobile product detail page](media/images/product-detail-mobile-2.png)
 
   Size Chart:
- ![Image of mobile all products page](media/images/size-chart.png)
+ ![Image of size chart](media/images/size-chart.png)
 
   User stories relating to the product detail page:
   
@@ -348,11 +348,11 @@ User stories relating to the All Products page:
 
   Desktop:
 
-  ![Image of desktop all products page](media/images/book-service-desktop.png)
+  ![Image of desktop service booking page](media/images/book-service-desktop.png)
 
   Mobile:
 
-  ![Image of mobile all products page](media/images/book-service-mobile.png)
+  ![Image of mobile service booking page](media/images/book-service-mobile.png)
 
   User stories relating to the Service Booking page:
   
@@ -364,17 +364,31 @@ User stories relating to the All Products page:
 
 * Vélo City contains a blog which offers cycling tips and guides. The aim of the blog is to position Vélo City as an expert in the world of cycling and to attract cyclists to the site for blog posts, who will then be introduced to the business and its product offering.
 
-  Desktop:
+  Desktop blog post list page:
 
-  ![Image of desktop all products page](media/images/book-service-desktop.png)
+  ![Image of desktop post list page](media/images/blog-postlist-desktop-1.png)
+  ![Image of desktop post list page](media/images/blog-postlist-desktop-2.png)
 
-  Mobile:
+  Desktop blog post detail page:
 
-  ![Image of mobile all products page](media/images/book-service-mobile.png)
+  ![Image of desktop post detail page](media/images/blog-postdetail-desktop-1.png)
+  ![Image of desktop post detail page](media/images/blog-postdetail-desktop-2.png)
+  ![Image of desktop post detail page](media/images/blog-postdetail-desktop-3.png)
 
-  User stories relating to the Service Booking page:
+  Mobile blog post list page:
+
+  ![Image of mobile post list page](media/images/blog-postlist-mobile.png)
+
+  Mobile blog post detail page:
+
+  ![Image of mobile post detail page](media/images/blog-postdetail-mobile-1.png)
+  ![Image of mobile post detail page](media/images/blog-postdetail-mobile-2.png)
+
+
+  User stories relating to the Blog:
   
-* 5.1 As an user, I want to be able to book a bike service easily and efficiently, so that I can arrange to resolve an issue with my bike quickly and easily.
+* 5.1 As an user, I want to be able to access blog content with cycling tips and guides so that I can improve my knowledge of cycling and become a better cyclist.
+
 
 **Feature 8. Events Page**
 
