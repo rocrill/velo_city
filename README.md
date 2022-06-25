@@ -230,8 +230,6 @@ to do
 
   * On mobile, the navigation menu links are within a collapsed drop down menu instead of in-line.
 
-  * The home page features a bike 'hero' image and a centrally placed call to action 'shop now' button which takes the user to the all products page.
-
 
   Desktop:
 
@@ -259,9 +257,8 @@ User stories relating to Navigation bar and home page:
 
 **Feature 2. Home page**
 
-  * 2.1 As a user, I want to see a homepage to contain a navigation bar and footer which clearly direct me to all available site pages.
-  * 2.2 As a user, I want to see call to action button which directs me to the primary purpose of the site - to shop.
-  
+  * The home page features a bike 'hero' image and a centrally placed call to action 'shop now' button which takes the user to the all products page.
+
   Desktop:
 
   ![Image of desktop home page](static/images/homepage-desktop.png)
@@ -270,13 +267,80 @@ User stories relating to Navigation bar and home page:
 
   ![Image of mobile home page](static/images/homepage-mobile.png)
 
+User stories relating to the Home page:
 
+  * 2.1 As a user, I want to see a homepage to contain a navigation bar and footer which clearly direct me to all available site pages.
+  * 2.2 As a user, I want to see call to action button which directs me to the primary purpose of the site - to shop.
+  
 **Feature 3. All products page**
 
-  * 3.1 As a user, I want to see a cl
-  * 3.2 As a returning user, I want to see the newest recipes displayed in date order with the most recent postings first on the page.
-  * 3.3 As a user, I want to see the number of comments and number of likes displayed on each recipe card on the post detail page, so that I have an idea of the popularity and engagement of a post when deciding which ones to look at.  
-  * 3.4 As a user and post author, I want to be able to edit or delete a recipe post for which I am the author. 
-  * 3.5 As a user if there are more than six recipes on the page, the page is paginated with six recipes per page.
+  * The all products page is neat and well-proportioned with 4 product cards spanning the width of the page. Each product card contains the product name, rating, price and category label. 
+  * The all products page is paginated so that when more than 8 products are added to the site, the button appears directing the user to a second page of additional products, and so on.
+  * The mobile all products page is adjusted to feature one column of prodct cards across, and eight cards appear before thr pagination button is displayed. 
+  * There is a sorting drop-down menu on the top of the page which allows the user to sort products by price (low to high), price (high to low, name (A-Z), name (Z-A), rating (high to low), rating (low to high), category (A-Z) and category (Z-A).
 
+  Desktop:
+
+  ![Image of desktop all products page](media/images/all-products-desktop.png)
+  ![Image of desktop all products page](media/images/all-products-desktop-2.png)
+
+  Mobile:
+
+  ![Image of mobile all products page](media/images/all-products-mobile.png)
+  ![Image of mobile all products page](media/images/all-products-mobile-2.png)
+
+User stories relating to the All Products page:
+
+  * 3.1 As a user, I want to see a neatly displayed list of products with visually appealing images, clearly listing the name, price, category and rating of each product so I can decide on which products to view more detail on based on whether they are popular, relevant and within my price range.
+  * 3.2 As a user if there are more than 8 products on the page, the page is paginated in order to maintain the neat look of the site and to avoid endless scrolling for the user.
+  * 3.3 As an admin, I want to be able to edit or delete products from the all products page.
+
+**Feature 4. Category-specific product page**
+
+  * The navigation menu contains drop-down options to all product categories for bikes and clothing which directs the user to a category specific product page, e.g. Vintage Bikes. The page layout for each category is the same as the all products page on desktop and mobile. The product cards contain the same information, and users can sort by the same options.
+  * When on a category-specific product page, the category is displayed in a box at the top of the page so that the user is aware which specific product page they are on.
+
+  Desktop:
+
+  ![Image of desktop all products page](media/images/category-specific-product-page-desktop.png)
+
+  Mobile:
+
+  ![Image of mobile all products page](media/images/category-specific-product-page-mobile.png)
+
+  User stories relating to the category-specific products page:
+
+  * 3.1 As a user, I want to be able to easily access a catergory-specific product page so that I can access the content that I am interested in quickly and easily.
+
+**Feature 5. Product Detail page**
+
+  * This contains a header with the post title, author name and date of posting. Links to edit and delete the post will also appear here if the post author is logged in. 
+  * Below this is the main image of the recipe and below this is the recipe post itself, which is usually displayed in the format of an ingredients and method list. Most users post in this format, however if not, a website admin will re-format the instructions if needed when reviewing the post for quality after it is posted as a draft.
+  * Below the recipe are user comments and the comment box will also appear here for authenticated logged in users. When a valid user submits a valid comment form, they receive a notification that their comment is awaiting approval. Once this is approved by admin the comment will appear under the post.
+  * There is also a number of comments and number of likes displayed on the post detail page.
+  * You may also like feature... 
+
+ Desktop:
+
+  ![Image of desktop all products page](media/images/category-specific-product-page-desktop.png)
+
+  Mobile:
+
+  ![Image of mobile all products page](media/images/category-specific-product-page-mobile.png)
+
+  User stories relating to the product detail page:
+  
+  * 5.1 I want to be able to edit or delete a recipe post for which I am the author so that I have a level of control over my content.
+  * 5.2 As a user, I want to be able to comment on a recipe post so that I can engage with blog posts.
+  * 5.3 As a user, I want to be able to like and unlike a recipe post so that I can engage with blog posts and support other authors.
+  * 5.4 As a user who has not registered or logged into the website, I cannot add a comment to a recipe post so that the site is secure.
+
+
+**Feature 6. Service Booking page**
+**Feature 7. Blog**
+**Feature 8. Events Page**
+**Feature 9. Shopping Cart**
+**Feature 10. Checkout**
+**Feature 11. User Profile Page**
+**Feature 12. Admin CRUD pages for Products, Events and Blog**
 

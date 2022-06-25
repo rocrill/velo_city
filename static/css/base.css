@@ -26,6 +26,16 @@ body {
     padding-right: 100px;
 }
 
+.button-style {
+    background-color: #C44536 !important;
+    color: white !important;
+    border: 0px !important;
+}
+
+.button-style:hover {
+    background-color: white !important;
+    color: #C44536 !important;
+}
 
 .fit-products {
     width: 350px;
