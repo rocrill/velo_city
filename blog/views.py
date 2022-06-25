@@ -189,7 +189,7 @@ def delete_post(request, post_slug):
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
 
-    post = get_object_or_404(Post, pk=post_slug)
+    post = get_object_or_404(Post, slug=post_slug)
     post.delete()
     messages.success(request, 'Blog post deleted!')
     return redirect(reverse('post_list'))

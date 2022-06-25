@@ -346,7 +346,7 @@ User stories relating to the All Products page:
 * The service booking form contains a dropdown of available service types and a calendar widget to select the desired service date.
 * Once a user submits the form requesting the service, they receive a notification that the form is submitted, and that a member of the Vélo City team will be in touch to confirm their appointment.
 
- Desktop:
+  Desktop:
 
   ![Image of desktop all products page](media/images/book-service-desktop.png)
 
@@ -362,9 +362,23 @@ User stories relating to the All Products page:
 
 **Feature 7. Blog**
 
+* Vélo City contains a blog which offers cycling tips and guides. The aim of the blog is to position Vélo City as an expert in the world of cycling and to attract cyclists to the site for blog posts, who will then be introduced to the business and its product offering.
 
+  Desktop:
+
+  ![Image of desktop all products page](media/images/book-service-desktop.png)
+
+  Mobile:
+
+  ![Image of mobile all products page](media/images/book-service-mobile.png)
+
+  User stories relating to the Service Booking page:
+  
+* 5.1 As an user, I want to be able to book a bike service easily and efficiently, so that I can arrange to resolve an issue with my bike quickly and easily.
 
 **Feature 8. Events Page**
+
+
 **Feature 9. Shopping Cart**
 **Feature 10. Checkout**
 **Feature 11. User Profile Page**
