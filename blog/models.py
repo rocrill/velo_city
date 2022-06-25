@@ -18,8 +18,7 @@ class Post(models.Model):
     content = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
-    image_url = models.URLField(max_length=1024, null=True, blank=True)
-    image = models.ImageField(null=True, blank=True)
+    image = models.ImageField(null=False, blank=False)
 
     class Meta:
         ordering = ['-created_on']
@@ -37,8 +36,7 @@ class Event(models.Model):
     content = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
-    image_url = models.URLField(max_length=1024, null=True, blank=True)
-    image = models.ImageField(null=True, blank=True)
+    image = models.ImageField(null=False, blank=False)
 
     CATEGORY_TYPES = [
             ('Ladies cycling', 'Ladies cycling'),
