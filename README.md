@@ -523,4 +523,64 @@ User stories relating to Admin:
   * 9.6 As an admin user, I can view product categories, their names and friendly names in the Django admin page.
   * 9.7 As an admin user, I can view products in the Django admin page, including their SKU, name, category, price, rating and image.
  
+## Features to implement in future
+
+  * An inventory management system so that the quantity of each product is entered when a product is added to the site, so that when all of the product's reserves have been purchased the product appeasr as no longer available on the site.
+  * The blog posts could be linked to relevant products as a marketing strategy, e.g. a post on how to take up endurance cycling could be linked to the site's most popular endurance bike.
+  * As the site developmed, multiple images per product would be added.
+
+# Technologies Used 
+
+## Languages:
+
+*  [HTML 5](https://en.wikipedia.org/wiki/HTML5)
+*  [CSS 3](https://en.wikipedia.org/wiki/CSS)
+*  [Javascript](https://www.javascript.com/)
+*  [Django](https://www.djangoproject.com/)
+*  [Python](https://www.python.org/)
+
+    Python was used for the project's server side coding, in addition to a number of libraries. This is the list as per the requirements.txt file:
+
+        asgiref==3.5.1
+        boto3==1.24.2
+        botocore==1.27.2
+        dj-database-url==0.5.0
+        Django==3.2
+        django-allauth==0.41.0
+        django-countries==7.2.1
+        django-crispy-forms==1.14.0
+        django-hvad==1.8.0
+        django-libs==2.0.3
+        django-storages==1.12.3
+        gunicorn==20.1.0
+        jmespath==1.0.0
+        oauthlib==3.2.0
+        Pillow==9.1.0
+        psycopg2-binary==2.9.3
+        python3-openid==3.2.0
+        pytz==2022.1
+        requests-oauthlib==1.3.1
+        s3transfer==0.6.0
+        sqlparse==0.4.2
+        stripe==3.2.0
+
+## Frameworks, libraries and programs used:
+
+* [Balsamiq](https://balsamiq.com/) - to create wireframes for the site as part of the project preparation.
+* [Google Fonts](https://fonts.google.com/) - to import the 'Bungee Shade' and 'Roboto Slab' fonts into the HTML file, which were then used throughout the site.
+* [Font Awesome](https://fontawesome.com/) - for icons which were added to the footer.
+* [Coolors](https://coolors.co/) - for an appropriate and attractive colour palette.
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - to inspect and debug the code through all stages of the development.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) - to check the site for performance, accessibility and best practices.
+* [Am I Responsive](http://ami.responsivedesign.is/) - to produce a preview of the site on different devices.
+* [W3C HTML Validator](https://validator.w3.org/#validate_by_input) - to validate HTML code.
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate CSS code.
+* [GitHub](https://github.com/) - for hosting the project code and version control.
+* [Gitpod](https://gitpod.io/account) - to write the code and push it to GitHub.
+* [Github Pages](https://pages.github.com/) - to deploy the site.
+* [Unsplash](https://unsplash.com/) - for images.
+* [Pexels](https://pexels.com/) - for images.
+* [Bootstrap](https://getbootstrap.com/docs/5.0) - for UI components across the website, e.g. buttons, navbar, cards.
+* [Postgres](https://www.postgresql.org/) - the deployed project on Heroku uses a Postgres database.
+* [SQLlite](https://www.sqlite.org/index.html) - The database used in local development was a SQLLite database.
 
