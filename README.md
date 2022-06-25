@@ -490,6 +490,37 @@ User stories relating to the All Products page:
 
 **Feature 12. Admin**
 
-want to view bookings
+  * A number of Admin views are configured at https://velo-city-rc.herokuapp.com/admin, through which the below user stories can be carried out. Full CRUD operations to the data in the database are available as well as search and filter options. These include Users, Blog posts, Event posts, Service bookings, Checkout orders, Products and Product categories.
 
+  Users:
+  ![Image of admin user list](media/images/admin-users.png)
+
+  Blog posts:
+  ![Image of admin blog post list](media/images/admin-blog-posts.png)
+
+  Event posts:
+  ![Image of admin event posts list](media/images/admin-event-posts.png) 
+
+  Service bookings:
+  ![Image of admin service bookings list](media/images/admin-service-bookings.png) 
+
+  Product categories
+  ![Image of admin product categories list](media/images/admin-product-categories.png) 
+
+  Products:
+  ![Image of admin product list](media/images/admin-products.png) 
+
+  Checkout orders:
+  ![Image of admin checkout orders list](media/images/admin-checkout-orders.png) 
+
+User stories relating to Admin:
+
+  * 9.1 As an admin user, I can view checkout orders in the Django admin page including the order number, date, full name, order total, delivery cost and grand total.
+  * 9.2 As an admin user, I can view users in the Django admin page, including their username, email address,m first name, last name and staff status.
+  * 9.3 As an admin user, I can view blog posts in the Django admin page, including title, slug, status, creation date and image.
+  * 9.4 As an admin user, I can view event posts in the Django admin page, including title, status, creation date, image, event category and event date.
+  * 9.5 As an admin user, I can view service bookings in the Django admin page, including user first name, last name, date requested and service type. 
+  * 9.6 As an admin user, I can view product categories, their names and friendly names in the Django admin page.
+  * 9.7 As an admin user, I can view products in the Django admin page, including their SKU, name, category, price, rating and image.
+ 
 
