@@ -408,12 +408,34 @@ User stories relating to the All Products page:
 
   * 8.1 As an user, I want to see a list of upcoming Irish cycling events so that I can engage with the cycling community and potentially take part in competitive events.
 
-**Feature 9. Shopping Cart**
+**Feature 9. Shopping Cart and Checkout**
 
+* If the user has not added an item to the cart and they navigate to the cart page, they see a message that the cart is empty.
+* The user can add items to their shopping cart as they are shopping. They receive notifications when they have done so. 
+* The shopping cart shows an image of each item added, along with its quantity and price. The subtotal of all items is also calculated.
+* On the shopping cart page the user can reduce or the increase quantity of each item, or remove the item completely. 
+* An order over €50 entitles the shopper to free delivery, the delivery charge is automatically calculated at the checkout page.
+* Once an order is made, the user receives a confirmation email.
+* The fields on the checkout page are: Full Name, email address, phone number, and address and Country fields. This information is populated from 'my profile' if filled in.
+* Even if a user is not logged in, they can add products to their bag and proceed to checkout.
 
-**Feature 10. Checkout**
+  Mobile event list page:
+
+  ![Image of mobile event list page](media/images/event-list-mobile.png)
+  
+  User stories relating to the shopping cart and checkout:
+
+  * 9.1 As a user, I can click on a product, select a size and quantity and add it to my bag (receiving a notification when I've done so) in order to purchase it. 
+  * 9.2 As a user, I can click on the cart icon and be brought to my bag to see the contents in order to know what I have selected so far and the subtotal. If no contents are there, I will see a message that the cart is empty.
+  * 9.3 
+
 **Feature 11. User Profile Page**
+
+* order shows up
+
 **Feature 12. Admin CRUD pages for Products, Events and Blog**
+
+* 
 
 **Feature 13. Admin**
 
