@@ -332,7 +332,7 @@ User stories relating to the All Products page:
 
   Size Chart:
  ![Image of mobile all products page](media/images/size-chart.png)
- 
+
   User stories relating to the product detail page:
   
   * 5.1 As an admin user, I want to be able to edit or delete a product from the detail page so that I can easily edit products as an admin.
@@ -341,10 +341,37 @@ User stories relating to the All Products page:
   * 5.4 As a user, I want to be able to select the quantity of items I want and put a product in my shopping cart directly from the product detail page so that I can shop efficiently.
 
 **Feature 6. Service Booking page**
+
+* This page contains a description of Vélo City's service offering and a form for the user to request their desired service.
+* The service booking form contains a dropdown of available service types and a calendar widget to select the desired service date.
+* Once a user submits the form requesting the service, they receive a notification that the form is submitted, and that a member of the Vélo City team will be in touch to confirm their appointment.
+
+ Desktop:
+
+  ![Image of desktop all products page](media/images/book-service-desktop.png)
+
+  Mobile:
+
+  ![Image of mobile all products page](media/images/book-service-mobile.png)
+
+  User stories relating to the Service Booking page:
+  
+  * 5.1 As an user, I want to be able to book a bike service easily and efficiently, so that I can arrange to resolve an issue with my bike quickly and easily.
+  * 5.2 As a user, I want to receive a confirmation message so I know that I have successfully submitted my booking form.
+  * 5.3 As a user, I want to receive a notification if I have accidentally selected a booking date in the past so I know that I need to fill out the form again.
+
 **Feature 7. Blog**
+
+
+
 **Feature 8. Events Page**
 **Feature 9. Shopping Cart**
 **Feature 10. Checkout**
 **Feature 11. User Profile Page**
 **Feature 12. Admin CRUD pages for Products, Events and Blog**
+
+**Feature 13. Admin**
+
+want to view bookings
+
 
