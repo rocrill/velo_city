@@ -419,15 +419,27 @@ User stories relating to the All Products page:
 * The fields on the checkout page are: Full Name, email address, phone number, and address and Country fields. This information is populated from 'my profile' if filled in.
 * Even if a user is not logged in, they can add products to their bag and proceed to checkout.
 
-  Mobile event list page:
+  Desktop checkout page:
 
-  ![Image of mobile event list page](media/images/event-list-mobile.png)
+  ![Image of desktop checkout page](media/images/desktop-checkout-page.png)
+  
+  Mobile checkout page:
+
+  ![Image of mobile checkout page](media/images/mobile-checkout-page.png)
   
   User stories relating to the shopping cart and checkout:
 
   * 9.1 As a user, I can click on a product, select a size and quantity and add it to my bag (receiving a notification when I've done so) in order to purchase it. 
   * 9.2 As a user, I can click on the cart icon and be brought to my bag to see the contents in order to know what I have selected so far and the subtotal. If no contents are there, I will see a message that the cart is empty.
-  * 9.3 
+  * 9.3 As a user, I can update the quantity or remove an item from my shopping bag.
+  * 9.4 As a user, I can click on the Secure Checkout button on the cart page or toast message, and will be directed to the checkout page.
+  * 9.5 As a user, I can fill in my personal information, or have it auto-populated if it is already filled in on my profile.
+  * 9.6 As a user I can view an order summary with a subtotal of all items in cart and which includes a calculated delivery charge.
+  * 9.7 As a user I can enter my credit card payment information to make a purchase.
+  * 9.8 As a user on the checkout page, if I click 'Complete Order' and the transaction is unsuccessful for some reason, a message will be displayed.
+  * 9.10 As a user who has completed a successful purchase, my order details will be displayed on my profile page.
+  * 9.11 As a user who has completed a successful purchase, I will receive a confirmation email.
+  * 9.12 As a user, I do not need to be logged in to make a purchase.
 
 **Feature 11. User Profile Page**
 
