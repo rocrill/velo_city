@@ -356,13 +356,14 @@ User stories relating to the All Products page:
 
   User stories relating to the Service Booking page:
   
-  * 5.1 As an user, I want to be able to book a bike service easily and efficiently, so that I can arrange to resolve an issue with my bike quickly and easily.
-  * 5.2 As a user, I want to receive a confirmation message so I know that I have successfully submitted my booking form.
-  * 5.3 As a user, I want to receive a notification if I have accidentally selected a booking date in the past so I know that I need to fill out the form again.
+  * 6.1 As an user, I want to be able to book a bike service easily and efficiently, so that I can arrange to resolve an issue with my bike quickly and easily.
+  * 6.2 As a user, I want to receive a confirmation message so I know that I have successfully submitted my booking form.
+  * 6.3 As a user, I want to receive a notification if I have accidentally selected a booking date in the past so I know that I need to fill out the form again.
 
 **Feature 7. Blog**
 
 * Vélo City contains a blog which offers cycling tips and guides. The aim of the blog is to position Vélo City as an expert in the world of cycling and to attract cyclists to the site for blog posts, who will then be introduced to the business and its product offering.
+* The blog post list is paginated so when more than three posts are published a button appears to continue to the next page of posts.
 
   Desktop blog post list page:
 
@@ -387,13 +388,29 @@ User stories relating to the All Products page:
 
   User stories relating to the Blog:
   
-* 5.1 As an user, I want to be able to access blog content with cycling tips and guides so that I can improve my knowledge of cycling and become a better cyclist.
-
+  * 7.1 As an user, I want to be able to access blog content with cycling tips and guides so that I can improve my knowledge of cycling and become a better cyclist.
 
 **Feature 8. Events Page**
 
+  * Vélo City contains an events page which lists upcoming cycling events which may be of interests to our site users. These incude events that Vélo City is a part of, as well as cycling events around Ireland. 
+  * There are four categories of events: Mens cycling, Ladies cycling, Racing and Social events. Users can filter the events by category.
+  * The Events list is displayed in order of the nearest event date first so that users can see what event is the soonest straight away.
+
+  Desktop event list page:
+
+  ![Image of desktop event list page](media/images/event-list-desktop.png)
+
+  Mobile event list page:
+
+  ![Image of mobile event list page](media/images/event-list-mobile.png)
+  
+  User stories relating Events list:
+
+  * 8.1 As an user, I want to see a list of upcoming Irish cycling events so that I can engage with the cycling community and potentially take part in competitive events.
 
 **Feature 9. Shopping Cart**
+
+
 **Feature 10. Checkout**
 **Feature 11. User Profile Page**
 **Feature 12. Admin CRUD pages for Products, Events and Blog**
