@@ -658,7 +658,26 @@ To run this project locally, clone the velo_city repository.
 
 3. In your IDE, run the command git clone https://github.com/rocrill/velo_city.git to clone the repository to your workspace.
 
-4. 
+4. Create an env.py file in your root directory and add the following:
+import os
+os.environ.setdefault("SECRET_KEY", TO BE ADDED BY USER)
+os.environ.setdefault("DEVELOPMENT", '1')
+
+5. Install the relevant packages as per the requirements.txt file.
+
+6. In Settings.py set up a connection to either the local Sqllite database or the Heroku postgres database.
+
+7. Add 'localhost' to the ALLOWED_HOSTS variable in Settings.py.
+
+8. Run the following commands:
+ * "python3 manage.py showmigrations" to check the status of the migrations.
+
+ * "python3 manage.py migrate" to migrate the database.
+
+ * "python3 manage.py createsuperuser" to create a super or admin user.
+
+9. Start the application by running "python3 manage.py runserver".
+
 
 # Testing
 
