@@ -49,10 +49,6 @@ The following keywords and key phrases were included in the project meta tags:
 
 * To create an e-commerce cycling website which sells bikes and cycling kit. The site also features a cycling blog and events page which aims to attract cyclists to the site, and keep potential shoppers interested so that they might spend more time on the site.
 
-### User Goals
-
-* To shop for bikes and bike kit, to learn about cycling events and pick up cycling tips from our blog.
-
 ### Site Owner's Goals
 
 * To allow users to purchase products on the site.
@@ -66,6 +62,7 @@ The following keywords and key phrases were included in the project meta tags:
 * To purchase bikes and cycling kit.
 * To view the site blog posts for cycling tips.
 * To get information about upcoming Irish cycling events via site event posts. 
+* To book bike services.
 * To login or logout of the site.
 * To easily recover my password if I forget it
 * To register as a user of the website and receive a confirmation email when doing so.
@@ -205,9 +202,11 @@ For consistency of user experience, the site logo, navigation links and footer r
 
   * As a site owner, I want to have a good marketing strategy, including easily found social media links and a marketing email subscription option.
  
+
+
 More specific user stories are discussed in the context of website features in the Features section below.
 
-Note: Throughout the project, this [Kanban board](https://github.com/rocrill/velo_city/projects/1) was used to organise and track the progress of the user story development, however the final user stories are documented fully within this Readme. 
+Note: Throughout the project, this [Kanban board](https://github.com/rocrill/velo_city/projects/1) was used to organise and track the progress of the user story development as part of the Agile development methodology. However the final more detailed user stories are documented fully within this Readme. For reference, the applicable Kanban user stories have been linked to their corresponding README user stories below.
 
 ## Skeleton
 to do
@@ -248,11 +247,16 @@ to do
 User stories relating to Navigation bar and home page:
 
   * 1.1 As a user, I see the navigation bar with a logo on all pages and with a search box on a desktop, tablet and mobile.
-  * 1.2 As a user not logged in, I see a Register/Login link in the nav bar. Clicking this leads me to the registration or sign in pages and enables me to register or sign in.
+  * 1.2 As a user not logged in, I see a Register/Login link in the nav bar. Clicking this leads me to the registration or sign in pages and enables me to register or sign in (#6 and #7).
   * 1.3 As a logged in user, I am notified when I am logged in and I see a logout link in the nav which enables me to click sign out which logs me out.
-  * 1.4 As a user I can view the website logo in the header at all times, and clicking this will bring me to the homepage.
-  * 1.5 As a user I can click the all product, service, blog and event nav links which bring me to the relevant pages.
-  * 1.6 As a user if I encounter an error on the site, an applicable error message will be shown.
+  * 1.4 As a user, I can easily receive email confirmation after registering so that I can verify that my account registration was successful (#9.
+  * 1.5 As a user I can view the website logo in the header at all times, and clicking this will bring me to the homepage.
+  * 1.6 As a user I can click the all product, service, blog and event nav links which bring me to the relevant pages.
+  * 1.7 As a user if I encounter an error on the site, an applicable error message will be shown.
+  * 1.8 As a user, I can easily recover my password if I forget it so that I can easily get into the site if I forget my password without re-registering (#8).
+  * 1.9 As a user, I can have a personalised user profile so that I can view my order history, order confirmations, saved favourite products and save my payment information(#10).
+  * 1.10 As a user, I can search for a product by name or description so that I can easily find specific products that I want to purchase (#14).
+  * 1.11 As a shopper, I can easily see what I've searched for and the number of results so that I can quickly decide if the product I want is available (#15).
 
 
 **Feature 2. Home page**
@@ -291,9 +295,14 @@ User stories relating to the Home page:
 
 User stories relating to the All Products page:
 
-  * 3.1 As a user, I want to see a neatly displayed list of products with visually appealing images, clearly listing the name, price, category and rating of each product so I can decide on which products to view more detail on based on whether they are popular, relevant and within my price range.
+  * 3.1 As a user, I want to see a neatly displayed list of products with visually appealing images, clearly listing the name, price, category and rating of each product so I can decide on which products to view more detail on based on whether they are popular, relevant and within my price range (#1, #2, and #3).
   * 3.2 As a user if there are more than 8 products on the page, the page is paginated in order to maintain the neat look of the site and to avoid endless scrolling for the user.
-  * 3.3 As an admin, I want to be able to edit or delete products from the all products page.
+  * 3.3 As a user, I want to quickly identify offers and deals so that I can get the best value (#4).
+  * 3.4 As an admin, I want to be able to edit or delete products from the all products page.
+  * 3.5 As a user, I can sort the list of available products so that I can easily identify the best value, best rated and categorically sorted products (#11).
+  * 3.6 As a user, I can sort a specific category of product so that I can find the best-priced or best-rated product in a specific category, or sort by name in that category (#12).
+  * 3.7 As a user, I can sort multiple categories of products simultaneously so that I can find the best-priced or best-rated products across broad categories, such as "clothing" and "accessories" (#13).
+  * 3.8 
 
 **Feature 4. Category-specific product page**
 
@@ -318,7 +327,7 @@ User stories relating to the All Products page:
   * Beneath the description there is a dropdown menu to select the size of the item. Underneath this there is a link to a size guide pdf for bikes and clothing. 
   * Beneath the size selection there is a button to select the quantity of the item you would like, and a button to add this to your shopping cart.
   * Links to edit and delete the post will also appear here if an admin user is logged in.
-  * At the bottom od the page is a 'You May Also Like' recommended products feature. This displays other products within the same category that the user may be interested in.
+  * At the bottom of the page is a 'You May Also Like' recommended products feature. This displays other products within the same category that the user may be interested in.
 
  Desktop:
 
@@ -337,8 +346,11 @@ User stories relating to the All Products page:
   
   * 5.1 As an admin user, I want to be able to edit or delete a product from the detail page so that I can easily edit products as an admin.
   * 5.2 As a user, I want to be able to view all product information on the product detail page including an image, price, rating, category, description and size.
-  * 5.3 As a user, I want to be able to view a size chart for the product I am interested in so that I can be sure I am selecting the correct size for myself.
-  * 5.4 As a user, I want to be able to select the quantity of items I want and put a product in my shopping cart directly from the product detail page so that I can shop efficiently.
+  * 5.3 As a user, I want to be able to view a size chart for the product I am interested in so that I can be sure I am selecting the correct size for myself (#40).
+  * 5.4 As a user, I want to be able to select the quantity of items I want and put a product in my shopping cart directly from the product detail page so that I can shop efficiently (#16).
+  * 5.5 As a user, I can see similar/recommended items so that I can enjoy a personalised shopping experience and be aware of the products I am most likely to like and purchase (#28).
+
+
 
 **Feature 6. Service Booking page**
 
@@ -356,7 +368,7 @@ User stories relating to the All Products page:
 
   User stories relating to the Service Booking page:
   
-  * 6.1 As an user, I want to be able to book a bike service easily and efficiently, so that I can arrange to resolve an issue with my bike quickly and easily.
+  * 6.1 As an user, I want to be able to book a bike service easily and efficiently, so that I can arrange to resolve an issue with my bike quickly and easily (#26).
   * 6.2 As a user, I want to receive a confirmation message so I know that I have successfully submitted my booking form.
   * 6.3 As a user, I want to receive a notification if I have accidentally selected a booking date in the past so I know that I need to fill out the form again.
 
@@ -388,7 +400,7 @@ User stories relating to the All Products page:
 
   User stories relating to the Blog:
   
-  * 7.1 As an user, I want to be able to access blog content with cycling tips and guides so that I can improve my knowledge of cycling and become a better cyclist.
+  * 7.1 As an user, I want to be able to access blog content with cycling tips and guides so that I can improve my knowledge of cycling and become a better cyclist (#31).
 
 **Feature 8. Events Page**
 
@@ -406,7 +418,7 @@ User stories relating to the All Products page:
   
   User stories relating Events list:
 
-  * 8.1 As an user, I want to see a list of upcoming Irish cycling events so that I can engage with the cycling community and potentially take part in competitive events.
+  * 8.1 As an user, I want to see a list of upcoming Irish cycling events so that I can engage with the cycling community and potentially take part in competitive events (#33).
 
 **Feature 9. Shopping Cart and Checkout**
 
@@ -430,16 +442,18 @@ User stories relating to the All Products page:
   User stories relating to the shopping cart and checkout:
 
   * 9.1 As a user, I can click on a product, select a size and quantity and add it to my bag (receiving a notification when I've done so) in order to purchase it. 
-  * 9.2 As a user, I can click on the cart icon and be brought to my bag to see the contents in order to know what I have selected so far and the subtotal. If no contents are there, I will see a message that the cart is empty.
-  * 9.3 As a user, I can update the quantity or remove an item from my shopping bag.
+  * 9.2 As a user, I can click on the cart icon and be brought to my bag to see the contents in order to know what I have selected so far and the subtotal. If no contents are there, I will see a message that the cart is empty (#17).
+  * 9.3 As a user, I can update the quantity or remove an item from my shopping bag (#18).
   * 9.4 As a user, I can click on the Secure Checkout button on the cart page or toast message, and will be directed to the checkout page.
   * 9.5 As a user, I can fill in my personal information, or have it auto-populated if it is already filled in on my profile.
   * 9.6 As a user I can view an order summary with a subtotal of all items in cart and which includes a calculated delivery charge.
-  * 9.7 As a user I can enter my credit card payment information to make a purchase.
+  * 9.7 As a user I can easily enter my credit card payment information to make a purchase (#19).
   * 9.8 As a user on the checkout page, if I click 'Complete Order' and the transaction is unsuccessful for some reason, a message will be displayed.
-  * 9.10 As a user who has completed a successful purchase, my order details will be displayed on my profile page.
-  * 9.11 As a user who has completed a successful purchase, I will receive a confirmation email.
+  * 9.10 As a user who has completed a successful purchase, my order details will be summarised and displayed on my profile page (#21).
+  * 9.11 As a user who has completed a successful purchase, I will receive a confirmation email (#22).
   * 9.12 As a user, I do not need to be logged in to make a purchase.
+  * 9.13 As a user, I can easily view the total of my purchases at any time so that I can avoid spending too much (#5).
+  * 9.14 As a user, I can feel my personal and payment information is safe and secure so that I can confidently provide the required information to make a purchase (#20).
 
 **Feature 10. User Profile Page**
 
@@ -481,12 +495,12 @@ User stories relating to the All Products page:
   
   User stories relating to the Product, Blog and Event Management pages:
 
-* 10.1 As an admin user, I can add products on the Product Managmenet page
-* 10.2 As an admin user, I can add blog posts on the Blog Management page.
-* 10.3 As an admin user, I can add event posts on the Event Management page.
-* 10.4 As an admin user, I can edit and delete products on the all products and product detail pages.
-* 10.5 As an admin user, I can edit and delete Blog posts from the blog post detail page.
-* 10.6 As an admin user, I can edit and delete Event posts from the events list page.
+* 10.1 As an admin user, I can add products on the Product Managmenet page (#23).
+* 10.2 As an admin user, I can add blog posts on the Blog Management page (#34).
+* 10.3 As an admin user, I can add event posts on the Event Management page (#37).
+* 10.4 As an admin user, I can edit and delete products on the all products and product detail pages (#24 and #25).
+* 10.5 As an admin user, I can edit and delete Blog posts from the blog post detail page (#35 and #36).
+* 10.6 As an admin user, I can edit and delete Event posts from the events list page (#38 and #39).
 
 **Feature 12. Admin**
 
@@ -522,7 +536,47 @@ User stories relating to Admin:
   * 9.5 As an admin user, I can view service bookings in the Django admin page, including user first name, last name, date requested and service type. 
   * 9.6 As an admin user, I can view product categories, their names and friendly names in the Django admin page.
   * 9.7 As an admin user, I can view products in the Django admin page, including their SKU, name, category, price, rating and image.
- 
+
+**Feature 13 Footer**
+
+  * The Footer contains a link to Vélo City's Facebook for Business marketing page.
+
+  Facebook link sign up form:
+  ![Image of admin product list](media/images/admin-products.png) 
+
+  Facebook screenshot:
+  ![Image of admin product list](media/images/admin-products.png) 
+
+  * There is also a link to Vélo City's Privacy and Refund and Returns Policies:
+  
+  Desktop Privacy Policy:
+  ![Image of admin product list](media/images/admin-products.png) 
+
+  Mobile Privacy Policy:
+  ![Image of admin product list](media/images/admin-products.png) 
+
+  Desktop Refund Policy:
+  ![Image of admin product list](media/images/admin-products.png) 
+
+  Mobile Refund Policy:
+  ![Image of admin product list](media/images/admin-products.png) 
+  * 
+
+  Email subscription sign up form:
+  ![Image of admin product list](media/images/admin-products.png) 
+
+  Email subscription sign up form mobile:
+  ![Image of admin product list](media/images/admin-products.png) 
+
+  User Stories relating to the footer: 
+
+  * As a user, I can sign up to a Vélo City newsletter so that I can keep up to date with new products and offers (#27).
+  * As a user I can easily find information about the business, including contact information so that I can know more about the company I am buying from (#30).
+  * As a user, I can view the company's Privacy Policy so I feel like my privacy is protected while using the site and that the site is trustworthy.
+  * As a user, I can view and follow the company's Facebook for Business page so that I can stay up to date with news and offers (#41).
+  * As a user, I can view the company's return and refund policy so that I feel secure when making purchases on the site.
+
+
 ## Features to implement in future
 
   * An inventory management system so that the quantity of each product is entered when a product is added to the site, so that when all of the product's reserves have been purchased the product appeasr as no longer available on the site.
@@ -723,6 +777,16 @@ The Postgres database url can be set as an environment variable in Heroku and yo
 
 
 # Testing
+
+The Vélo City site was regularly during the development process, by previewing it in the live server window and inspecting with Google Chrome DevTools at various stages.
+
+When I was editing for responsiveness I tested the site on several different devices.
+
+At the final stages of the project the W3C Markup Validator, W3C CSS Validator Services, along with PEP8 and JSHint were used to validate every page of the project to ensure there were no syntax errors.
+
+## Testing User Stories
+
+
 
 # Credits
 
