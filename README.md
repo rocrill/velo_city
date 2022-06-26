@@ -496,12 +496,12 @@ User stories relating to the All Products page:
   
   User stories relating to the Product, Blog and Event Management pages:
 
-* 10.1 As an admin user, I can add products on the Product Managmenet page (#23).
-* 10.2 As an admin user, I can add blog posts on the Blog Management page (#34).
-* 10.3 As an admin user, I can add event posts on the Event Management page (#37).
-* 10.4 As an admin user, I can edit and delete products on the all products and product detail pages (#24 and #25).
-* 10.5 As an admin user, I can edit and delete Blog posts from the blog post detail page (#35 and #36).
-* 10.6 As an admin user, I can edit and delete Event posts from the events list page (#38 and #39).
+* 11.1 As an admin user, I can add products on the Product Managmenet page (#23).
+* 11.2 As an admin user, I can add blog posts on the Blog Management page (#34).
+* 11.3 As an admin user, I can add event posts on the Event Management page (#37).
+* 11.4 As an admin user, I can edit and delete products on the all products and product detail pages (#24 and #25).
+* 11.5 As an admin user, I can edit and delete Blog posts from the blog post detail page (#35 and #36).
+* 11.6 As an admin user, I can edit and delete Event posts from the events list page (#38 and #39).
 
 **Feature 12. Admin**
 
@@ -530,13 +530,13 @@ User stories relating to the All Products page:
 
 User stories relating to Admin:
 
-  * 9.1 As an admin user, I can view checkout orders in the Django admin page including the order number, date, full name, order total, delivery cost and grand total.
-  * 9.2 As an admin user, I can view users in the Django admin page, including their username, email address,m first name, last name and staff status.
-  * 9.3 As an admin user, I can view blog posts in the Django admin page, including title, slug, status, creation date and image.
-  * 9.4 As an admin user, I can view event posts in the Django admin page, including title, status, creation date, image, event category and event date.
-  * 9.5 As an admin user, I can view service bookings in the Django admin page, including user first name, last name, date requested and service type. 
-  * 9.6 As an admin user, I can view product categories, their names and friendly names in the Django admin page.
-  * 9.7 As an admin user, I can view products in the Django admin page, including their SKU, name, category, price, rating and image.
+  * 12.1 As an admin user, I can view checkout orders in the Django admin page including the order number, date, full name, order total, delivery cost and grand total.
+  * 12.2 As an admin user, I can view users in the Django admin page, including their username, email address,m first name, last name and staff status.
+  * 12.3 As an admin user, I can view blog posts in the Django admin page, including title, slug, status, creation date and image.
+  * 12.4 As an admin user, I can view event posts in the Django admin page, including title, status, creation date, image, event category and event date.
+  * 12.5 As an admin user, I can view service bookings in the Django admin page, including user first name, last name, date requested and service type. 
+  * 12.6 As an admin user, I can view product categories, their names and friendly names in the Django admin page.
+  * 12.7 As an admin user, I can view products in the Django admin page, including their SKU, name, category, price, rating and image.
 
 **Feature 13 Footer**
 
@@ -571,11 +571,11 @@ User stories relating to Admin:
 
   User Stories relating to the footer: 
 
-  * As a user, I can sign up to a Vélo City newsletter so that I can keep up to date with new products and offers (#27).
-  * As a user I can easily find information about the business, including contact information so that I can know more about the company I am buying from (#30).
-  * As a user, I can view the company's Privacy Policy so I feel like my privacy is protected while using the site and that the site is trustworthy.
-  * As a user, I can view and follow the company's Facebook for Business page so that I can stay up to date with news and offers (#41).
-  * As a user, I can view the company's return and refund policy so that I feel secure when making purchases on the site.
+  * 13.1 As a user, I can sign up to a Vélo City newsletter so that I can keep up to date with new products and offers (#27).
+  * 13.2 As a user I can easily find information about the business, including contact information so that I can know more about the company I am buying from (#30).
+  * 13.3 As a user, I can view the company's Privacy Policy so I feel like my privacy is protected while using the site and that the site is trustworthy.
+  * 13.4 As a user, I can view and follow the company's Facebook for Business page so that I can stay up to date with news and offers (#41).
+  * 13.5 As a user, I can view the company's return and refund policy so that I feel secure when making purchases on the site.
 
 
 ## Features to implement in future
@@ -1081,11 +1081,97 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   ![Events List](media/images/readme/event-list-desktop.png)
 
+  Result: Pass
+
   * 8.2 As a user, I want to be able to filter the cycling events for categories that are relevant to me.
 
-   ![Events List](media/images/readme/events-category-filter.png)
+  ![Events List](media/images/readme/events-category-filter.png)
 
-**Feature 9. User Profile**
+  Result: Pass
+
+**Feature 9. Shopping Cart and Checkout**
+
+  * 9.1 As a user, I can click on a product, select a size and quantity and add it to my bag (receiving a notification when I've done so) in order to purchase it. 
+
+  ![Checkout process](media/images/readme/desktop-checkout-process-1.png)
+
+  Result: Pass
+
+  * 9.2 As a user, I can click on the cart icon and be brought to my bag to see the contents in order to know what I have selected so far and the subtotal. If no contents are there, I will see a message that the cart is empty (#17).
+
+  ![Checkout process](media/images/readme/desktop-checkout-process-1.png)
+  ![Checkout process - empty cart](media/images/readme/empty-cart.png)
+
+  Result: Pass
+
+  * 9.3 As a user, I can update the quantity or remove an item from my shopping bag (#18).
+
+  (i)![Checkout process - cart](media/images/readme/cart.png)
+  (ii)![Checkout process - adjusted](media/images/readme/adjusted-cart.png)
+
+  Result: Pass 
+
+  * 9.4 As a user, I can click on the Secure Checkout button on the cart page or toast message, and will be directed to the checkout page.
+  * 9.5 As a user, I can fill in my personal information, or have it auto-populated if it is already filled in on my profile.
+
+  (i)![Checkout process - adjusted](media/images/readme/secure-checkout-1.png)
+  (ii)![Checkout process - adjusted](media/images/readme/secure-checkout-1.png)
+
+  Result: Pass
+  
+  * 9.6 As a user I can view an order summary with a subtotal of all items in cart and which includes a calculated delivery charge.
+
+  ![Checkout process - adjusted](media/images/readme/order-summary.png)
+
+  Result: Pass
+
+  * 9.7 As a user I can easily enter my credit card payment information to make a purchase (#19).
+
+  ![Checkout process - card info](media/images/readme/enter-card-info.png)
+
+  Result: Pass
+
+  * 9.8 As a user on the checkout page, if I click 'Complete Order' and the transaction is unsuccessful for some reason, a message will be displayed.
+
+  ![Checkout process - unsuccessful transaction](media/images/readme/unsuccessful-transaction.png)
+
+  Result: Pass
+
+  * 9.10 As a user who has completed a successful purchase, my order details will be summarised and displayed on my profile page (#21).
+
+  (i)![Checkout process - summary](media/images/readme/order-summary-confirmation.png)
+  (ii)![Checkout process - summary profile](media/images/readme/order-summary-profile.png)
+
+  Result: Pass
+
+  * 9.11 As a user who has completed a successful purchase, I will receive a confirmation email (#22).
+
+  ![Checkout process - email confirmation](media/images/readme/order-email-confirmation.png)
+
+  Result: Pass
+
+  * 9.12 As a user, I do not need to be logged in to make a purchase.
+
+  (i)![Checkout process - logged out purchase](media/images/readme/loggedout-order-1.png)
+  (ii)![Checkout process - logged out purchase](media/images/readme/loggedout-order-2.png)
+
+  Result: Pass
+
+  * 9.13 As a user, I can easily view the total of my purchases at any time so that I can avoid spending too much (#5).
+
+  The cart total is visible and up to date at all times on the header of the page:
+  ![Checkout process - cart total visible](media/images/readme/cart-total-visible.png)
+
+  Result: Pass
+
+  * 9.14 As a user, I can feel my personal and payment information is safe and secure so that I can confidently provide the required information to make a purchase (#20).
+
+  Users are invited to make a secure checkout where they are given an extra notification that their card will be charged. Once submitted the payment details are passed through Stripe's secure overlay.
+  
+  ![Checkout process - input payment details](media/images/readme/enter-card-info.png)
+  ![Checkout process - stripe overlay](media/images/readme/overlay.png)
+
+  Result: Pass
 
 
 
