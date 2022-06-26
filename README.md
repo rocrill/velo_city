@@ -884,9 +884,32 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   * 1.7 As a user if I encounter an error on the site, an applicable error message will be shown.
 
-    
+    Error messages are displayed for the following events on the site:
+
+   (i) If a non-admin user attempts to create, edit or delete a product, blog or event post:
+
+   ![non-admin crud attempt](media/images/README/non-admin-crud-attempt.png)
+
+   (ii) If a passed date is selected when submitting the date of a service booking:
+
+   ![service date passed](media/images/README/service-date-passed.png)
+
+   (iv) If an invalid form is attempted to be submitted:
+
+   ![Invalid form](media/images/README/checkout-form-validation)
+
+   (iii) If an unfound page is searched:
+
+   ![page not found](media/images/README/)
+
+   The 500.html
 
   * 1.8 As a user, I can easily recover my password if I forget it so that I can easily get into the site if I forget my password without re-registering (#8).
+
+  ![Reset password 1](media/images/README/reset-p-1.png)
+  ![Reset password 2](media/images/README/reset-p-2.png)
+  ![Reset password 3](media/images/README/reset-p-3.png)
+  ![Reset password 4](media/images/README/reset-p-4.png)
 
   * 1.9 As a user, I can have a personalised user profile so that I can view my order history, order confirmations, saved favourite products and save my payment information(#10).
 
