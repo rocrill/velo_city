@@ -584,3 +584,76 @@ User stories relating to Admin:
 * [Postgres](https://www.postgresql.org/) - the deployed project on Heroku uses a Postgres database.
 * [SQLlite](https://www.sqlite.org/index.html) - The database used in local development was a SQLLite database.
 
+# Deployment
+
+There were a number of applications involved in the deployment of this site.
+
+## Amazon Web Services
+
+1. Create an account at aws.amazon.com.
+2. Open the S3 application and create an S3 bucket named "velo-city-rc".
+
+ ![AWS deployment step 1](media/images/S3-1.png)
+
+3. Enable ACLs and tick the "Block All Public access" setting.
+
+ ![AWS deployment step 1](media/images/S3-2.png)
+
+4. Under the Properties section, turn on "Static Website Hosting", and set the index.html and the error.html values.
+
+ ![AWS deployment step 2](media/images/S3-3.png)
+
+5. Under 'Permissions', paste in the following CORS configuration to set up the required access between Heroku and S3.
+
+ ![AWS deployment step 3](media/images/cors-configuration.png)
+
+6. Click to edit the bucket policy and generate and set the below configuration:
+
+ ![AWS deployment step 4](media/images/S3-4.png)
+ ![AWS deployment step 4](media/images/S3-5.png)
+
+7. Go to the Access Control List and set the List objects permission for everyone under the Public Access section.
+
+ ![AWS deployment step 4](media/images/S3-6.png)
+
+8. Open the IAM application to control access to the bucket and set up a user group called manage-velo-city
+
+ ![AWS deployment step 4](media/images/S3-7.png)
+
+9. Click on Policies, and Create Policy.
+
+![AWS deployment step 4](media/images/S3-8.png)
+
+10. Click on the JSON tab and import a pre-built Amazon policy called AmazonS3FullAccess:
+
+![AWS deployment step 4](media/images/S3-9.png)
+
+11. Set the following settings in the JSON tab:
+
+![AWS deployment step 4](media/images/S3-10.png)
+
+12. Click Review Policy, give it a name and description and click Create Policy.
+
+13. To attach the policy to the group, navigate to Groups, then Permissions, and under Add Permissions, select Attach Policy.
+
+![AWS deployment step 4](media/images/S3-11.png)
+
+14. To create a user for the group, click Add User, and create one, e.g. 'velocity-staticfiles-user'.
+
+![AWS deployment step 4](media/images/S3-12.png)
+
+15. Add the user to the group created earlier, making sure to download the CSV file which contains the user's access credentials.
+
+16. Note the following AWS code in Settings.py. An environment variable called USE_AWS must be set to use these settings, otherwise it will use local storage:
+
+![AWS deployment Settings.py](media/images/S3-14.png)
+
+## Local Deployment
+
+
+
+# Testing
+
+# Credits
+
+# Acknowledgements
