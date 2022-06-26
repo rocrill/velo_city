@@ -831,7 +831,7 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
 ### Feature User Story Testing
 
-**1. Navigation bar**
+**Feature 1. Navigation bar**
 
   * 1.1 As a user, I see the navigation bar with a logo on all pages and with a search box on a desktop, tablet and mobile.
 
@@ -925,12 +925,29 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   ![User-profile](media/images/readme/user-profile.png)
 
-  * 1.11 As a shopper, I can easily see what I've searched for and the number of results so that I can quickly decide if the product I want is available (#15).
+  * 1.11 As a user, I can easily see what I've searched for and the number of results so that I can quickly decide if the product I want is available (#15).
 
   ![User-profile](media/images/readme/search-results.png)
 
   Result: Pass
 
+**Feature 2. Home page**
+
+  * 2.1 As a user, I want to see a homepage to contain a navigation bar and footer which clearly direct me to all available site pages.
+
+  ![Desktop](media/images/readme/desktop1.png)
+  ![Desktop](media/images/readme/desktop2.png)
+  ![Mobile](media/images/readme/mob1.png)
+  ![Mobile](media/images/readme/mob2.png)
+
+  Result: Pass
+
+  * 2.2 As a user, I want to see call to action button which directs me to the primary purpose of the site - to shop.
+
+  ![Desktop](media/images/readme/desktop-calltoaction.png)
+  ![Mobile](media/images/readme/mob-call-to-action.png)
+
+  Result: Pass
 
   
 
