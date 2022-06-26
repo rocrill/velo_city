@@ -418,7 +418,8 @@ User stories relating to the All Products page:
   
   User stories relating Events list:
 
-  * 8.1 As an user, I want to see a list of upcoming Irish cycling events so that I can engage with the cycling community and potentially take part in competitive events (#33).
+  * 8.1 As a user, I want to see a list of upcoming Irish cycling events so that I can engage with the cycling community and potentially take part in competitive events (#33).
+  * 8.2 As a user, I want to be able to filter the cycling events for categories that are relevant to me.
 
 **Feature 9. Shopping Cart and Checkout**
 
@@ -1047,27 +1048,47 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   * 6.1 As an user, I want to be able to book a bike service easily and efficiently, so that I can arrange to resolve an issue with my bike quickly and easily (#26).
 
-  ![Desktop](media/images/readme/quantity-addtocart.png)
-  ![Desktop](media/images/readme/quantity-addtocart-2.png)
+  ![Service booking](media/images/readme/book-service-1.png)
 
   Result: Pass
 
   * 6.2 As a user, I want to receive a confirmation message so I know that I have successfully submitted my booking form.
 
-  ![Desktop](media/images/readme/quantity-addtocart.png)
-  ![Desktop](media/images/readme/quantity-addtocart-2.png)
+  ![Service booking](media/images/readme/book-service-2.png)
 
   Result: Pass
 
   * 6.3 As a user, I want to receive a notification if I have accidentally selected a booking date in the past so I know that I need to fill out the form again.
 
-  ![Desktop](media/images/readme/quantity-addtocart.png)
-  ![Desktop](media/images/readme/quantity-addtocart-2.png)
+  ![Service booking](media/images/readme/service-date-passed.png)
 
   Result: Pass
 
+**Feature 7. Blog**
+  
+  * 7.1 As an user, I want to be able to access blog content with cycling tips and guides so that I can improve my knowledge of cycling and become a better cyclist (#31).
+
+   ![Blog post list](media/images/readme/blog-postlist-desktop-1.png)
+   ![Blog post list](media/images/readme/blog-postlist-desktop-2.png)
+   ![Blog post detail](media/images/readme/blog-postdetail-desktop-1.png)
+   ![Blog post detail](media/images/readme/blog-postdetail-desktop-2.png)
+
+   Result: Pass
+
+**Feature 8. Events Page**
+
+  * 8.1 As a user, I want to see a list of upcoming Irish cycling events in order of event date so that I can engage with the cycling community and potentially take part in competitive events (#33).
+
+  ![Events List](media/images/readme/event-list-desktop.png)
+
+  * 8.2 As a user, I want to be able to filter the cycling events for categories that are relevant to me.
+
+   ![Events List](media/images/readme/events-category-filter.png)
+
+**Feature 9. User Profile**
+
+
+
 # Credits
-
-
 
 # Acknowledgements
