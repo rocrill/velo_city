@@ -9,6 +9,10 @@
 <h2 class="logo-font mb-4 text-black">{% trans "Sign Out" %}</h2>
 <hr>
 <p>{% trans 'Are you sure you want to sign out?' %}</p>
+<br>
+<br>
+<br>
+<br>
 
 <form method="post" action="{% url 'account_logout' %}">
   {% csrf_token %}
