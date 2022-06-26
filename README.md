@@ -232,15 +232,15 @@ to do
 
   Desktop:
 
-  ![Image of desktop nav menu](media/images/README/navigation-desktop.png)
+  ![Image of desktop nav menu](media/images/readme/navigation-desktop.png)
 
   Tablet:
 
-  ![Image of tablet nav menu](media/images/README/navigation-tablet.png)
+  ![Image of tablet nav menu](media/images/readme/navigation-tablet.png)
 
   Mobile:
 
-  ![Image of mobile nav menu](media/images/README/navigation-mobile.png)
+  ![Image of mobile nav menu](media/images/readme/navigation-mobile.png)
 
  
 
@@ -290,8 +290,8 @@ User stories relating to the Home page:
 
   Mobile:
 
-  ![Image of mobile all products page](media/images/all-products-mobile.png)
-  ![Image of mobile all products page](media/images/all-products-mobile-2.png)
+  ![Image of mobile all products page](media/images/readme/all-products-mobile.png)
+  ![Image of mobile all products page](media/images/readme/all-products-mobile-2.png)
 
 User stories relating to the All Products page:
 
@@ -311,11 +311,11 @@ User stories relating to the All Products page:
 
   Desktop:
 
-  ![Image of desktop category specific products page](media/images/category-specific-product-page-desktop.png)
+  ![Image of desktop category specific products page](media/images/readme/category-specific-product-page-desktop.png)
 
   Mobile:
 
-  ![Image of mobile category specific products page](media/images/category-specific-product-page-mobile.png)
+  ![Image of mobile category specific products page](media/images/readme/category-specific-product-page-mobile.png)
 
   User stories relating to the category-specific products page:
 
@@ -331,16 +331,16 @@ User stories relating to the All Products page:
 
  Desktop:
 
-  ![Image of desktop product detail page](media/images/product-detail-desktop-1.png)
-  ![Image of desktop product detail page](media/images/product-detail-desktop-2.png)
+  ![Image of desktop product detail page](media/images/readme/product-detail-desktop-1.png)
+  ![Image of desktop product detail page](media/images/readme/product-detail-desktop-2.png)
 
   Mobile:
 
-  ![Image of mobile product detail page](media/images/product-detail-mobile-1.png)
-  ![Image of mobile product detail page](media/images/product-detail-mobile-2.png)
+  ![Image of mobile product detail page](media/images/readme/product-detail-mobile-1.png)
+  ![Image of mobile product detail page](media/images/readme/product-detail-mobile-2.png)
 
   Size Chart:
- ![Image of size chart](media/images/size-chart.png)
+ ![Image of size chart](media/images/readme/size-chart.png)
 
   User stories relating to the product detail page:
   
@@ -360,11 +360,11 @@ User stories relating to the All Products page:
 
   Desktop:
 
-  ![Image of desktop service booking page](media/images/book-service-desktop.png)
+  ![Image of desktop service booking page](media/images/readme/book-service-desktop.png)
 
   Mobile:
 
-  ![Image of mobile service booking page](media/images/book-service-mobile.png)
+  ![Image of mobile service booking page](media/images/readme/book-service-mobile.png)
 
   User stories relating to the Service Booking page:
   
@@ -379,23 +379,23 @@ User stories relating to the All Products page:
 
   Desktop blog post list page:
 
-  ![Image of desktop post list page](media/images/blog-postlist-desktop-1.png)
-  ![Image of desktop post list page](media/images/blog-postlist-desktop-2.png)
+  ![Image of desktop post list page](media/images/readme/blog-postlist-desktop-1.png)
+  ![Image of desktop post list page](media/images/readme/blog-postlist-desktop-2.png)
 
   Desktop blog post detail page:
 
-  ![Image of desktop post detail page](media/images/blog-postdetail-desktop-1.png)
-  ![Image of desktop post detail page](media/images/blog-postdetail-desktop-2.png)
+  ![Image of desktop post detail page](media/images/readme/blog-postdetail-desktop-1.png)
+  ![Image of desktop post detail page](media/images/readme/blog-postdetail-desktop-2.png)
   ![Image of desktop post detail page](media/images/blog-postdetail-desktop-3.png)
 
   Mobile blog post list page:
 
-  ![Image of mobile post list page](media/images/blog-postlist-mobile.png)
+  ![Image of mobile post list page](media/images/readme/blog-postlist-mobile.png)
 
   Mobile blog post detail page:
 
-  ![Image of mobile post detail page](media/images/blog-postdetail-mobile-1.png)
-  ![Image of mobile post detail page](media/images/blog-postdetail-mobile-2.png)
+  ![Image of mobile post detail page](media/images/readme/blog-postdetail-mobile-1.png)
+  ![Image of mobile post detail page](media/images/readme/blog-postdetail-mobile-2.png)
 
 
   User stories relating to the Blog:
@@ -410,11 +410,11 @@ User stories relating to the All Products page:
 
   Desktop event list page:
 
-  ![Image of desktop event list page](media/images/event-list-desktop.png)
+  ![Image of desktop event list page](media/images/readme/event-list-desktop.png)
 
   Mobile event list page:
 
-  ![Image of mobile event list page](media/images/event-list-mobile.png)
+  ![Image of mobile event list page](media/images/readme/event-list-mobile.png)
   
   User stories relating Events list:
 
@@ -433,11 +433,11 @@ User stories relating to the All Products page:
 
   Desktop checkout page:
 
-  ![Image of desktop checkout page](media/images/desktop-checkout-page.png)
+  ![Image of desktop checkout page](media/images/readme/desktop-checkout-page.png)
   
   Mobile checkout page:
 
-  ![Image of mobile checkout page](media/images/mobile-checkout-page.png)
+  ![Image of mobile checkout page](media/images/readme/mobile-checkout-page.png)
   
   User stories relating to the shopping cart and checkout:
 
@@ -461,11 +461,11 @@ User stories relating to the All Products page:
 
   Desktop checkout page:
 
-  ![Image of desktop checkout page](media/images/profile-page-desktop.png)
+  ![Image of desktop checkout page](media/images/readme/profile-page-desktop.png)
   
   Mobile checkout page:
 
-  ![Image of mobile checkout page](media/images/profile-page-mobile.png)
+  ![Image of mobile checkout page](media/images/readme/profile-page-mobile.png)
   
   User stories relating to the user profile page:
 
@@ -485,13 +485,13 @@ User stories relating to the All Products page:
 
   Desktop product management page:
 
-  ![Image of desktop product management page](media/images/product-management-desktop-1.png)
-  ![Image of desktop product management page](media/images/product-management-desktop-2.png)
+  ![Image of desktop product management page](media/images/readme/product-management-desktop-1.png)
+  ![Image of desktop product management page](media/images/readme/product-management-desktop-2.png)
 
   Mobile product management page:
 
-  ![Image of mobile product management page](media/images/product-management-mobile-1.png)
-  ![Image of mobile product management page](media/images/product-management-mobile-2.png)
+  ![Image of mobile product management page](media/images/readme/product-management-mobile-1.png)
+  ![Image of mobile product management page](media/images/readme/product-management-mobile-2.png)
   
   User stories relating to the Product, Blog and Event Management pages:
 
@@ -507,25 +507,25 @@ User stories relating to the All Products page:
   * A number of Admin views are configured at https://velo-city-rc.herokuapp.com/admin, through which the below user stories can be carried out. Full CRUD operations to the data in the database are available as well as search and filter options. These include Users, Blog posts, Event posts, Service bookings, Checkout orders, Products and Product categories.
 
   Users:
-  ![Image of admin user list](media/images/admin-users.png)
+  ![Image of admin user list](media/images/readme/admin-users.png)
 
   Blog posts:
-  ![Image of admin blog post list](media/images/admin-blog-posts.png)
+  ![Image of admin blog post list](media/images/readme/admin-blog-posts.png)
 
   Event posts:
-  ![Image of admin event posts list](media/images/admin-event-posts.png) 
+  ![Image of admin event posts list](media/images/readme/admin-event-posts.png) 
 
   Service bookings:
-  ![Image of admin service bookings list](media/images/admin-service-bookings.png) 
+  ![Image of admin service bookings list](media/images/readme/admin-service-bookings.png) 
 
   Product categories
-  ![Image of admin product categories list](media/images/admin-product-categories.png) 
+  ![Image of admin product categories list](media/images/readme/admin-product-categories.png) 
 
   Products:
-  ![Image of admin product list](media/images/admin-products.png) 
+  ![Image of admin product list](media/images/readme/admin-products.png) 
 
   Checkout orders:
-  ![Image of admin checkout orders list](media/images/admin-checkout-orders.png) 
+  ![Image of admin checkout orders list](media/images/readme/admin-checkout-orders.png) 
 
 User stories relating to Admin:
 
@@ -542,31 +542,31 @@ User stories relating to Admin:
   * The Footer contains a link to Vélo City's Facebook for Business [marketing page](https://www.facebook.com/V%C3%A9lo-City-105357878885354).
 
   Vélo City Facebook for business page:
-  ![Facebook page](media/images/fb-desktop-1.png) 
-  ![Facebook page](media/images/fb-desktop-2.png) 
-  ![Facebook page](media/images/fb-desktop-3.png) 
+  ![Facebook page](media/images/readme/fb-desktop-1.png) 
+  ![Facebook page](media/images/readme/fb-desktop-2.png) 
+  ![Facebook page](media/images/readme/fb-desktop-3.png) 
 
   * There is also a link to Vélo City's Privacy and Refund & Returns Policies:
   
   Desktop Privacy Policy:
-  ![Privacy policy desktop](media/images/privacy-desktop.png) 
+  ![Privacy policy desktop](media/images/readme/privacy-desktop.png) 
 
   Mobile Privacy Policy:
-  ![Privacy policy mobile](media/images/privacy-mobile.png) 
+  ![Privacy policy mobile](media/images/readme/privacy-mobile.png) 
 
   Desktop Refund Policy:
-  ![Refund policy desktop](media/images/refund-desktop.png) 
+  ![Refund policy desktop](media/images/readme/refund-desktop.png) 
 
   Mobile Refund Policy:
-  ![Refund policy mobile](media/images/refund-mobile.png) 
+  ![Refund policy mobile](media/images/readme/refund-mobile.png) 
 
   * The footer also contains a Mailchimp marketing newsletter sign up form.
 
   Email subscription sign up form desktop:
-  ![Desktop footer](media/images/footer-desktop-2.png) 
+  ![Desktop footer](media/images/readme/footer-desktop-2.png) 
 
   Email subscription sign up form mobile:
-  ![Mobile footer](media/images/footer-mobile-2.png) 
+  ![Mobile footer](media/images/readme/footer-mobile-2.png) 
 
   User Stories relating to the footer: 
 
@@ -647,60 +647,60 @@ There were a number of applications involved in the deployment of this site.
 1. Create an account at aws.amazon.com.
 2. Open the S3 application and create an S3 bucket named "velo-city-rc".
 
- ![AWS deployment step 1](media/images/S3-1.png)
+ ![AWS deployment step 1](media/images/readme/S3-1.png)
 
 3. Enable ACLs and tick the "Block All Public access" setting.
 
- ![AWS deployment step 1](media/images/S3-2.png)
+ ![AWS deployment step 1](media/images/readme/S3-2.png)
 
 4. Under the Properties section, turn on "Static Website Hosting", and set the index.html and the error.html values.
 
- ![AWS deployment step 2](media/images/S3-3.png)
+ ![AWS deployment step 2](media/images/readme/S3-3.png)
 
 5. Under 'Permissions', paste in the following CORS configuration to set up the required access between Heroku and S3.
 
- ![AWS deployment step 3](media/images/cors-configuration.png)
+ ![AWS deployment step 3](media/images/readme/cors-configuration.png)
 
 6. Click to edit the bucket policy and generate and set the below configuration:
 
- ![AWS deployment step 4](media/images/S3-4.png)
- ![AWS deployment step 4](media/images/S3-5.png)
+ ![AWS deployment step 4](media/images/readme/S3-4.png)
+ ![AWS deployment step 4](media/images/readme/S3-5.png)
 
 7. Go to the Access Control List and set the List objects permission for everyone under the Public Access section.
 
- ![AWS deployment step 4](media/images/S3-6.png)
+ ![AWS deployment step 4](media/images/readme/S3-6.png)
 
 8. Open the IAM application to control access to the bucket and set up a user group called manage-velo-city
 
- ![AWS deployment step 4](media/images/S3-7.png)
+ ![AWS deployment step 4](media/images/readme/S3-7.png)
 
 9. Click on Policies, and Create Policy.
 
-![AWS deployment step 4](media/images/S3-8.png)
+![AWS deployment step 4](media/images/readme/S3-8.png)
 
 10. Click on the JSON tab and import a pre-built Amazon policy called AmazonS3FullAccess:
 
-![AWS deployment step 4](media/images/S3-9.png)
+![AWS deployment step 4](media/images/readme/S3-9.png)
 
 11. Set the following settings in the JSON tab:
 
-![AWS deployment step 4](media/images/S3-10.png)
+![AWS deployment step 4](media/images/readme/S3-10.png)
 
 12. Click Review Policy, give it a name and description and click Create Policy.
 
 13. To attach the policy to the group, navigate to Groups, then Permissions, and under Add Permissions, select Attach Policy.
 
-![AWS deployment step 4](media/images/S3-11.png)
+![AWS deployment step 4](media/images/readme/S3-11.png)
 
 14. To create a user for the group, click Add User, and create one, e.g. 'velocity-staticfiles-user'.
 
-![AWS deployment step 4](media/images/S3-12.png)
+![AWS deployment step 4](media/images/readme/S3-12.png)
 
 15. Add the user to the group created earlier, making sure to download the CSV file which contains the user's access credentials.
 
 16. Note the following AWS code in Settings.py. An environment variable called USE_AWS must be set to use these settings, otherwise it will use local storage:
 
-![AWS deployment Settings.py](media/images/S3-14.png)
+![AWS deployment Settings.py](media/images/readme/S3-14.png)
 
 ## Local Deployment
 
@@ -739,7 +739,7 @@ os.environ.setdefault("DEVELOPMENT", '1')
 1. Create an account at heroku.com and create an app with a name in line with your repository, e.g. 'velo-city-rc'.
 2. Under the Resources tab, add the Postgres database to the app.
 
-![Heroku Deployment](media/images/add-postgres.png)
+![Heroku Deployment](media/images/readme/add-postgres.png)
 
 The Postgres database url can be set as an environment variable in Heroku and your local env.py file.
 
@@ -769,7 +769,7 @@ The Postgres database url can be set as an environment variable in Heroku and yo
 
 12. Ensure the following environment variables are set in Heroku:
 
-![Heroku Deployment](media/images/config-vars.png)
+![Heroku Deployment](media/images/readme/config-vars.png)
 
 13. Connect the Heroku app to GitHub, and enable automatic deploys.
 
@@ -835,50 +835,50 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   * 1.1 As a user, I see the navigation bar with a logo on all pages and with a search box on a desktop, tablet and mobile.
 
-    ![Desktop](static/images/desktop-navbar.png)
+    ![Desktop](media/images/readme/desktop-navbar.png)
 
-    ![Mobile](static/images/mobile-navbar.png)
+    ![Mobile](media/images/readme/mobile-navbar.png)
 
     Result: Pass 
 
   * 1.2 As a user not logged in, I see a Register/Login link in the nav bar. Clicking this leads me to the registration or sign in pages and enables me to register or sign in (#6 and #7). 
 
     ![Desktop register/signin option when logged out](static/images/signin-reg-1.png)
-    ![Desktop reg page](static/images/desktop-reg.png)
-    ![Mobile reg page](static/images/mobile-reg.png)
-    ![Desktop sign in page](static/images/desktop-signin.png)
-    ![Mobile sign in page](static/images/mobile-signin.png)
+    ![Desktop reg page](media/images/readme/desktop-reg.png)
+    ![Mobile reg page](media/images/readme/mobile-reg.png)
+    ![Desktop sign in page](media/images/readme/desktop-signin.png)
+    ![Mobile sign in page](media/images/readme/mobile-signin.png)
 
     Result: Pass
 
   * 1.3 As a logged in user, I am notified when I am logged in and I see a logout link in the nav which enables me to click sign out which logs me out.
 
-    ![Login success message](static/images/logout-option.png)
-    ![Confirm logout](static/images/confirm-logout.png)
-    ![Logout success](static/images/signout-success.png)
+    ![Login success message](media/images/readme/logout-option.png)
+    ![Confirm logout](media/images/readme/confirm-logout.png)
+    ![Logout success](media/images/readme/signout-success.png)
 
     Result: Pass
 
   * 1.4 As a user, I can easily receive email confirmation after registering so that I can verify that my account registration was successful (#9).
 
-    ![Registration confirmation email](static/images/reg-conf-email.png)
-    ![Email confirmation success](static/images/mail-confirmation-success.png)
+    ![Registration confirmation email](media/images/readme/reg-conf-email.png)
+    ![Email confirmation success](media/images/readme/mail-confirmation-success.png)
 
    Result: Pass 
 
   * 1.5 As a user I can view the website logo in the header on desktop at all times, and a home link is present in the mobile nav menu at all times. Clicking these will bring me to the homepage.
 
-    ![Desktop logo](static/images/logo-present.png)
-    ![Mobile home link](static/images/home-link.png)
+    ![Desktop logo](media/images/readme/logo-present.png)
+    ![Mobile home link](media/images/readme/home-link.png)
 
     Result: Pass
 
   * 1.6 As a user I can click the all product, service, blog and event nav links which bring me to the relevant pages.
 
-    ![All products](static/images/all-prod.png)
-    ![Service Booking](static/images/service-b.png)
-    ![Blog](static/images/blog.png)
-    ![Events](static/images/events.png)
+    ![All products](media/images/all-prod.png)
+    ![Service Booking](media/images/readme/service-b.png)
+    ![Blog](media/images/readme/blog.png)
+    ![Events](media/images/readme/events.png)
 
     Result: Pass
 
@@ -888,19 +888,19 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
    (i) If a non-admin user attempts to create, edit or delete a product, blog or event post:
 
-   ![non-admin crud attempt](media/images/README/non-admin-crud-attempt.png)
+   ![non-admin crud attempt](media/images/readme/non-admin-crud-attempt.png)
 
    (ii) If a passed date is selected when submitting the date of a service booking:
 
-   ![service date passed](media/images/README/service-date-passed.png)
+   ![service date passed](media/images/readme/service-date-passed.png)
 
    (iv) If an invalid form is attempted to be submitted:
 
-   ![Invalid form](media/images/README/checkout-form-validation)
+   ![Invalid form](media/images/readme/checkout-form-validation.png)
 
    (iii) If an unfound page is searched:
 
-   ![page not found](media/images/README/)
+   ![page not found](media/images/readme/custom-404.png)
 
    The 500.html template has also been created so that a custom error page will be displayed to the user when a 500 error occurs.
 
@@ -908,12 +908,16 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   * 1.8 As a user, I can easily recover my password if I forget it so that I can easily get into the site if I forget my password without re-registering (#8).
 
-  ![Reset password 1](media/images/README/reset-p-1.png)
-  ![Reset password 2](media/images/README/reset-p-2.png)
-  ![Reset password 3](media/images/README/reset-p-3.png)
-  ![Reset password 4](media/images/README/reset-p-4.png)
+  ![Reset password 1](media/images/readme/reset-p-1.png)
+  ![Reset password 2](media/images/readme/reset-p-2.png)
+  ![Reset password 3](media/images/readme/reset-p-3.png)
+  ![Reset password 4](media/images/readme/reset-p-4.png)
+
+  Result: Pass
 
   * 1.9 As a user, I can have a personalised user profile so that I can view my order history, order confirmations, saved favourite products and save my payment information(#10).
+
+  ![User-profile](media/images/readme/user-profile.png)
 
   * 1.10 As a user, I can search for a product by name or description so that I can easily find specific products that I want to purchase (#14).
   * 1.11 As a shopper, I can easily see what I've searched for and the number of results so that I can quickly decide if the product I want is available (#15).
