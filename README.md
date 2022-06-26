@@ -679,6 +679,49 @@ os.environ.setdefault("DEVELOPMENT", '1')
 9. Start the application by running "python3 manage.py runserver".
 
 
+
+## Heroku and Postgres
+
+1. Create an account at heroku.com and create an app with a name in line with your repository, e.g. 'velo-city-rc'.
+2. Under the Resources tab, add the Postgres database to the app.
+
+![Heroku Deployment](media/images/add-postgres.png)
+
+The Postgres database url can be set as an environment variable in Heroku and your local env.py file.
+
+3. Install dj-database-url and psycopg2-binary to your local environment and run pip3 freeze > requirements.txt to add them to the requirements.txt file.
+
+4. Create a Procfile with the text: "web: gunicorn velo_city.wsgi:application".
+
+5. In Settings.py set the connection to the Heroku Postgres database and set debug to false.
+
+6. Ensure that Add 'localhost' and 'velo-city-rc.herokuapp.com' are added to the ALLOWED_HOSTS variable in Settings.py.
+
+7. Run the following commands:
+
+ * "python3 manage.py showmigrations" to check the status of the migrations.
+
+ * "python3 manage.py migrate" to migrate the database.
+
+ * "python3 manage.py createsuperuser" to create a super or admin user.
+
+8. Install gunicorn and add it to the requirements.txt file using the command pip3 freeze > requirements.txt
+
+9. From the CLI login to Heroku using the command `heroku login -i`.
+
+10. Disable collectstatic in Heroku before any code is pushed.
+
+11. Push the code to Heroku using the command `git push heroku main`.
+
+12. Ensure the following environment variables are set in Heroku:
+
+![Heroku Deployment](media/images/config-vars.png)
+
+13. Connect the Heroku app to GitHub, and enable automatic deploys.
+
+14. Click deploy and once this is complete a link will be provided to access the application.
+
+
 # Testing
 
 # Credits
