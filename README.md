@@ -302,7 +302,7 @@ User stories relating to the All Products page:
   * 3.5 As a user, I can sort the list of available products so that I can easily identify the best value, best rated and categorically sorted products (#11).
   * 3.6 As a user, I can sort a specific category of product so that I can find the best-priced or best-rated product in a specific category, or sort by name in that category (#12).
   * 3.7 As a user, I can sort multiple categories of products simultaneously so that I can find the best-priced or best-rated products across broad categories, such as "clothing" and "accessories" (#13).
-  * 3.8 
+
 
 **Feature 4. Category-specific product page**
 
@@ -319,7 +319,7 @@ User stories relating to the All Products page:
 
   User stories relating to the category-specific products page:
 
-  * 3.1 As a user, I want to be able to easily access a catergory-specific product page so that I can access the content that I am interested in quickly and easily.
+  * 4.1 As a user, I want to be able to easily access a catergory-specific product page so that I can access the content that I am interested in quickly and easily.
 
 **Feature 5. Product Detail page**
 
@@ -949,7 +949,122 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   Result: Pass
 
-  
+**Feature 3. All Producst page**
+
+  * 3.1 As a user, I want to see a neatly displayed list of products with visually appealing images, clearly listing the name, price, category and rating of each product so I can decide on which products to view more detail on based on whether they are popular, relevant and within my price range (#1, #2, and #3).
+
+  ![Desktop](media/images/readme/all-prod-desktop.png)
+  ![Mobile](media/images/readme/all-prod-mobile.png)
+
+  Result: Pass
+
+  * 3.2 As a user if there are more than 8 products on the page, the page is paginated in order to maintain the neat look of the site and to avoid endless scrolling for the user.
+
+  ![Desktop](media/images/readme/desktop-pagination1.png)
+  ![Desktop](media/images/readme/desktop-pagination2.png)
+  ![Mobile](media/images/readme/mobile-pagination.png)
+
+  Result: Pass
+
+  * 3.3 As a user, I want to quickly identify offers and deals so that I can get the best value (#4).
+
+  The website currently only has one discount offer available, which is for free delivery on orders over 50 euro. This is displayed prominently on both desktop and mobile:
+
+  ![Desktop](media/images/readme/deliverybanner-desktop.png)
+  ![Mobile](media/images/readme/deliverybanner-mobile.png)
+
+  Result: Pass
+
+  * 3.4 As an admin, I want to be able to edit or delete products from the all products page.
+
+  ![Desktop](media/images/readme/all-prod-editdelete.png)
+  ![Mobile](media/images/readme/mob-editdelete.png)
+
+  Result: Pass
+
+  * 3.5 As a user, I can sort the list of available products so that I can easily identify the best value, best rated and categorically sorted products (#11).
+
+  ![Sorting options](media/images/readme/sortoptions.png)
+  ![Sorting example: price low to high](media/images/readme/sort-eg-lowhigh.png)
+
+  Result: Pass
+
+  * 3.6 As a user, I can sort a specific category of product so that I can find the best-priced or best-rated product in a specific category, or sort by name in that category (#12).
+
+  ![Desktop](media/images/readme/category-sorted.png)
+
+  Result: Pass
+
+  * 3.7 As a user, I can sort multiple categories of products simultaneously so that I can find the best-priced or best-rated products across broad categories, such as "clothing" and "bikes" (#13).
+
+  ![Desktop](media/images/readme/multiple-categories-price-lowhigh.png)
+ 
+  Result: Pass
+
+**Feature 4. Category-specific product page**
+
+  * 4.1 As a user, I want to be able to easily access a catergory-specific product page so that I can access the content that I am interested in quickly and easily.
+
+  ![Desktop](media/images/readme/category-sorted.png)
+
+  Result: Pass
+
+**Feature 5. Product detail page**
+
+  * 5.1 As an admin user, I want to be able to edit or delete a product from the detail page so that I can easily edit products as an admin.
+
+  ![Desktop](media/images/readme/prod-detail-editdelete.png)
+
+  Result: Pass
+
+  * 5.2 As a user, I want to be able to view all product information on the product detail page including an image, price, rating, category, description and size.
+
+  ![Desktop](media/images/readme/prod-detail.png)
+
+  Result: Pass
+
+  * 5.3 As a user, I want to be able to view a size chart for the product I am interested in so that I can be sure I am selecting the correct size for myself (#40).
+
+  ![Desktop](media/images/readme/size-guide.png)
+  ![Desktop](media/images/readme/size-guide-2.png)
+
+  Result: Pass
+
+  * 5.4 As a user, I want to be able to select the quantity of items I want and put a product in my shopping cart directly from the product detail page so that I can shop efficiently (#16).
+
+  ![Desktop](media/images/readme/quantity-addtocart.png)
+  ![Desktop](media/images/readme/quantity-addtocart-2.png)
+
+  Result: Pass
+
+  * 5.5 As a user, I can see similar/recommended items so that I can enjoy a personalised shopping experience and be aware of the products I am most likely to like and purchase (#28).  
+
+  ![Desktop](media/images/readme/recommended-products.png)
+
+  Result: Pass
+
+**Feature 6. Service Booking page**
+
+  * 6.1 As an user, I want to be able to book a bike service easily and efficiently, so that I can arrange to resolve an issue with my bike quickly and easily (#26).
+
+  ![Desktop](media/images/readme/quantity-addtocart.png)
+  ![Desktop](media/images/readme/quantity-addtocart-2.png)
+
+  Result: Pass
+
+  * 6.2 As a user, I want to receive a confirmation message so I know that I have successfully submitted my booking form.
+
+  ![Desktop](media/images/readme/quantity-addtocart.png)
+  ![Desktop](media/images/readme/quantity-addtocart-2.png)
+
+  Result: Pass
+
+  * 6.3 As a user, I want to receive a notification if I have accidentally selected a booking date in the past so I know that I need to fill out the form again.
+
+  ![Desktop](media/images/readme/quantity-addtocart.png)
+  ![Desktop](media/images/readme/quantity-addtocart-2.png)
+
+  Result: Pass
 
 # Credits
 
