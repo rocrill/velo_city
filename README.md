@@ -1173,6 +1173,146 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   Result: Pass
 
+**Feature 10. User Profile page**
+
+* 10.1 As a user, I can view my personal details on my profile page, including my name and address
+* 10.2 As a user, I can view my past orders on my profile page. 
+
+  ![User profile](media/images/readme/profile-page-desktop.png)
+
+  Result: Pass
+
+
+**Feature 11. Admin CRUD pages for Products, Events and Blog**
+
+* 11.1 As an admin user, I can add products on the Product Managmenet page (#23).
+
+  (i)![Admin add product](media/images/readme/admin-add-product-view.png)
+  (ii)![Admin add product](media/images/readme/admin-addproduct-2.png)
+
+  Result: Pass
+
+* 11.2 As an admin user, I can add blog posts on the Blog Management page (#34).
+
+  (i)![Admin add blog post](media/images/readme/admin-addblogpost-1.png)
+  (ii)![Admin add blog post](media/images/readme/admin-addblogpost-2.png)
+
+  Result: Pass
+
+* 11.3 As an admin user, I can add event posts on the Event Management page (#37).
+
+  ![Admin add event post](media/images/readme/admin-addevent.png)
+
+  Result: Pass
+
+* 11.4 As an admin user, I can edit and delete products on the all products and product detail pages (#24 and #25).
+
+  (i)![Admin edit product](media/images/readme/admin-edit-product.png)
+  (ii)![Admin edit product](media/images/readme/admin-edit-product-2.png)
+  (ii)![Admin delete product](media/images/readme/admin-delete-product.png)
+
+  Result: Pass
+
+* 11.5 As an admin user, I can edit and delete Blog posts from the blog post detail page (#35 and #36).
+
+  ![Admin blog edit](media/images/readme/edit-blogpost.png)
+  ![Admin blog delete](media/images/readme/delete-blogpost.png)
+
+  Result: Pass
+
+* 11.6 As an admin user, I can edit and delete Event posts from the events list page (#38 and #39).
+
+  ![Admin edit event](media/images/readme/admin-edit-event.png)
+  ![Admin delete event](media/images/readme/admin-delete-event.png)
+
+  Result: Pass
+
+**Feature 12. Admin**
+
+User stories relating to Admin:
+
+  * 12.1 As an admin user, I can view checkout orders in the Django admin page including the order number, date, full name, order total, delivery cost and grand total.
+
+  ![Admin checkout orders](media/images/readme/admin-checkout-orders-2.png)
+
+  Result: Pass
+
+  * 12.2 As an admin user, I can view users in the Django admin page, including their username, email address, first name, last name and staff status.
+
+  ![Admin users](media/images/readme/admin-users.png)
+
+  Result: Pass
+
+  * 12.3 As an admin user, I can view blog posts in the Django admin page, including title, slug, status, creation date and image.
+
+  ![Admin blog posts](media/images/readme/admin-blog-posts.png)
+
+  Result: Pass
+
+  * 12.4 As an admin user, I can view event posts in the Django admin page, including title, status, creation date, image, event category and event date.
+
+  ![Admin events](media/images/readme/admin-event-posts.png)
+
+  Result: Pass
+
+  * 12.5 As an admin user, I can view service bookings in the Django admin page, including user first name, last name, date requested and service type. 
+
+  ![Admin service bookings](media/images/readme/admin-service-bookings.png)
+
+  Result: Pass
+
+  * 12.6 As an admin user, I can view product categories, their names and friendly names in the Django admin page.
+
+  ![Admin product categories](media/images/readme/admin-product-categories.png)
+
+  Result: Pass
+
+  * 12.7 As an admin user, I can view products in the Django admin page, including their SKU, name, category, price, rating and image.
+
+  ![Admin Products](media/images/readme/admin-products.png)
+
+  Result: Pass
+
+**Feature 13. Footer**
+
+  * 13.1 As a user, I can sign up to a Vélo City Mailchimp newsletter so that I can keep up to date with new products and offers (#27).
+
+  (i)![Mailchimp form](media/images/readme/signup-mailchimp.png)
+  (ii)![Mailchimp form](media/images/readme/useradded-MC-campaign.png)
+
+  Result: Pass
+
+  * 13.2 As a user I can easily find information about the business, including contact information so that I can know more about the company I am buying from (#30).
+
+  ![About business](media/images/readme/aboutus-1.png)
+  ![About business](media/images/readme/aboutus-2.png)
+
+  Result: Pass
+
+  * 13.3 As a user, I can view the company's Privacy Policy so I feel like my privacy is protected while using the site and that the site is trustworthy.
+
+  ![Privacy policy](media/images/readme/privacy-1.png)
+  ![Privacy policy](media/images/readme/privacy-2.png)
+
+  Result: Pass
+
+  * 13.4 As a user, I can view and follow the company's Facebook for Business page so that I can stay up to date with news and offers (#41).
+
+  ![FB Page](media/images/readme/fb-1.png)
+  ![FB Page](media/images/readme/fb-desktop-1.png)
+  ![FB Page](media/images/readme/fb-desktop-2.png)
+
+  Result: Pass
+
+  * 13.5 As a user, I can view the company's return and refund policy so that I feel secure when making purchases on the site.
+
+  ![Returns](media/images/readme/returns.png)
+  ![Returns](media/images/readme/returns-desktop.png)
+
+  Result: Pass
+
+
+
 
 
 # Credits
