@@ -919,10 +919,23 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   ![User-profile](media/images/readme/user-profile.png)
 
+  Result: Pass
+
   * 1.10 As a user, I can search for a product by name or description so that I can easily find specific products that I want to purchase (#14).
+
+  ![User-profile](media/images/readme/user-profile.png)
+
   * 1.11 As a shopper, I can easily see what I've searched for and the number of results so that I can quickly decide if the product I want is available (#15).
 
+  ![User-profile](media/images/readme/search-results.png)
+
+  Result: Pass
+
+
+  
 
 # Credits
+
+
 
 # Acknowledgements
