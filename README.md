@@ -650,7 +650,15 @@ There were a number of applications involved in the deployment of this site.
 
 ## Local Deployment
 
+To run this project locally, clone the velo_city repository.
 
+1. Login to GitHub (https://wwww.github.com) and select the repository rocrill/velo_city.
+
+2. Click the 'Code' button and copy the HTTPS url, https://github.com/rocrill/velo_city.git.
+
+3. In your IDE, run the command git clone https://github.com/rocrill/velo_city.git to clone the repository to your workspace.
+
+4. 
 
 # Testing
 
