@@ -439,6 +439,15 @@ User stories relating to the All Products page:
   Mobile checkout page:
 
   ![Image of mobile checkout page](media/images/readme/mobile-checkout-page.png)
+
+  Desktop shopping cart:
+
+  ![Image of desktop shopping cart](media/images/readme/desktop-cart.png)
+  
+  Mobile shopping cart:
+
+  ![Image of mobile shopping cart](media/images/readme/mobile-cart-1.png)
+  ![Image of mobile shopping cart](media/images/readme/mobile-cart-2.png)
   
   User stories relating to the shopping cart and checkout:
 
@@ -460,13 +469,13 @@ User stories relating to the All Products page:
 
 * The profile page contains the user's information including their phone number, address and a list of their past orders.
 
-  Desktop checkout page:
+  Desktop profile page:
 
-  ![Image of desktop checkout page](media/images/readme/profile-page-desktop.png)
+  ![User profile page](media/images/readme/profile-page-desktop.png)
   
-  Mobile checkout page:
+  Mobile profile page:
 
-  ![Image of mobile checkout page](media/images/readme/profile-page-mobile.png)
+  ![Mbile profile page](media/images/readme/profile-page-mobile.png)
   
   User stories relating to the user profile page:
 
@@ -475,7 +484,7 @@ User stories relating to the All Products page:
 
 **Feature 11. Admin CRUD pages for Products, Events and Blog**
 
-* The my account dropdown menu contains links to Product, Blog and Event Management pages. The Product Management page is the example chosen in the screenshots below.
+* The my account dropdown menu contains links to Product, Blog and Event Management pages. The Product Management page is the example chosen in the screenshots below, however Product, Blog and Event management CRUD features are all tested in the user testing section.
 * The Product Management Page contains the following fileds: Category, Sku, Name, Description, Has sizes, Price, Rating, Image url.
 * The Blog Management page contains the following fields: Title, Slug, Author, Content, Status.
 * The Events Management page contains the following fields: Title, Event category, Event date, Content, Status, Image.
@@ -950,7 +959,7 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   Result: Pass
 
-**Feature 3. All Producst page**
+**Feature 3. All Products page**
 
   * 3.1 As a user, I want to see a neatly displayed list of products with visually appealing images, clearly listing the name, price, category and rating of each product so I can decide on which products to view more detail on based on whether they are popular, relevant and within my price range (#1, #2, and #3).
 
