@@ -902,7 +902,9 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
    ![page not found](media/images/README/)
 
-   The 500.html
+   The 500.html template has also been created so that a custom error page will be displayed to the user when a 500 error occurs.
+
+   Result: Pass
 
   * 1.8 As a user, I can easily recover my password if I forget it so that I can easily get into the site if I forget my password without re-registering (#8).
 
