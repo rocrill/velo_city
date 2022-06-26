@@ -862,12 +862,29 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
   * 1.4 As a user, I can easily receive email confirmation after registering so that I can verify that my account registration was successful (#9).
 
     ![Registration confirmation email](static/images/reg-conf-email.png)
+    ![Email confirmation success](static/images/mail-confirmation-success.png)
 
-  * 1.5 As a user I can view the website logo in the header at all times, and clicking this will bring me to the homepage.
+   Result: Pass 
+
+  * 1.5 As a user I can view the website logo in the header on desktop at all times, and a home link is present in the mobile nav menu at all times. Clicking these will bring me to the homepage.
+
+    ![Desktop logo](static/images/logo-present.png)
+    ![Mobile home link](static/images/home-link.png)
+
+    Result: Pass
 
   * 1.6 As a user I can click the all product, service, blog and event nav links which bring me to the relevant pages.
 
+    ![All products](static/images/all-prod.png)
+    ![Service Booking](static/images/service-b.png)
+    ![Blog](static/images/blog.png)
+    ![Events](static/images/events.png)
+
+    Result: Pass
+
   * 1.7 As a user if I encounter an error on the site, an applicable error message will be shown.
+
+    
 
   * 1.8 As a user, I can easily recover my password if I forget it so that I can easily get into the site if I forget my password without re-registering (#8).
 
