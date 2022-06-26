@@ -17,6 +17,10 @@ body {
     color: black;
 }
 
+.search-style {
+    color:white;
+}
+
 .nav-style, #top-nav, .navbar {
     background-color: #197278;
 }

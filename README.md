@@ -829,6 +829,29 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   The Vélo City site uses visually appealing styling including a classic font and sophisticated color palette. All products and categories can be accessed easily from teh navigation bar, and the business demonstrates expertise and trustworthiness through their blog content and transparent privacy and returns policies. There is a good marketing strategy in place, which includes a Facebook for Business page, Mailchimp newsletter sign up form and SEO optimised content throughout the site.
 
+### Feature User Story Testing
+
+**1. Navigation bar**
+
+  * 1.1 As a user, I see the navigation bar with a logo on all pages and with a search box on a desktop, tablet and mobile.
+
+    ![Desktop](static/images/desktop-navbar.png)
+
+    ![Mobile](static/images/mobile-navbar.png)
+
+  Result: Pass 
+
+  * 1.2 As a user not logged in, I see a Register/Login link in the nav bar. Clicking this leads me to the registration or sign in pages and enables me to register or sign in (#6 and #7).
+  * 1.3 As a logged in user, I am notified when I am logged in and I see a logout link in the nav which enables me to click sign out which logs me out.
+  * 1.4 As a user, I can easily receive email confirmation after registering so that I can verify that my account registration was successful (#9.
+  * 1.5 As a user I can view the website logo in the header at all times, and clicking this will bring me to the homepage.
+  * 1.6 As a user I can click the all product, service, blog and event nav links which bring me to the relevant pages.
+  * 1.7 As a user if I encounter an error on the site, an applicable error message will be shown.
+  * 1.8 As a user, I can easily recover my password if I forget it so that I can easily get into the site if I forget my password without re-registering (#8).
+  * 1.9 As a user, I can have a personalised user profile so that I can view my order history, order confirmations, saved favourite products and save my payment information(#10).
+  * 1.10 As a user, I can search for a product by name or description so that I can easily find specific products that I want to purchase (#14).
+  * 1.11 As a shopper, I can easily see what I've searched for and the number of results so that I can quickly decide if the product I want is available (#15).
+
 
 # Credits
 
