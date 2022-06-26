@@ -539,34 +539,34 @@ User stories relating to Admin:
 
 **Feature 13 Footer**
 
-  * The Footer contains a link to Vélo City's Facebook for Business marketing page.
+  * The Footer contains a link to Vélo City's Facebook for Business [marketing page](https://www.facebook.com/V%C3%A9lo-City-105357878885354).
 
-  Facebook link sign up form:
-  ![Image of admin product list](media/images/admin-products.png) 
+  Vélo City Facebook for business page:
+  ![Facebook page](media/images/fb-desktop-1.png) 
+  ![Facebook page](media/images/fb-desktop-2.png) 
+  ![Facebook page](media/images/fb-desktop-3.png) 
 
-  Facebook screenshot:
-  ![Image of admin product list](media/images/admin-products.png) 
-
-  * There is also a link to Vélo City's Privacy and Refund and Returns Policies:
+  * There is also a link to Vélo City's Privacy and Refund & Returns Policies:
   
   Desktop Privacy Policy:
-  ![Image of admin product list](media/images/admin-products.png) 
+  ![Privacy policy desktop](media/images/privacy-desktop.png) 
 
   Mobile Privacy Policy:
-  ![Image of admin product list](media/images/admin-products.png) 
+  ![Privacy policy mobile](media/images/privacy-mobile.png) 
 
   Desktop Refund Policy:
-  ![Image of admin product list](media/images/admin-products.png) 
+  ![Refund policy desktop](media/images/refund-desktop.png) 
 
   Mobile Refund Policy:
-  ![Image of admin product list](media/images/admin-products.png) 
-  * 
+  ![Refund policy mobile](media/images/refund-mobile.png) 
 
-  Email subscription sign up form:
-  ![Image of admin product list](media/images/admin-products.png) 
+  * The footer also contains a Mailchimp marketing newsletter sign up form.
+
+  Email subscription sign up form desktop:
+  ![Desktop footer](media/images/footer-desktop-2.png) 
 
   Email subscription sign up form mobile:
-  ![Image of admin product list](media/images/admin-products.png) 
+  ![Mobile footer](media/images/footer-mobile-2.png) 
 
   User Stories relating to the footer: 
 
@@ -786,6 +786,48 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
 ## Testing User Stories
 
+### General User Stories
+
+* First Time Visitor Goals
+
+  * As a First Time Visitor, I want to easily understand the purpose of the site.
+  * As a First Time Visitor, I want to easily navigate throughout the site to find content.
+  * As a First Time Visitor, I want to easily find information about the company.
+
+  Result: Pass
+
+  The site is clearly positioned as a cycling business with centrally placed navigation links to cycling products and blog and event posts. The 'About Us' page is also linked to the footer for further information. The navigation menu is set up so that navigation throughout the site is clear and straightforward.
+ 
+* Returning Visitor Goals
+
+  * As a Returning Visitor, I want to easily access and navigate to the different product links, my profile and the blog, event and booking pages.
+  * As a Returning Visitor, I want to easily access the company's social media links so that I can follow them and keep up to date with news and offers.
+
+  Result: Pass
+
+  Product links, the blog, event and booking pages are all clearly marked in the navigation menu. The Account icon in the nav bar provides quick access to the user's profile and the company's social media page is easily accessed on the footer.
+  
+* Frequent User Goals
+
+  * As a Frequent User, I want to be able to access the site from any device including mobile, even if I am on the go.
+
+  Result: Pass
+
+  The site is mobile optimised so that the design and functionality is as high quality on mobile as it is on desktop.
+
+* Site Owner Goals
+
+  * As a site owner, I want to create an a stylish and visually appealing website which elicits a positive emotional response in users.
+
+  * As a site owner, I want to create easy to use website where products and their categories can be easily found and purchased.
+
+  * As a site owner, I want to convey an impression of expertise on the sport of cycling and cycling products so that I can gain customer's trust and loyalty.
+
+  * As a site owner, I want to have a good marketing strategy, including easily found social media links and a marketing email subscription option.
+
+  Result: Pass
+
+  The Vélo City site uses visually appealing styling including a classic font and sophisticated color palette. All products and categories can be accessed easily from teh navigation bar, and the business demonstrates expertise and trustworthiness through their blog content and transparent privacy and returns policies. There is a good marketing strategy in place, which includes a Facebook for Business page, Mailchimp newsletter sign up form and SEO optimised content throughout the site.
 
 
 # Credits
