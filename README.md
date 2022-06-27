@@ -8,12 +8,12 @@ Vélo City is an e-commerce cycling website where users can purchase bikes and c
 
 There are two types of users, for which the test account details are as follows:
 * Admins:
-Username:
-Password:
+Username: superuser
+Password: password4963!
 
-* Shoppers:
-Username:
-Password:
+* Shoppers/regular users:
+Username: rosuper
+Password: password4963!
 
 Visit the live site here: 
 
@@ -201,19 +201,48 @@ For consistency of user experience, the site logo, navigation links and footer r
   * As a site owner, I want to convey an impression of expertise on the sport of cycling and cycling products so that I can gain customer's trust and loyalty.
 
   * As a site owner, I want to have a good marketing strategy, including easily found social media links and a marketing email subscription option.
- 
 
 
 More specific user stories are discussed in the context of website features in the Features section below.
 
-Note: Throughout the project, this [Kanban board](https://github.com/rocrill/velo_city/projects/1) was used to organise and track the progress of the user story development as part of the Agile development methodology. However the final more detailed user stories are documented fully within this Readme. For reference, the applicable Kanban user stories have been linked to their corresponding README user stories below.
+Note: Throughout the project, this [Kanban board](https://github.com/rocrill/velo_city/projects/1) was used to organise and track the progress of the user story development as part of the Agile development approach. However the final more detailed user stories are documented fully within this Readme. For reference, the applicable Kanban user stories have been linked to their corresponding README user stories below.
 
 ## Skeleton
-to do
+
 ### Wireframes
+
 to do 
+
 ### Surface
-to do 
+
+### Colour Scheme
+
+The colour palette chosen for the website is intended to be subtle and sophisticated. The palette was chosen using the Coolors colour generator website.
+
+![Image of Color Palette](static/images/pp4_colours.png)
+
+The colours mainly used were:
+
+#CA054D - Pictorial Carmine
+
+#3B1C32 - Dark Purple
+
+#FFCF9C - Deep Champagne
+
+#59B176 - Medium Sea Green
+
+Black and White were also used in different parts of the site to achieve the best possible contrast for user experience.
+
+### Typography
+
+'Bodoni + Moda', taken from Google Fonts, are the main fonts used throughout the website with 'Sans Serif' as the fallback font. The Bungee Shade font is eye-catching and fun, and this is used for the blog logo and recipe titles. The Roboto Slab is clean, neat and more approriate for the smaller text used throughout the site.
+
+### Imagery
+
+All images were sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
+
+The selection of recipe images were chosen to convey variety and colour to make the recipes appear a
+
 
 # Features
 
