@@ -73,7 +73,7 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
-                        <a class="text-white nav-link" href="#" id="user-options" data-toggle="dropdown"
+                        <a class="text-white nav-link" href="#" class="user-options" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div>
@@ -204,14 +204,6 @@
 
                 <!-- Begin Mailchimp Signup Form -->
                 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
-                <style type="text/css">
-                    #mc_embed_signup {
-                        background: #fff;
-                        clear: left;
-                        font: 14px Helvetica, Arial, sans-serif;
-                        width: 600px;
-                    }
-                </style>
                 <div id="mc_embed_signup">
                     <form
                         action="https://github.us10.list-manage.com/subscribe/post?u=130053553d1ae3bbbed27533a&amp;id=49e9968f20"
@@ -238,16 +230,16 @@
                                         class="button">
                                     <p class="brandingLogo"><a href="http://eepurl.com/h0_jrb"
                                             title="Mailchimp - email marketing made easy and fun"><img
-                                                src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a>
+                                                src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg" alt="Mailchimp branding logo"></a>
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </form>
                 </div>
-                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'>
+                <script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'>
                 </script>
-                <script type='text/javascript'>
+                <script>
                     (function ($) {
                         window.fnames = new Array();
                         window.ftypes = new Array();
@@ -270,8 +262,7 @@
             </div>
             <!--Grid row-->
             <div class="fb-link row text-white">
-                <a href="https://www.facebook.com/V%C3%A9lo-City-105357878885354" rel="nofollow" target="_blank"
-                    rel="noopener" aria-label="Visit our Facebook for Business page (opens in a new tab)"><i
+                <a href="https://www.facebook.com/V%C3%A9lo-City-105357878885354" rel="nofollow noopener" target="_blank" aria-label="Visit our Facebook for Business page (opens in a new tab)"><i
                         class="fab fa-facebook-square"></i></a>&nbsp;&nbsp;Stay up to date with our latest offers and
                 news on Facebook.
             </div>
@@ -286,7 +277,7 @@
 
     <!--JS for toast messages.-->
     {% block postloadjs %}
-    <script type="text/javascript">
+    <script>
         $('.toast').toast('show');
     </script>
     {% endblock %}
