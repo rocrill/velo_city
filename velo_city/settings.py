@@ -54,7 +54,6 @@ INSTALLED_APPS = [
     'storages',
     'bookservice',
     'blog',
-    'django_extensions',
 ]
 
 MIDDLEWARE = [
