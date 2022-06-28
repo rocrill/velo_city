@@ -486,6 +486,11 @@ a.category-badge > span.badge:hover {
     }
 }
 
+.text-danger {
+    font-weight:bold;
+}
+
+
 /*Mailchimp style*/
 
 #mc_embed_signup {

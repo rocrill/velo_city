@@ -66,9 +66,9 @@
                                         <option value="xl">XL</option>
                                     </select>
                                 </div>
-                                <a class="size-guide" href="{{ MEDIA_URL }}velo-city-size-chart.pdf" alt="Size Guide">Size guide</a>
-                        </div>
+                                <a class="size-guide" href="{{ MEDIA_URL }}velo-city-size-chart.pdf" title="Size Guide">Size guide</a>
                             {% endif %}
+                        </div>
                             <div class="col-12">
                                 <p class="mt-3">
                                     <strong>Quantity:</strong>
@@ -110,7 +110,6 @@
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endwith %}
-                        </div>
                     </form>
                 </div>
             </div>
