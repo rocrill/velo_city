@@ -219,30 +219,27 @@ to do
 
 The colour palette chosen for the website is intended to be subtle and sophisticated. The palette was chosen using the Coolors colour generator website.
 
-![Image of Color Palette](static/images/pp4_colours.png)
+![Image of Colour Palette](media/images/readme/palette.png)
 
 The colours mainly used were:
 
-#CA054D - Pictorial Carmine
+#283D3B - Outer Space Crayola
 
-#3B1C32 - Dark Purple
+#197278 - Skobeloff
 
-#FFCF9C - Deep Champagne
+#EDDDD4 - Champagne Pink
 
-#59B176 - Medium Sea Green
+#C44536 - International Orange Golden Gate Bridge
 
 Black and White were also used in different parts of the site to achieve the best possible contrast for user experience.
 
 ### Typography
 
-'Bodoni + Moda', taken from Google Fonts, are the main fonts used throughout the website with 'Sans Serif' as the fallback font. The Bungee Shade font is eye-catching and fun, and this is used for the blog logo and recipe titles. The Roboto Slab is clean, neat and more approriate for the smaller text used throughout the site.
+'Bodoni Moda', taken from Google Fonts, is the main font used throughout the website with 'Sans Serif' as the fallback font. 
 
 ### Imagery
 
-All images were sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
-
-The selection of recipe images were chosen to convey variety and colour to make the recipes appear a
-
+All images were sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/). It is a clean and elegant font which works well across the site on all screen sizes.
 
 # Features
 
