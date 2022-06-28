@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'storages',
     'bookservice',
     'blog',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
@@ -118,7 +119,6 @@ LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'velo_city.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases

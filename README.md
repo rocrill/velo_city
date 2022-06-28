@@ -123,7 +123,7 @@ For consistency of user experience, the site logo, navigation links and footer r
 
 **Physical database model** 
 
-![Database](static/images/pp4-datamodel-png.png)
+![Database](static/images/pp5-database.png)
 
 * Post model
 
@@ -142,7 +142,6 @@ For consistency of user experience, the site logo, navigation links and footer r
   * The Booking model contains information about bike service bookings made by site users.
   * The model contains the following fields: first_name, last_name, email_address, phone_number, date, and service_type. 
   * Service type field contains several choices which appear within a dropdown menu on the front-end of the site. They are: Bike fit, Repair and Full service.
-  * There is a function within the model which prevents a date from the past being chosen when submitting the form.
 
 * User Model
 
@@ -375,7 +374,6 @@ User stories relating to the All Products page:
   * 5.3 As a user, I want to be able to view a size chart for the product I am interested in so that I can be sure I am selecting the correct size for myself (#40).
   * 5.4 As a user, I want to be able to select the quantity of items I want and put a product in my shopping cart directly from the product detail page so that I can shop efficiently (#16).
   * 5.5 As a user, I can see similar/recommended items so that I can enjoy a personalised shopping experience and be aware of the products I am most likely to like and purchase (#28).
-
 
 
 **Feature 6. Service Booking page**
@@ -1346,9 +1344,25 @@ User stories relating to Admin:
 
   Result: Pass
 
+## Validator Testing
 
+* HTML Validator Errors & Warnings:
 
+## PEP8
 
+All Python files were run through the PEP8 validator and any syntax errors were corrected:
+
+![Image for PEP8 result](media/images/readme/.png)
+
+## JSHint
+
+All Javascript was run through the JSHint validator and no errors were returned:
+
+![Image for JSHint result](media/images/readme/.png)
+
+## Lighthouse Testing
+
+The Lighthouse report from Google Chrome DevTools showed good results for performance and accessibility of the site, particularly on desktop devices.
 
 # Credits
 
