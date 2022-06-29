@@ -123,7 +123,7 @@ For consistency of user experience, the site logo, navigation links and footer r
 
 **Physical database model** 
 
-![Database](static/images/pp5-database.png)
+![Database](media/images/readme/pp5-database.png)
 
 * Post model
 
@@ -1377,9 +1377,33 @@ The Lighthouse report from Google Chrome DevTools showed good results for perfor
 
 The Code Institute LMS content, including the Django Boutique Ado walkthrough project, as well as some posts on Stackoverflow were used to create this site. All code taken from these resources has been adapted to suit the needs of this site, except for the specific cases referenced below.
 
+The Bootstrap footer was taken from [Bootstrap](https://mdbootstrap.com/snippets/standard/mdbootstrap/2885103?view=side).
+
+This YouTube [video]() was used when building out the view to delete a recipe post from the front end of the site.
+
+This Stackoverflow [article](https://stackoverflow.com/questions/50439356/django-date-validation-help-needed) was used when applying date valifdation to the service booking form. 
+
+This Stackoverflow [article](https://stackoverflow.com/questions/45379727/make-images-the-same-size-in-bootstrap-grid) was used to make all product images o the All Products page the same size.
+
+This Django [article](https://forum.djangoproject.com/t/how-to-set-data-calendar-widget-for-datefield-and-datetimefield-wiht-format-day-month-year-dd-mm-yyyy/7243) was used when implementing a date and time field to the add Event form.
+
+This Stackoverflow [article](https://stackoverflow.com/questions/22800804/display-static-page-in-django) was used when looking for a simple solution for content-sparse static pages e.g. About us, Contact us, Privacy Policy and Refunds and Returns.
+
+This Stackoverflow [article](https://stackoverflow.com/questions/10872405/django-allow-user-to-submit-valid-html-in-form-field) was used when text needed to be styled or modified via the front end crud form in order to be displayed appropriately as a blog post, e.g. large text for title.
+
+This Stackoverflow [article](https://stackoverflow.com/questions/10872405/django-allow-user-to-submit-valid-html-in-form-field) was used when text needed to be styled on modified on via the front end crud form in order to be displayed appropriately as a blog post, e.g. large text for title.
+
+This Django [article](https://docs.djangoproject.com/en/4.0/topics/pagination/) was used when setting up pagination on the site.
+
+## Content
+
+Content for the blog post on how to descend safely was taken from the Liv Cycling [website](https://www.liv-cycling.com/global/campaigns/how-to-descend-on-a-road-bike/21996)
+
+Content for the blog post on how to corner was taken from the Liv Cycling [website](https://www.liv-cycling.com/global/campaigns/how-to-corner-on-a-road-bike/21772)
+
 ## Images
 
-Images were mostly sourced from Unsplash and Pexels:
+All images were sourced from Unsplash and Pexels:
 
 Bike image by David Jones on [Unsplash](https://unsplash.com/photos/IYU2eCw9iek)
 
