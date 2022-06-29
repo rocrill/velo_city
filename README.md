@@ -210,7 +210,14 @@ Note: Throughout the project, this [Kanban board](https://github.com/rocrill/vel
 
 ### Wireframes
 
-to do 
+Wireframe mock-ups were made using Balsamiq to help plan and visualise the site design. They were created for 2 main screen sizes: desktop and mobile.
+
+Desktop:
+
+- [Desktop wireframes](docs/vc-wireframes-desktop.pdf): Desktop wireframes
+
+- [Mobile wireframes](docs/vc-wireframes-mobile.pdf): Mobile wireframes
+
 
 ### Surface
 
