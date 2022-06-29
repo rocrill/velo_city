@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![Image of Device responsiveness](static/images/responsive-final.png)
+![Image of Device responsiveness](media/images/readme/amiresponsive2.png)
 
 Vélo City is an e-commerce cycling website where users can purchase bikes and cycling kit. 
 
@@ -1373,4 +1373,77 @@ The Lighthouse report from Google Chrome DevTools showed good results for perfor
 
 # Credits
 
+## Code
+
+The Code Institute LMS content, including the Django Boutique Ado walkthrough project, as well as some posts on Stackoverflow were used to create this site. All code taken from these resources has been adapted to suit the needs of this site, except for the specific cases referenced below.
+
+## Images
+
+Images were mostly sourced from Unsplash and Pexels:
+
+Bike image by David Jones on [Unsplash](https://unsplash.com/photos/IYU2eCw9iek)
+
+Bike image by Metin Ozer on [Unsplash](https://unsplash.com/photos/2hwowscdWLA)
+
+Bike image by Nik Owens on [Unsplash](https://unsplash.com/photos/RKU4zSFitWM)
+
+Bike image by Rayyu Maldives on [Unsplash](https://unsplash.com/photos/i-rETD5k1Qk)
+
+Bike image by Dmitrii Vaccinium on [Unsplash](https://unsplash.com/photos/sw9Vozf6j_4)
+
+Bike image by Mikkel Bech on [Unsplash](https://unsplash.com/photos/yjAFnkLtKY0)
+
+Cycling jersey image by Ashley de Lotz on [Unsplash](https://unsplash.com/photos/xhHutIhi-u0)
+
+Cycling jersey image by Munbaik Cycling Clothing on [Unsplash](https://unsplash.com/photos/JyBUMdyWk8E)
+
+Cycling jersey image by Rehook Bike on [Pexels](https://www.pexels.com/photo/close-up-of-fixing-a-bicycle-10263877/)
+
+Woman cyclist image by Bono Tsang on [Pexels](https://www.pexels.com/photo/a-woman-riding-a-bicycle-8056390/)
+
+Men's cycle race image by Pixabay on [Pexels](https://www.pexels.com/photo/high-angle-view-of-people-on-bicycle-248547/)
+
+Endurance cyclist image by alexandre saraiva carniato on [Pexels](https://www.pexels.com/photo/man-riding-a-red-road-bike-5970279/)
+
+Bike image by Maria Orlova on [Pexels](https://www.pexels.com/photo/bicycle-parked-on-town-street-covered-with-fallen-autumn-leaves-4916477/)
+
+Bike image by Adam Dubec on [Pexels](https://www.pexels.com/photo/gray-commuter-bike-parked-on-road-beside-sea-1595483/)
+
+Bike image by Alain Frechette on [Pexels](https://www.pexels.com/photo/pink-beach-cruiser-bicycle-near-wall-1431117/)
+
+Bike image by Philipp M on [Pexels](https://www.pexels.com/photo/black-and-white-hardtail-bike-on-brown-road-between-trees-100582/)
+
+Bike image by Philipp M on [Pexels](https://www.pexels.com/photo/black-and-white-hardtail-bike-on-brown-road-between-trees-100582/)
+
+Coffee morning event image by Pixabay on [Pexels](https://www.pexels.com/photo/beverage-blue-book-breakfast-531829/)
+
+Two female cyclists image by Coen van de Broek on [Unsplash](https://unsplash.com/photos/OFyh9TpMyM8)
+
+Sprinting cyclist image by Pixabay on [Pexels](https://www.pexels.com/photo/person-riding-road-bike-on-the-road-38296/)
+
+Ladies cycling shorts image by Los Muertos Crew on [Pexels](https://www.pexels.com/photo/fit-woman-stretching-next-to-railing-10042872/)
+
+Mens cycling shorts image by Carissa Rogers on [Pexels](https://www.pexels.com/photo/photo-of-person-riding-bicycle-1504207/)
+
+Mens cycling shorts image by Carissa Rogers on [Pexels](https://www.pexels.com/photo/photo-of-person-riding-bicycle-1504207/)
+
+Bike image by Kimsanxw on [Pexels](https://www.pexels.com/photo/bicycle-parked-beside-a-indoor-plant-10410451/)
+
+Bike image by Tiffany Nutt on [Unsplash](https://unsplash.com/photos/0ClfreiNppM)
+
+Image of women's cycling kit by Coen van de Broek on [Unsplash](https://unsplash.com/photos/hdyYvZ3Hj7w)
+
+Image of men's base layer by Munbaik Cycling Clothing on [Pexels](cyclist-near-unrecognizable-friend-riding-bikes-on-road-5851037/)
+
+Image of woman's base layer by Yan Krukov on [Unsplash](https://www.pexels.com/photo/dancing-young-woman-in-white-crop-tank-top-and-blue-cycling-shorts-7312372/)
+
+Image of black bike by Mikkel Bech on [Unsplash](https://unsplash.com/photos/yjAFnkLtKY0)
+
+Image of Giant bike by Alexa Diffor on [Unsplash](https://unsplash.com/photos/z-hKDdfYMn4)
+
+Image of bike by @mustachescactus on [Unsplash](https://unsplash.com/photos/vZAk_n9Plfc)
+
+
 # Acknowledgements
+
+I would like to thank my course facilitator Richard Wells and my fellow CI classmates for their help and support throughout the course.
