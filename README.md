@@ -620,9 +620,11 @@ User stories relating to Admin:
 
 ## Features to implement in future
 
-  * An inventory management system so that the quantity of each product is entered when a product is added to the site, so that when all of the product's reserves have been purchased the product appeasr as no longer available on the site.
+  * An inventory management system so that the quantity of each product is entered when a product is added to the site, so that when all of the product's reserves have been purchased the product appears as no longer available on the site.
   * The blog posts could be linked to relevant products as a marketing strategy, e.g. a post on how to take up endurance cycling could be linked to the site's most popular endurance bike.
-  * As the site developmed, multiple images per product would be added.
+  * As the site developed, multiple images per product would be added.
+  * The search feature will be expanded to allow a user to search by category.
+  
 
 # Technologies Used 
 
@@ -1421,6 +1423,31 @@ Checkout:
 Shopping Cart:
 ![Desktop](media/images/readme/LH-desktop-shoppingcart.png)
 ![Mobile](media/images/readme/LH-mobile-shoppingcart.png)
+
+## Further Testing
+
+* Devices and browsers:
+
+  * The Website was tested on multiple browsers - Google Chrome, Safari, Microsoft Edge and Firefox browsers.
+  * The website was viewed on all devices available to me - Desktop, Laptop, iPhone13 Mini, and Oppo Find X2 Lite.
+
+* Site Features:
+
+  * The nav bar remains and the top of the page and the menu items adapt to remain within the nav bar on all devices.
+  * The font is legible on all device sizes.
+  * Images are resized where needed and never stretched or distorted on smaller devices.
+  * All buttons and links direct to the correct parts of the site.
+
+## Bugs
+
+* Fixed:
+
+  * The Add Blog and Event pages did not originally appear on the mobile view of the site.
+ 
+  
+* Known:
+
+  * It is not cur
 
 # Credits
 

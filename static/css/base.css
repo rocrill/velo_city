@@ -373,7 +373,7 @@ a.category-badge > span.badge:hover {
     .container {
       max-width: 80%;
     }
-  }
+}
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -388,22 +388,18 @@ a.category-badge > span.badge:hover {
     .header-container {
         padding-top: 164px;
     }
-
 }
 
 /* Media query for recommended products on product detail page on mobile */
-
-    @media (max-width: 750px) {
-        .fit-products {
-            width: 500px;
-            height: 500px;
-            object-fit: cover;
-        }
-
+@media (max-width: 750px) {
+    .fit-products {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
     }
+}
 
 /* pad the top a bit when navbar is collapsed on mobile */
-
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
@@ -463,6 +459,10 @@ a.category-badge > span.badge:hover {
     .fb-link {
         padding-left: 25px;
         padding-top:20px;
+    }
+
+    .dropdown-menu {
+        left: -60px;
     }
 }
 
