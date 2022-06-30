@@ -1390,6 +1390,38 @@ All Javascript was run through the JSHint validator and no errors were returned.
 
 The Lighthouse report from Google Chrome DevTools showed good results for performance and accessibility of the site, particularly on desktop devices.
 
+Home page:
+![Desktop](media/images/readme/LH-desktop-home.png)
+![Mobile](media/images/readme/LH-homepage-mobile.png)
+
+All Products page:
+![Desktop](media/images/readme/LH-Allproducts-desktop.png)
+![Mobile](media/images/readme/LH-ALLPRODUCTS-MOBILE.png)
+
+Product detail page:
+![Desktop](media/images/readme/LH-desktop-productdetail-page.png)
+![Mobile](media/images/readme/LH-mobile-productdetail-page.png)
+
+Service Booking page:
+![Desktop](media/images/readme/LH-desktop-booking.png)
+![Mobile](media/images/readme/lh-mobile-booking.png)
+
+Blog:
+![Desktop](media/images/readme/LH-blog-desktop.png)
+![Mobile](media/images/readme/LHblog-mobile.png)
+
+Events:
+![Desktop](media/images/readme/LH-desktop-events.png)
+![Mobile](media/images/readme/LH-events-mobile.png)
+
+Checkout:
+![Desktop](media/images/readme/LH-desktop-checkout.png)
+![Mobile](media/images/readme/LH-mobile-checkout.png)
+
+Shopping Cart:
+![Desktop](media/images/readme/LH-desktop-shoppingcart.png)
+![Mobile](media/images/readme/LH-mobile-shoppingcart.png)
+
 # Credits
 
 ## Code
