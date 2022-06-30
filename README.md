@@ -1353,19 +1353,38 @@ User stories relating to Admin:
 
 ## Validator Testing
 
-* HTML Validator Errors & Warnings:
+* The following HTML Validator Errors & Warnings were raised as part of the testing process.
+
+1. Checkout page errors:
+![Checkout errors](media/images/readme/checkout-page-errors.png)
+
+Comment:
+There are several HTML validation errors and warnings on the Checkout page which can be seen below. These are a result of a fix that was implemented to correct an issue with the decrement and increment quantity buttons whereby they did not work correctly on a large screen device. This issue was flagged during the Boutique Ado walkthrough project. I would have tried to address this issue if I had more time, however it did not seem possible without re-writing the code from scratch at a late stage of the project.
+
+2. Event page error:
+![Event page error](media/images/readme/event-page-error.png)
+
+  Fix: Replace the `h2`-wrapped event post headings with `span`-wrapped headings including in-line styling to increase the font size.
+
+3. Loading overlay error:
+![Overlay error](media/images/readme/loading-overlay-error.png)
+
+  Comment:
+  This `h1` is empty as it is intended to contain an overlay icon only. This is part of the Stripe code.
+
+4. Add Product/Blog/Event post error:
+![Add post error](media/images/readme/add-product-blog-event-error.png)
+
+  Comment:
+  These errors have been raised by code from Django and so cannot be accessed to address.
 
 ## PEP8
 
-All Python files were run through the PEP8 validator and any syntax errors were corrected:
-
-![Image for PEP8 result](media/images/readme/.png)
+The [AutoPEP8](https://unsplash.com/photos/RKU4zSFitWM) tool was used to bring all Python code to PEP8 standard.
 
 ## JSHint
 
-All Javascript was run through the JSHint validator and no errors were returned:
-
-![Image for JSHint result](media/images/readme/.png)
+All Javascript was run through the JSHint validator and no errors were returned.
 
 ## Lighthouse Testing
 
