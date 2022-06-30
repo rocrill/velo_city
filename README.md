@@ -15,7 +15,59 @@ Password: password4963!
 Username: rosuper
 Password: password4963!
 
-Visit the live site here: 
+Visit the live site here: https://velo-city-rc.herokuapp.com/
+
+## Table of Contents
+
+- [Vélo City E-Commerce Website](#v-lo-city-e-commerce-website)
+  * [Introduction](#introduction)
+- [User Experience (UX)](#user-experience--ux-)
+  * [Strategy](#strategy)
+    + [Business Model](#business-model)
+    + [Marketing](#marketing)
+    + [Search Engine Optimisation](#search-engine-optimisation)
+    + [Project Goals](#project-goals)
+    + [Site Owner's Goals](#site-owner-s-goals)
+    + [Site User's Goals](#site-user-s-goals)
+    + [Target Audience](#target-audience)
+  * [Structure](#structure)
+    + [Website Pages](#website-pages)
+    + [Database](#database)
+  * [Scope](#scope)
+  * [Skeleton](#skeleton)
+    + [Wireframes](#wireframes)
+    + [Surface](#surface)
+    + [Colour Scheme](#colour-scheme)
+    + [Typography](#typography)
+    + [Imagery](#imagery)
+- [Features](#features)
+  * [Existing Features](#existing-features)
+  * [Features to implement in future](#features-to-implement-in-future)
+- [Technologies Used](#technologies-used)
+  * [Languages:](#languages-)
+  * [Frameworks, libraries and programs used:](#frameworks--libraries-and-programs-used-)
+- [Deployment](#deployment)
+  * [Amazon Web Services](#amazon-web-services)
+  * [Local Deployment](#local-deployment)
+  * [Heroku and Postgres](#heroku-and-postgres)
+- [Testing](#testing)
+  * [Testing User Stories](#testing-user-stories)
+    + [General User Stories](#general-user-stories)
+    + [Feature User Story Testing](#feature-user-story-testing)
+  * [Validator Testing](#validator-testing)
+  * [PEP8](#pep8)
+  * [JSHint](#jshint)
+  * [Lighthouse Testing](#lighthouse-testing)
+  * [Further Testing](#further-testing)
+  * [Bugs](#bugs)
+- [Credits](#credits)
+  * [Code](#code)
+  * [Content](#content)
+  * [Images](#images)
+- [Acknowledgements](#acknowledgements)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 # User Experience (UX)
 
