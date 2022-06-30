@@ -1442,12 +1442,11 @@ Shopping Cart:
 
 * Fixed:
 
-  * The Add Blog and Event pages did not originally appear on the mobile view of the site.
- 
+  * There was initially an error with the increment and decrement item buttons on the checkout page. The increment button went beyond it's intended upper limit above 99, and the decrement button went below it's lower limit of 1. To resolve this, the Javascript code was updated so that it all quantity fields present on the page would be updated, rather than quantity fields targeted by id only. Note the functionality was fixed, however it raised validation errors as documented above.
   
 * Known:
 
-  * It is not cur
+  * There are no known bugs at present.
 
 # Credits
 
