@@ -33,5 +33,5 @@ urlpatterns = [
     path('returns-policy/', TemplateView.as_view(template_name="returns-policy.html"), name='returns'),
     path('about-us/', TemplateView.as_view(template_name="about-us.html"), name='about'),
     path('contact/', TemplateView.as_view(template_name="contact.html"), name='contact'),
-    
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

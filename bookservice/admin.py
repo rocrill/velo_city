@@ -12,4 +12,5 @@ class BookingAdmin(admin.ModelAdmin):
 
     ordering = ('-date',)
 
+
 admin.site.register(Booking, BookingAdmin)

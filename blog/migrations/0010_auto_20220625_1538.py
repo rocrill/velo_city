@@ -21,13 +21,17 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='event',
             name='image',
-            field=models.ImageField(default='https://velo-city-rc.s3.eu-west-1.amazonaws.com/media/bulls-road-bike.jpg', upload_to=''),
+            field=models.ImageField(
+                default='https://velo-city-rc.s3.eu-west-1.amazonaws.com/media/bulls-road-bike.jpg',
+                upload_to=''),
             preserve_default=False,
         ),
         migrations.AlterField(
             model_name='post',
             name='image',
-            field=models.ImageField(default='https://velo-city-rc.s3.eu-west-1.amazonaws.com/media/bulls-road-bike.jpg', upload_to=''),
+            field=models.ImageField(
+                default='https://velo-city-rc.s3.eu-west-1.amazonaws.com/media/bulls-road-bike.jpg',
+                upload_to=''),
             preserve_default=False,
         ),
     ]

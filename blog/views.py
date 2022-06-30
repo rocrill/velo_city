@@ -31,7 +31,7 @@ def all_events(request):
     category = None
     direction = None
 
-    if request.GET:      
+    if request.GET:
         if 'category' in request.GET:
             category = request.GET['category']
             events = events.filter(event_category=category)
@@ -39,10 +39,13 @@ def all_events(request):
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(
+                    request, "You didn't enter any search criteria!")
                 return redirect(reverse('events'))
-            
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+
+            queries = Q(
+                name__icontains=query) | Q(
+                description__icontains=query)
             events = events.filter(queries)
 
     context = {
@@ -80,10 +83,12 @@ def add_post(request):
             messages.success(request, 'Successfully added post!')
             return redirect(reverse('post_detail', args=[post.slug]))
         else:
-            messages.error(request, 'Failed to add post. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to add post. Please ensure the form is valid.')
     else:
         form = PostForm()
-        
+
     template = 'blog/add_post.html'
     context = {
         'form': form,
@@ -105,14 +110,14 @@ def add_event(request):
             try:
                 form.save()
                 messages.success(request,
-                                "Success!" +
-                                " Your event has been" +
-                                " added.")
+                                 "Success!" +
+                                 " Your event has been" +
+                                 " added.")
             except ValidationError as e:
                 messages.error(request, e.message)
 
     form = EventForm()
-        
+
     template = 'blog/add_event.html'
     context = {
         'form': form,
@@ -139,7 +144,9 @@ def edit_event(request, event_id):
             except ValidationError as e:
                 messages.error(request, e.message)
         else:
-            messages.error(request, 'Failed to update event. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to update event. Please ensure the form is valid.')
     else:
         form = EventForm(instance=event)
         messages.info(request, f'You are editing {event.title}')
@@ -168,7 +175,9 @@ def edit_post(request, post_slug):
             messages.success(request, 'Successfully updated blog post!')
             return redirect(reverse('post_detail', args=[post.slug]))
         else:
-            messages.error(request, 'Failed to update blog post. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to update blog post. Please ensure the form is valid.')
     else:
         form = PostForm(instance=post)
         messages.info(request, f'You are editing {post.title}')

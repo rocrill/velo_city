@@ -13,18 +13,33 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='booking',
             name='email_address',
-            field=models.CharField(default='rocrill@email.com', max_length=60),
+            field=models.CharField(
+                default='rocrill@email.com',
+                max_length=60),
             preserve_default=False,
         ),
         migrations.AddField(
             model_name='booking',
             name='phone_number',
-            field=models.CharField(default='1111122', max_length=20),
+            field=models.CharField(
+                default='1111122',
+                max_length=20),
             preserve_default=False,
         ),
         migrations.AlterField(
             model_name='booking',
             name='bike_type',
-            field=models.CharField(choices=[('Hybrid', 'Hybrid'), ('Road', 'Road'), ('Mountain', 'Mountain'), ('Vintage', 'Vintage')], default='Hybrid', max_length=15),
+            field=models.CharField(
+                choices=[
+                    ('Hybrid',
+                     'Hybrid'),
+                    ('Road',
+                     'Road'),
+                    ('Mountain',
+                     'Mountain'),
+                    ('Vintage',
+                     'Vintage')],
+                default='Hybrid',
+                max_length=15),
         ),
     ]

@@ -13,6 +13,17 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='event',
             name='event_category',
-            field=models.CharField(choices=[('Ladies cycling', 'Ladies cycling'), ('Mens cycling', 'Mens cycling'), ('Racing', 'Racing'), ('Social', 'Social')], default='Racing', max_length=40),
+            field=models.CharField(
+                choices=[
+                    ('Ladies cycling',
+                     'Ladies cycling'),
+                    ('Mens cycling',
+                     'Mens cycling'),
+                    ('Racing',
+                     'Racing'),
+                    ('Social',
+                     'Social')],
+                default='Racing',
+                max_length=40),
         ),
     ]

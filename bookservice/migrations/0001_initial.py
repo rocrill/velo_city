@@ -16,11 +16,41 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Booking',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('date', models.DateField()),
-                ('service_type', models.CharField(choices=[('Bike fit', 'Bike fit'), ('Repair', 'Repair'), ('Full service', 'Full service')], default='Repair', max_length=40)),
-                ('bike_type', models.CharField(choices=[('Hybrid', 'Hybrid'), ('Road', 'Road')], default='Hybrid', max_length=15)),
-                ('user_profile', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='bookings', to='profiles.userprofile')),
+                ('id',
+                 models.BigAutoField(
+                     auto_created=True,
+                     primary_key=True,
+                     serialize=False,
+                     verbose_name='ID')),
+                ('date',
+                 models.DateField()),
+                ('service_type',
+                 models.CharField(
+                     choices=[
+                         ('Bike fit',
+                          'Bike fit'),
+                         ('Repair',
+                          'Repair'),
+                         ('Full service',
+                          'Full service')],
+                     default='Repair',
+                     max_length=40)),
+                ('bike_type',
+                 models.CharField(
+                     choices=[
+                         ('Hybrid',
+                          'Hybrid'),
+                         ('Road',
+                          'Road')],
+                     default='Hybrid',
+                     max_length=15)),
+                ('user_profile',
+                 models.ForeignKey(
+                     blank=True,
+                     null=True,
+                     on_delete=django.db.models.deletion.SET_NULL,
+                     related_name='bookings',
+                     to='profiles.userprofile')),
             ],
         ),
     ]
