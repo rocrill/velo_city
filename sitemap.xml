@@ -9,128 +9,308 @@
 
 <url>
   <loc>https://velo-city-rc.herokuapp.com/</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/accounts/signup/</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/accounts/login/</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/cart/</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/products/</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/products/?category=road_bikes</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/products/?category=vintage_bikes</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/products/?category=hybrid_bikes</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/products/?category=mountain_bikes</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/products/?category=fixie_bikes</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/products/?category=jackets</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/products/?category=bibs_trousers</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/products/?category=base_layers</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/bookservice/</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/blog/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/blog/events/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/about-us/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/privacy-policy/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/contact/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/returns-policy/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://velo-city-rc.herokuapp.com/accounts/password/reset/</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://velo-city-rc.herokuapp.com/products/7/</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Ladies%20Base%20Layer%20Top%20White/BL86552/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://velo-city-rc.herokuapp.com/products/6/</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Mens%20Base%20Layer%20Top%20Blue/BL33254/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://velo-city-rc.herokuapp.com/products/5/</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Ladies%20Bib%20Cycle%20Shorts/B889923/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://velo-city-rc.herokuapp.com/products/3/</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Black%20cycling%20bib/BT289333/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://velo-city-rc.herokuapp.com/products/4/</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Mens%20cycling%20jersey/JK9899923/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://velo-city-rc.herokuapp.com/products/1/</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Cube%20Mountain%20Bike%20L40/MB22223/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://velo-city-rc.herokuapp.com/products/2/</loc>
-  <lastmod>2022-06-15T10:19:50+00:00</lastmod>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Orange%20Restored%20Vintage%20Bike/VB888892/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/?category=None&amp;direction=asc&amp;sort=price&amp;q=None&amp;page=2</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Dawes%20Vintage%20Bicycle/VB829433/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Cube%20Roadie%20Pro%20Series/RB888293/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Bulls%20Road%20Bike/RB88270/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Pendleton%20Vintage%20Bike/VB82748/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Trek%20Hybrid%20Bike%20TK300/HB11233/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/?category=None&amp;direction=desc&amp;sort=rating&amp;q=None&amp;page=2</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Brooklyn%20fixie%20bike/FB74456/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Martello%20Fixed%20Gear%20Bike/FB88986/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Giant%20Hybrid%20Bike%20TX25/HB67662/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/?category=None&amp;direction=asc&amp;sort=category&amp;q=None&amp;page=2</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Cream%20Vintage%20Duke%20Bicycle/VB987203/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/?category=None&amp;direction=None&amp;sort=None&amp;q=None&amp;page=2</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Princess%20Pashley/VB82948/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Liv%20Mountain%20Bike%205X300/MB22222/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/product/Trek%20Mountain%20Advanced%20Pro/MB78230/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/blog/posts/how-to-corner-on-a-road-bike/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/blog/posts/how-to-descend-safely-on-a-road-bike/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/blog/posts/endurance-cycling-101-tips-for-beginners/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/blog/?page=2</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/?category=None&amp;direction=asc&amp;sort=price&amp;q=None&amp;page=1</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/?category=None&amp;direction=asc&amp;sort=price&amp;q=None&amp;page=3</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/?category=None&amp;direction=desc&amp;sort=rating&amp;q=None&amp;page=1</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/?category=None&amp;direction=desc&amp;sort=rating&amp;q=None&amp;page=3</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/?category=None&amp;direction=asc&amp;sort=category&amp;q=None&amp;page=1</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/?category=None&amp;direction=asc&amp;sort=category&amp;q=None&amp;page=3</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/?category=None&amp;direction=None&amp;sort=None&amp;q=None&amp;page=1</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/products/?category=None&amp;direction=None&amp;sort=None&amp;q=None&amp;page=3</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/blog/posts/how-to-sprint-on-a-road-bike/</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://velo-city-rc.herokuapp.com/blog/?page=1</loc>
+  <lastmod>2022-06-30T21:35:20+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
