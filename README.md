@@ -75,14 +75,24 @@ Visit the live site here: https://velo-city-rc.herokuapp.com/
 
 ### Business Model
 
-Business Model
 The business model behind Vélo City is B2C or Business to Customer. The online store sells products from various cycling brands rather than their own branded products.
 
 In terms of the flow of the business model, Vélo City buys all products from their affiliated brands and manufacturers, and these products are then sold via the Vélo City website to the customer.
 
+The flow of the B2C model can be illustrated as follows:
+
+![B2C Chart](media/images/readme/sb2c-flowchart.png)
+
+Typical required features of the B2C model include:
+ * A strong advertising stratgey to attract customers.
+ * High investment in terms of hardware/software.
+ * An excellent standard of customer service.
+
 ### Marketing
 
-Vélo City has a Facebook Business page which can be viewed here. This can also be accessed from the footer of the website.
+Vélo City has a Facebook Business page which can be viewed [here](https://www.facebook.com/V%C3%A9lo-City-105357878885354"). This can also be accessed from the footer of the website.
+
+The Facebook page is set up with the intention of posting regularly to gain engagement from followers, from silly relatable day-to-day posts, to announcing new stock, offers and deals.
 
 The website footer also contains a Mailchimp marketing comms subscription sign up form. When users sign up to the Mailchimp form, their details feed through the company's Audience Dashboard on Mailchimp account. These customers can now be included in Vélo City marketing campaigns. 
 
@@ -90,12 +100,16 @@ As these marketing strategies involve the collection of user data, to ensure tha
 
 ### Search Engine Optimisation
 
-This project included a Sitemap.xml and Robots.txt file to ensure that Google can crawl only the relevant and unique pages of the Vélo City website.
+This project includes a Sitemap.xml and Robots.txt file to ensure that Google can crawl only the relevant and unique pages of the Vélo City website.
 
-I have also researched the top search terms for bike store products, for which I used Google search and Wordtracker.com, in addition to reviewing other cycling e-commerce sites.
+I have also researched the top search terms for bike store products, for which I used Google search and Wordtracker.com, in addition to reviewing other cycling e-commerce sites, such as ThinkBike.ie.
 
-The following keywords and key phrases were included in the project meta tags:
+Wordtracker results example:
+![Wordtracker results example](media/images/readme/wordtracker-example.png)
 
+The following site description, keywords and key phrases were included in the project meta tags:
+
+![SEO description and keywords](media/images/readme/seo-keywords.png)
 
 ### Project Goals
 
@@ -1529,6 +1543,8 @@ This Django [article](https://docs.djangoproject.com/en/4.0/topics/pagination/) 
 Content for the blog post on how to descend safely was taken from the Liv Cycling [website](https://www.liv-cycling.com/global/campaigns/how-to-descend-on-a-road-bike/21996)
 
 Content for the blog post on how to corner was taken from the Liv Cycling [website](https://www.liv-cycling.com/global/campaigns/how-to-corner-on-a-road-bike/21772)
+
+Background on the B2C business model was found on this [website](https://www.tutorialspoint.com/e_commerce/e_commerce_b2c_mode.htm)
 
 ## Images
 
