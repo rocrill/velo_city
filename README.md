@@ -355,6 +355,7 @@ User stories relating to Navigation bar and home page:
   * 1.9 As a user, I can have a personalised user profile so that I can view my order history, order confirmations, saved favourite products and save my payment information(#10).
   * 1.10 As a user, I can search for a product by name or description so that I can easily find specific products that I want to purchase (#14).
   * 1.11 As a shopper, I can easily see what I've searched for and the number of results so that I can quickly decide if the product I want is available (#15).
+  * 1.12 As a user, I cannot access areas of the site that are restricted to admin users, and I receive an appropriate error message when I try to do so.
 
 
 **Feature 2. Home page**
@@ -602,12 +603,12 @@ User stories relating to the All Products page:
   
   User stories relating to the Product, Blog and Event Management pages:
 
-* 11.1 As an admin user, I can add products on the Product Managmenet page (#23).
-* 11.2 As an admin user, I can add blog posts on the Blog Management page (#34).
-* 11.3 As an admin user, I can add event posts on the Event Management page (#37).
-* 11.4 As an admin user, I can edit and delete products on the all products and product detail pages (#24 and #25).
-* 11.5 As an admin user, I can edit and delete Blog posts from the blog post detail page (#35 and #36).
-* 11.6 As an admin user, I can edit and delete Event posts from the events list page (#38 and #39).
+* 11.1 As an admin user, I can add products on the Product Managmenet page and receive confirmation when done (#23).
+* 11.2 As an admin user, I can add blog posts on the Blog Management page and receive confirmation when done (#34).
+* 11.3 As an admin user, I can add event posts on the Event Management page and receive confirmation when done (#37).
+* 11.4 As an admin user, I can edit and delete products on the all products and product detail pages and receive confirmation when done (#24 and #25).
+* 11.5 As an admin user, I can edit and delete Blog posts from the blog post detail page and receive confirmation when done (#35 and #36).
+* 11.6 As an admin user, I can edit and delete Event posts from the events list page and receive confirmation when done (#38 and #39).
 
 **Feature 12. Admin**
 
@@ -1036,9 +1037,18 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   * 1.11 As a user, I can easily see what I've searched for and the number of results so that I can quickly decide if the product I want is available (#15).
 
-  ![User-profile](media/images/readme/search-results.png)
+  ![User-profile](media/images/readme/.png)
 
   Result: Pass
+
+  * 1.12 As a user, I cannot access areas of the site that are restricted to admin users, and I receive an appropriate error message when I try to do so.
+
+  INPUT IMAGES:
+  -CRUD link e.g. add/edit product
+  
+
+
+
 
 **Feature 2. Home page**
 
@@ -1293,27 +1303,27 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
 **Feature 11. Admin CRUD pages for Products, Events and Blog**
 
-* 11.1 As an admin user, I can add products on the Product Managmenet page (#23).
+* 11.1 As an admin user, I can add products on the Product Managmenet page and receive confirmation when done (#23).
 
   (i)![Admin add product](media/images/readme/admin-add-product-view.png)
   (ii)![Admin add product](media/images/readme/admin-addproduct-2.png)
 
   Result: Pass
 
-* 11.2 As an admin user, I can add blog posts on the Blog Management page (#34).
+* 11.2 As an admin user, I can add blog posts on the Blog Management page and receive confirmation when done (#34).
 
   (i)![Admin add blog post](media/images/readme/admin-addblogpost-1.png)
   (ii)![Admin add blog post](media/images/readme/admin-addblogpost-2.png)
 
   Result: Pass
 
-* 11.3 As an admin user, I can add event posts on the Event Management page (#37).
+* 11.3 As an admin user, I can add event posts on the Event Management page and receive confirmation when done (#37).
 
   ![Admin add event post](media/images/readme/admin-addevent.png)
 
   Result: Pass
 
-* 11.4 As an admin user, I can edit and delete products on the all products and product detail pages (#24 and #25).
+* 11.4 As an admin user, I can edit and delete products on the all products and product detail pages and receive confirmation when done (#24 and #25).
 
   (i)![Admin edit product](media/images/readme/admin-edit-product.png)
   (ii)![Admin edit product](media/images/readme/admin-edit-product-2.png)
@@ -1321,14 +1331,14 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   Result: Pass
 
-* 11.5 As an admin user, I can edit and delete Blog posts from the blog post detail page (#35 and #36).
+* 11.5 As an admin user, I can edit and delete Blog posts from the blog post detail page and receive confirmation when done (#35 and #36).
 
   ![Admin blog edit](media/images/readme/edit-blogpost.png)
   ![Admin blog delete](media/images/readme/delete-blogpost.png)
 
   Result: Pass
 
-* 11.6 As an admin user, I can edit and delete Event posts from the events list page (#38 and #39).
+* 11.6 As an admin user, I can edit and delete Event posts from the events list page and receive confirmation when done (#38 and #39).
 
   ![Admin edit event](media/images/readme/admin-edit-event.png)
   ![Admin delete event](media/images/readme/admin-delete-event.png)
