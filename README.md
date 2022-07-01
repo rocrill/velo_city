@@ -37,8 +37,8 @@ Visit the live site here: https://velo-city-rc.herokuapp.com/
   * [Existing Features](#existing-features)
   * [Features to implement in future](#features-to-implement-in-future)
 - [Technologies Used](#technologies-used)
-  * [Languages:](#languages-)
-  * [Frameworks, libraries and programs used:](#frameworks--libraries-and-programs-used-)
+  * [Languages](#languages-)
+  * [Frameworks, libraries and programs used](#frameworks--libraries-and-programs-used-)
 - [Deployment](#deployment)
   * [Amazon Web Services](#amazon-web-services)
   * [Local Deployment](#local-deployment)
@@ -77,7 +77,7 @@ The flow of the B2C model can be illustrated as follows:
 ![B2C Chart](media/images/readme/b2c-flowchart.png)
 
 Typical required features of the B2C model include:
- * A strong advertising stratgey to attract customers.
+ * A strong advertising strategy to attract customers.
  * High investment in terms of hardware/software.
  * An excellent standard of customer service.
 
@@ -93,7 +93,7 @@ As these marketing strategies involve the collection of user data, to ensure tha
 
 ### Search Engine Optimisation
 
-This project includes a Sitemap.xml and Robots.txt file to ensure that Google can crawl only the relevant and unique pages of the Vélo City website.
+This project includes a Sitemap.xml and Robots.txt file to ensure that search engines can crawl only the relevant and unique pages of the Vélo City website.
 
 I have also researched the top search terms for bike store products, for which I used Google search and Wordtracker.com, in addition to reviewing other cycling e-commerce sites, such as ThinkBike.ie.
 
@@ -125,9 +125,9 @@ Where possible, images were also re-named to be SEO-optimized, e.g. updated from
 * To get information about upcoming Irish cycling events via site event posts. 
 * To book bike services.
 * To login or logout of the site.
-* To easily recover my password if I forget it
+* To easily recover their password if they forget it.
 * To register as a user of the website and receive a confirmation email when doing so.
-* To have a personalised profile which contains my order history, delivery and payment information.
+* To have a personalised profile which contains their order history, delivery and payment information.
 * To sort the list of available products by category, price and rating.
 * To complete a purchase of products in a shopping cart.
 * To search for a product by category, name or description and view the search results.
@@ -148,9 +148,7 @@ The website contains the following pages:
 
  * About page
 
- * Products page
-
- * Product detail page
+ * Product list and product detail page
 
  * Blog list and blog detail pages
 
@@ -164,7 +162,7 @@ The website contains the following pages:
 
  * Events Management Pages (Add, Edit and Delete)
 
- * My profile page
+ * My Profile page
 
  * My Cart page
 
@@ -252,7 +250,7 @@ For consistency of user experience, the site logo, navigation links and footer r
 
 * Site Owner Goals
 
-  * As a site owner, I want to create an a stylish and visually appealing website which elicits a positive emotional response in users.
+  * As a site owner, I want to create a stylish and visually appealing website which elicits a positive emotional response in users.
 
   * As a site owner, I want to create easy to use website where products and their categories can be easily found and purchased.
 
@@ -263,7 +261,7 @@ For consistency of user experience, the site logo, navigation links and footer r
 
 More specific user stories are discussed in the context of website features in the Features section below.
 
-Note: Throughout the project, this [Kanban board](https://github.com/rocrill/velo_city/projects/1) was used to organise and track the progress of the user story development as part of the Agile development approach. However the final more detailed user stories are documented fully within this Readme. For reference, the applicable Kanban user stories have been linked to their corresponding README user stories below.
+Note: Throughout the project, this [Kanban board](https://github.com/rocrill/velo_city/projects/1) was used to organise and track the progress of the user story development as part of the Agile development approach. However the final more detailed user stories are documented fully within this README. For reference, the applicable Kanban user stories have been linked to their corresponding README user stories below.
 
 ## Skeleton
 
@@ -340,16 +338,15 @@ User stories relating to Navigation bar and home page:
   * 1.1 As a user, I see the navigation bar with a logo on all pages and with a search box on a desktop, tablet and mobile.
   * 1.2 As a user not logged in, I see a Register/Login link in the nav bar. Clicking this leads me to the registration or sign in pages and enables me to register or sign in (#6 and #7).
   * 1.3 As a logged in user, I am notified when I am logged in and I see a logout link in the nav which enables me to click sign out which logs me out.
-  * 1.4 As a user, I can easily receive email confirmation after registering so that I can verify that my account registration was successful (#9.
+  * 1.4 As a user, I can easily receive email confirmation after registering so that I can verify that my account registration was successful (#9).
   * 1.5 As a user I can view the website logo in the header at all times, and clicking this will bring me to the homepage.
   * 1.6 As a user I can click the all product, service, blog and event nav links which bring me to the relevant pages.
   * 1.7 As a user if I encounter an error on the site, an applicable error message will be shown.
   * 1.8 As a user, I can easily recover my password if I forget it so that I can easily get into the site if I forget my password without re-registering (#8).
-  * 1.9 As a user, I can have a personalised user profile so that I can view my order history, order confirmations, saved favourite products and save my payment information(#10).
+  * 1.9 As a user, I can have a personalised user profile so that I can view my order history, order confirmations, saved favourite products and save my payment information (#10).
   * 1.10 As a user, I can search for a product by name or description so that I can easily find specific products that I want to purchase (#14).
   * 1.11 As a shopper, I can easily see what I've searched for and the number of results so that I can quickly decide if the product I want is available (#15).
   * 1.12 As a user, I cannot access areas of the site that are restricted to admin users, and I receive an appropriate error message when I try to do so.
-
 
 **Feature 2. Home page**
 
@@ -367,12 +364,12 @@ User stories relating to the Home page:
 
   * 2.1 As a user, I want to see a homepage to contain a navigation bar and footer which clearly direct me to all available site pages.
   * 2.2 As a user, I want to see call to action button which directs me to the primary purpose of the site - to shop.
-  
+
 **Feature 3. All products page**
 
   * The all products page is neat and well-proportioned with 4 product cards spanning the width of the page. Each product card contains the product name, rating, price and category label. 
   * The all products page is paginated so that when more than 8 products are added to the site, the button appears directing the user to a second page of additional products, and so on.
-  * The mobile all products page is adjusted to feature one column of prodct cards across, and eight cards appear before thr pagination button is displayed. 
+  * The mobile all products page is adjusted to feature one column of product cards across, and eight cards appear before thr pagination button is displayed. 
   * There is a sorting drop-down menu on the top of the page which allows the user to sort products by price (low to high), price (high to low, name (A-Z), name (Z-A), rating (high to low), rating (low to high), category (A-Z) and category (Z-A).
 
   Desktop:
@@ -382,7 +379,7 @@ User stories relating to the Home page:
 
   Mobile:
 
-  ![Image of mobile all products page](media/images/readme/all-products-mobile.png)
+  ![Image of mobile all products page](media/images/readme/all-products-mobile-1.png)
   ![Image of mobile all products page](media/images/readme/all-products-mobile-2.png)
 
 User stories relating to the All Products page:
@@ -509,15 +506,15 @@ User stories relating to the All Products page:
   
   User stories relating Events list:
 
-    * 8.1 As a user, I want to see a list of upcoming Irish cycling events so that I can engage with the cycling community and potentially take part in competitive events (#33).
-    * 8.2 As a user, I want to be able to filter the cycling events for categories that are relevant to me.
+  * 8.1 As a user, I want to see a list of upcoming Irish cycling events so that I can engage with the cycling community and potentially take part in competitive events (#33).
+  * 8.2 As a user, I want to be able to filter the cycling events for categories that are relevant to me.
 
 **Feature 9. Shopping Cart and Checkout**
 
   * If the user has not added an item to the cart and they navigate to the cart page, they see a message that the cart is empty.
   * The user can add items to their shopping cart as they are shopping. They receive notifications when they have done so. 
   * The shopping cart shows an image of each item added, along with its quantity and price. The subtotal of all items is also calculated.
-  * On the shopping cart page the user can reduce or the increase quantity of each item, or remove the item completely. 
+  * On the shopping cart page the user can reduce or the increase quantity of each item, or remove the item completely.
   * An order over €50 entitles the shopper to free delivery, the delivery charge is automatically calculated at the checkout page.
   * Once an order is made, the user receives a confirmation email.
   * The fields on the checkout page are: Full Name, email address, phone number, and address and Country fields. This information is populated from 'my profile' if filled in.
@@ -529,11 +526,12 @@ Desktop checkout page:
 
 Mobile checkout page:
 
-![Image of mobile checkout page](media/images/readme/mobile-checkout-page.png)
+![Image of mobile checkout page](media/images/readme/mobile-checkout-page-1.png)
+![Image of mobile checkout page](media/images/readme/mobile-checkout-page-2.png)
 
 Desktop shopping cart:
 
-![Image of desktop shopping cart](media/images/readme/desktop-cart.png)
+![Image of desktop shopping cart](media/images/readme/desktop-shoppingcart-page.png)
 
 Mobile shopping cart:
 
@@ -570,7 +568,7 @@ Mobile profile page:
   
 User stories relating to the user profile page:
 
-  * 10.1 As a user, I can view my personal details on my profile page, including my name and address
+  * 10.1 As a user, I can view my personal details on my profile page, including my name and address.
   * 10.2 As a user, I can view my past orders on my profile page. 
 
 **Feature 11. Admin CRUD pages for Products, Events and Blog**
@@ -811,14 +809,16 @@ To run this project locally, clone the velo_city repository.
 
 1. Login to GitHub (https://wwww.github.com) and select the repository rocrill/velo_city.
 
-2. Click the 'Code' button and copy the HTTPS url, https://github.com/rocrill/velo_city.git.
+2. Click the 'Code' button and copy the HTTPS URL, https://github.com/rocrill/velo_city.git.
 
 3. In your IDE, run the command git clone https://github.com/rocrill/velo_city.git to clone the repository to your workspace.
 
 4. Create an env.py file in your root directory and add the following:
+```python
 import os
 os.environ.setdefault("SECRET_KEY", TO BE ADDED BY USER)
 os.environ.setdefault("DEVELOPMENT", '1')
+```
 
 5. Install the relevant packages as per the requirements.txt file.
 
@@ -1453,7 +1453,7 @@ User stories relating to Admin:
 
 ## PEP8
 
-The [AutoPEP8](https://unsplash.com/photos/RKU4zSFitWM) tool was used to bring all Python code to PEP8 standard.
+The [AutoPEP8](https://pypi.org/project/autopep8/) tool was used to bring all Python code to PEP8 standard.
 
 ## JSHint
 
@@ -1513,7 +1513,7 @@ Shopping Cart:
 
 * Fixed:
 
-  * There was initially an error with the increment and decrement item buttons on the checkout page. The increment button went beyond it's intended upper limit above 99, and the decrement button went below it's lower limit of 1. To resolve this, the Javascript code was updated so that it all quantity fields present on the page would be updated, rather than quantity fields targeted by id only. Note the functionality was fixed, however it raised validation errors as documented above.
+  * There was initially an error with the increment and decrement item buttons on the checkout page. The increment button went beyond it's intended upper limit above 99, and the decrement button went below it's lower limit of 1. To resolve this, the Javascript code was updated so that all quantity fields present on the page would be updated, rather than quantity fields targeted by id only. Note the functionality was fixed, however it raised HTML validation errors as documented above.
   
 * Known:
 
@@ -1527,13 +1527,11 @@ The Code Institute LMS content, including the Django Boutique Ado walkthrough pr
 
 The Bootstrap footer was taken from [Bootstrap](https://mdbootstrap.com/snippets/standard/mdbootstrap/2885103?view=side).
 
-This YouTube [video]() was used when building out the view to delete a recipe post from the front end of the site.
-
 This Stackoverflow [article](https://stackoverflow.com/questions/50439356/django-date-validation-help-needed) was used when applying date valifdation to the service booking form. 
 
 This Stackoverflow [article](https://stackoverflow.com/questions/45379727/make-images-the-same-size-in-bootstrap-grid) was used to make all product images o the All Products page the same size.
 
-This Django [article](https://forum.djangoproject.com/t/how-to-set-data-calendar-widget-for-datefield-and-datetimefield-wiht-format-day-month-year-dd-mm-yyyy/7243) was used when implementing a date and time field to the add Event form.
+This Django [article](https://forum.djangoproject.com/t/how-to-set-data-calendar-widget-for-datefield-and-datetimefield-wiht-format-day-month-year-dd-mm-yyyy/7243) was used when implementing a date and time field to the Add Event form.
 
 This Stackoverflow [article](https://stackoverflow.com/questions/22800804/display-static-page-in-django) was used when looking for a simple solution for content-sparse static pages e.g. About us, Contact us, Privacy Policy and Refunds and Returns.
 
@@ -1545,11 +1543,11 @@ This Django [article](https://docs.djangoproject.com/en/4.0/topics/pagination/) 
 
 ## Content
 
-Content for the blog post on how to descend safely was taken from the Liv Cycling [website](https://www.liv-cycling.com/global/campaigns/how-to-descend-on-a-road-bike/21996)
+Content for the blog post on how to descend safely was taken from the Liv Cycling [website](https://www.liv-cycling.com/global/campaigns/how-to-descend-on-a-road-bike/21996).
 
-Content for the blog post on how to corner was taken from the Liv Cycling [website](https://www.liv-cycling.com/global/campaigns/how-to-corner-on-a-road-bike/21772)
+Content for the blog post on how to corner was taken from the Liv Cycling [website](https://www.liv-cycling.com/global/campaigns/how-to-corner-on-a-road-bike/21772).
 
-Background on the B2C business model was found on this [website](https://www.tutorialspoint.com/e_commerce/e_commerce_b2c_mode.htm)
+Background on the B2C business model was found on this [website](https://www.tutorialspoint.com/e_commerce/e_commerce_b2c_mode.htm).
 
 ## Images
 
