@@ -298,7 +298,7 @@ Black and White were also used in different parts of the site to achieve the bes
 
 ### Typography
 
-'Bodoni Moda', taken from Google Fonts, is the main font used throughout the website with 'Sans Serif' as the fallback font. 
+'Bodoni Moda', taken from Google Fonts, is the main font used throughout the website with 'Serif' as the fallback font. 
 
 ### Imagery
 
@@ -722,7 +722,7 @@ User Stories relating to the footer:
 ## Frameworks, libraries and programs used:
 
 * [Balsamiq](https://balsamiq.com/) - to create wireframes for the site as part of the project preparation.
-* [Google Fonts](https://fonts.google.com/) - to import the 'Bungee Shade' and 'Roboto Slab' fonts into the HTML file, which were then used throughout the site.
+* [Google Fonts](https://fonts.google.com/) - to import the 'Bodoni Moda' and 'Serif' fonts into the HTML file, which were then used throughout the site.
 * [Font Awesome](https://fontawesome.com/) - for icons which were added to the footer.
 * [Coolors](https://coolors.co/) - for an appropriate and attractive colour palette.
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - to inspect and debug the code through all stages of the development.
@@ -735,7 +735,7 @@ User Stories relating to the footer:
 * [Github Pages](https://pages.github.com/) - to deploy the site.
 * [Unsplash](https://unsplash.com/) - for images.
 * [Pexels](https://pexels.com/) - for images.
-* [Bootstrap](https://getbootstrap.com/docs/5.0) - for UI components across the website, e.g. buttons, navbar, cards.
+* [Bootstrap](https://getbootstrap.com/docs/5.0) - for UI components across the website, e.g. buttons, navbar, footer.
 * [Postgres](https://www.postgresql.org/) - the deployed project on Heroku uses a Postgres database.
 * [SQLlite](https://www.sqlite.org/index.html) - The database used in local development was a SQLLite database.
 
@@ -1525,11 +1525,11 @@ Shopping Cart:
 
 The Code Institute LMS content, including the Django Boutique Ado walkthrough project, as well as some posts on Stackoverflow were used to create this site. All code taken from these resources has been adapted to suit the needs of this site, except for the specific cases referenced below.
 
-The Bootstrap footer was taken from [Bootstrap](https://mdbootstrap.com/snippets/standard/mdbootstrap/2885103?view=side).
+The Bootstrap footer code was taken from [Bootstrap](https://mdbootstrap.com/snippets/standard/mdbootstrap/2885103?view=side) and adapted to fulfil the needs of the site.
 
-This Stackoverflow [article](https://stackoverflow.com/questions/50439356/django-date-validation-help-needed) was used when applying date valifdation to the service booking form. 
+This Stackoverflow [article](https://stackoverflow.com/questions/50439356/django-date-validation-help-needed) was used when applying date validation to the service booking form. 
 
-This Stackoverflow [article](https://stackoverflow.com/questions/45379727/make-images-the-same-size-in-bootstrap-grid) was used to make all product images o the All Products page the same size.
+This Stackoverflow [article](https://stackoverflow.com/questions/45379727/make-images-the-same-size-in-bootstrap-grid) was used to make all product images on the All Products page the same size.
 
 This Django [article](https://forum.djangoproject.com/t/how-to-set-data-calendar-widget-for-datefield-and-datetimefield-wiht-format-day-month-year-dd-mm-yyyy/7243) was used when implementing a date and time field to the Add Event form.
 
@@ -1543,7 +1543,7 @@ This Django [article](https://docs.djangoproject.com/en/4.0/topics/pagination/) 
 
 ## Content
 
-Content for the blog post on how to descend safely was taken from the Liv Cycling [website](https://www.liv-cycling.com/global/campaigns/how-to-descend-on-a-road-bike/21996).
+Content for the blog post on how to descend safely was taken from the Liv Cycling [website](https://www.liv-cycling.com/global/campaigns/how-to-descend-on-a-road-bike/21996.
 
 Content for the blog post on how to corner was taken from the Liv Cycling [website](https://www.liv-cycling.com/global/campaigns/how-to-corner-on-a-road-bike/21772).
 
