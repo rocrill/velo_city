@@ -81,7 +81,7 @@ In terms of the flow of the business model, Vélo City buys all products from th
 
 The flow of the B2C model can be illustrated as follows:
 
-![B2C Chart](media/images/readme/sb2c-flowchart.png)
+![B2C Chart](media/images/readme/b2c-flowchart.png)
 
 Typical required features of the B2C model include:
  * A strong advertising stratgey to attract customers.
@@ -170,8 +170,6 @@ The website contains the following pages:
  * Events Management Pages (Add, Edit and Delete)
 
  * My profile page
-
- * My order history page?
 
  * My Cart page
 
@@ -364,11 +362,11 @@ User stories relating to Navigation bar and home page:
 
   Desktop:
 
-  ![Image of desktop home page](static/images/homepage-desktop.png)
+  ![Image of desktop home page](media/images/readme/homepage-desktop.png)
 
   Mobile:
 
-  ![Image of mobile home page](static/images/homepage-mobile.png)
+  ![Image of mobile home page](media/images/readme/homepage-mobile.png)
 
 User stories relating to the Home page:
 
@@ -384,8 +382,8 @@ User stories relating to the Home page:
 
   Desktop:
 
-  ![Image of desktop all products page](media/images/all-products-desktop.png)
-  ![Image of desktop all products page](media/images/all-products-desktop-2.png)
+  ![Image of desktop all products page](media/images/readme/all-products-desktop.png)
+  ![Image of desktop all products page](media/images/readme/all-products-desktop-2.png)
 
   Mobile:
 
@@ -484,7 +482,7 @@ User stories relating to the All Products page:
 
   ![Image of desktop post detail page](media/images/readme/blog-postdetail-desktop-1.png)
   ![Image of desktop post detail page](media/images/readme/blog-postdetail-desktop-2.png)
-  ![Image of desktop post detail page](media/images/blog-postdetail-desktop-3.png)
+  ![Image of desktop post detail page](media/images/readme/blog-postdetail-desktop-3.png)
 
   Mobile blog post list page:
 
@@ -516,38 +514,38 @@ User stories relating to the All Products page:
   
   User stories relating Events list:
 
-  * 8.1 As a user, I want to see a list of upcoming Irish cycling events so that I can engage with the cycling community and potentially take part in competitive events (#33).
-  * 8.2 As a user, I want to be able to filter the cycling events for categories that are relevant to me.
+    * 8.1 As a user, I want to see a list of upcoming Irish cycling events so that I can engage with the cycling community and potentially take part in competitive events (#33).
+    * 8.2 As a user, I want to be able to filter the cycling events for categories that are relevant to me.
 
 **Feature 9. Shopping Cart and Checkout**
 
-* If the user has not added an item to the cart and they navigate to the cart page, they see a message that the cart is empty.
-* The user can add items to their shopping cart as they are shopping. They receive notifications when they have done so. 
-* The shopping cart shows an image of each item added, along with its quantity and price. The subtotal of all items is also calculated.
-* On the shopping cart page the user can reduce or the increase quantity of each item, or remove the item completely. 
-* An order over €50 entitles the shopper to free delivery, the delivery charge is automatically calculated at the checkout page.
-* Once an order is made, the user receives a confirmation email.
-* The fields on the checkout page are: Full Name, email address, phone number, and address and Country fields. This information is populated from 'my profile' if filled in.
-* Even if a user is not logged in, they can add products to their bag and proceed to checkout.
+  * If the user has not added an item to the cart and they navigate to the cart page, they see a message that the cart is empty.
+  * The user can add items to their shopping cart as they are shopping. They receive notifications when they have done so. 
+  * The shopping cart shows an image of each item added, along with its quantity and price. The subtotal of all items is also calculated.
+  * On the shopping cart page the user can reduce or the increase quantity of each item, or remove the item completely. 
+  * An order over €50 entitles the shopper to free delivery, the delivery charge is automatically calculated at the checkout page.
+  * Once an order is made, the user receives a confirmation email.
+  * The fields on the checkout page are: Full Name, email address, phone number, and address and Country fields. This information is populated from 'my profile' if filled in.
+  * Even if a user is not logged in, they can add products to their bag and proceed to checkout.
 
-  Desktop checkout page:
+Desktop checkout page:
 
-  ![Image of desktop checkout page](media/images/readme/desktop-checkout-page.png)
-  
-  Mobile checkout page:
+![Image of desktop checkout page](media/images/readme/desktop-checkout-page.png)
 
-  ![Image of mobile checkout page](media/images/readme/mobile-checkout-page.png)
+Mobile checkout page:
 
-  Desktop shopping cart:
+![Image of mobile checkout page](media/images/readme/mobile-checkout-page.png)
 
-  ![Image of desktop shopping cart](media/images/readme/desktop-cart.png)
-  
-  Mobile shopping cart:
+Desktop shopping cart:
 
-  ![Image of mobile shopping cart](media/images/readme/mobile-cart-1.png)
-  ![Image of mobile shopping cart](media/images/readme/mobile-cart-2.png)
-  
-  User stories relating to the shopping cart and checkout:
+![Image of desktop shopping cart](media/images/readme/desktop-cart.png)
+
+Mobile shopping cart:
+
+![Image of mobile shopping cart](media/images/readme/mobile-cart-1.png)
+![Image of mobile shopping cart](media/images/readme/mobile-cart-2.png)
+
+User stories relating to the shopping cart and checkout:
 
   * 9.1 As a user, I can click on a product, select a size and quantity and add it to my bag (receiving a notification when I've done so) in order to purchase it. 
   * 9.2 As a user, I can click on the cart icon and be brought to my bag to see the contents in order to know what I have selected so far and the subtotal. If no contents are there, I will see a message that the cart is empty (#17).
@@ -565,75 +563,75 @@ User stories relating to the All Products page:
 
 **Feature 10. User Profile Page**
 
-* The profile page contains the user's information including their phone number, address and a list of their past orders.
+  * The profile page contains the user's information including their phone number, address and a list of their past orders.
 
-  Desktop profile page:
+Desktop profile page:
 
-  ![User profile page](media/images/readme/profile-page-desktop.png)
+![User profile page](media/images/readme/profile-page-desktop.png)
   
-  Mobile profile page:
+Mobile profile page:
 
-  ![Mbile profile page](media/images/readme/profile-page-mobile.png)
+![Mbile profile page](media/images/readme/profile-page-mobile.png)
   
-  User stories relating to the user profile page:
+User stories relating to the user profile page:
 
-* 10.1 As a user, I can view my personal details on my profile page, including my name and address
-* 10.2 As a user, I can view my past orders on my profile page. 
+  * 10.1 As a user, I can view my personal details on my profile page, including my name and address
+  * 10.2 As a user, I can view my past orders on my profile page. 
 
 **Feature 11. Admin CRUD pages for Products, Events and Blog**
 
-* The my account dropdown menu contains links to Product, Blog and Event Management pages. The Product Management page is the example chosen in the screenshots below, however Product, Blog and Event management CRUD features are all tested in the user testing section.
-* The Product Management Page contains the following fileds: Category, Sku, Name, Description, Has sizes, Price, Rating, Image url.
-* The Blog Management page contains the following fields: Title, Slug, Author, Content, Status.
-* The Events Management page contains the following fields: Title, Event category, Event date, Content, Status, Image.
-* All of the above pages contain the option to cancel or add/publish.
-* Products can be added/deleted from the all products page and product detail page.
-* Blog posts can be added/deleted from the blog post detail page.
-* Event posts can be added/deleted from the events list page.
+  * The my account dropdown menu contains links to Product, Blog and Event Management pages. The Product Management page is the example chosen in the screenshots below, however Product, Blog and Event management CRUD features are all tested in the user testing section.
+  * The Product Management Page contains the following fileds: Category, Sku, Name, Description, Has sizes, Price, Rating, Image url.
+  * The Blog Management page contains the following fields: Title, Slug, Author, Content, Status.
+  * The Events Management page contains the following fields: Title, Event category, Event date, Content, Status, Image.
+  * All of the above pages contain the option to cancel or add/publish.
+  * Products can be added/deleted from the all products page and product detail page.
+  * Blog posts can be added/deleted from the blog post detail page.
+  * Event posts can be added/deleted from the events list page.
 
-  Desktop product management page:
+Desktop product management page:
 
-  ![Image of desktop product management page](media/images/readme/product-management-desktop-1.png)
-  ![Image of desktop product management page](media/images/readme/product-management-desktop-2.png)
+![Image of desktop product management page](media/images/readme/product-management-desktop-1.png)
+![Image of desktop product management page](media/images/readme/product-management-desktop-2.png)
 
-  Mobile product management page:
+Mobile product management page:
 
-  ![Image of mobile product management page](media/images/readme/product-management-mobile-1.png)
-  ![Image of mobile product management page](media/images/readme/product-management-mobile-2.png)
-  
-  User stories relating to the Product, Blog and Event Management pages:
+![Image of mobile product management page](media/images/readme/product-management-mobile-1.png)
+![Image of mobile product management page](media/images/readme/product-management-mobile-2.png)
 
-* 11.1 As an admin user, I can add products on the Product Managmenet page and receive confirmation when done (#23).
-* 11.2 As an admin user, I can add blog posts on the Blog Management page and receive confirmation when done (#34).
-* 11.3 As an admin user, I can add event posts on the Event Management page and receive confirmation when done (#37).
-* 11.4 As an admin user, I can edit and delete products on the all products and product detail pages and receive confirmation when done (#24 and #25).
-* 11.5 As an admin user, I can edit and delete Blog posts from the blog post detail page and receive confirmation when done (#35 and #36).
-* 11.6 As an admin user, I can edit and delete Event posts from the events list page and receive confirmation when done (#38 and #39).
+User stories relating to the Product, Blog and Event Management pages:
+
+  * 11.1 As an admin user, I can add products on the Product Managmenet page and receive confirmation when done (#23).
+  * 11.2 As an admin user, I can add blog posts on the Blog Management page and receive confirmation when done (#34).
+  * 11.3 As an admin user, I can add event posts on the Event Management page and receive confirmation when done (#37).
+  * 11.4 As an admin user, I can edit and delete products on the all products and product detail pages and receive confirmation when done (#24 and #25).
+  * 11.5 As an admin user, I can edit and delete Blog posts from the blog post detail page and receive confirmation when done (#35 and #36).
+  * 11.6 As an admin user, I can edit and delete Event posts from the events list page and receive confirmation when done (#38 and #39).
 
 **Feature 12. Admin**
 
   * A number of Admin views are configured at https://velo-city-rc.herokuapp.com/admin, through which the below user stories can be carried out. Full CRUD operations to the data in the database are available as well as search and filter options. These include Users, Blog posts, Event posts, Service bookings, Checkout orders, Products and Product categories.
 
-  Users:
-  ![Image of admin user list](media/images/readme/admin-users.png)
+Users:
+![Image of admin user list](media/images/readme/admin-users.png)
 
-  Blog posts:
-  ![Image of admin blog post list](media/images/readme/admin-blog-posts.png)
+Blog posts:
+![Image of admin blog post list](media/images/readme/admin-blog-posts.png)
 
-  Event posts:
-  ![Image of admin event posts list](media/images/readme/admin-event-posts.png) 
+Event posts:
+![Image of admin event posts list](media/images/readme/admin-event-posts.png) 
 
-  Service bookings:
-  ![Image of admin service bookings list](media/images/readme/admin-service-bookings.png) 
+Service bookings:
+![Image of admin service bookings list](media/images/readme/admin-service-bookings.png) 
 
-  Product categories
-  ![Image of admin product categories list](media/images/readme/admin-product-categories.png) 
+Product categories
+![Image of admin product categories list](media/images/readme/admin-product-categories.png) 
 
-  Products:
-  ![Image of admin product list](media/images/readme/admin-products.png) 
+Products:
+![Image of admin product list](media/images/readme/admin-products.png) 
 
-  Checkout orders:
-  ![Image of admin checkout orders list](media/images/readme/admin-checkout-orders.png) 
+Checkout orders:
+![Image of admin checkout orders list](media/images/readme/admin-checkout-orders.png) 
 
 User stories relating to Admin:
 
@@ -656,27 +654,27 @@ User stories relating to Admin:
 
   * There is also a link to Vélo City's Privacy and Refund & Returns Policies:
   
-  Desktop Privacy Policy:
-  ![Privacy policy desktop](media/images/readme/privacy-desktop.png) 
+Desktop Privacy Policy:
+![Privacy policy desktop](media/images/readme/privacy-desktop.png) 
 
-  Mobile Privacy Policy:
-  ![Privacy policy mobile](media/images/readme/privacy-mobile.png) 
+Mobile Privacy Policy:
+![Privacy policy mobile](media/images/readme/privacy-mobile.png) 
 
-  Desktop Refund Policy:
-  ![Refund policy desktop](media/images/readme/refund-desktop.png) 
+Desktop Refund Policy:
+![Refund policy desktop](media/images/readme/refund-desktop.png) 
 
-  Mobile Refund Policy:
-  ![Refund policy mobile](media/images/readme/refund-mobile.png) 
+Mobile Refund Policy:
+![Refund policy mobile](media/images/readme/refund-mobile.png) 
 
   * The footer also contains a Mailchimp marketing newsletter sign up form.
 
-  Email subscription sign up form desktop:
-  ![Desktop footer](media/images/readme/footer-desktop-2.png) 
+Email subscription sign up form desktop:
+![Desktop footer](media/images/readme/footer-desktop-2.png) 
 
-  Email subscription sign up form mobile:
-  ![Mobile footer](media/images/readme/footer-mobile-2.png) 
+Email subscription sign up form mobile:
+![Mobile footer](media/images/readme/footer-mobile-2.png) 
 
-  User Stories relating to the footer: 
+User Stories relating to the footer: 
 
   * 13.1 As a user, I can sign up to a Vélo City newsletter so that I can keep up to date with new products and offers (#27).
   * 13.2 As a user I can easily find information about the business, including contact information so that I can know more about the company I am buying from (#30).
@@ -757,60 +755,60 @@ There were a number of applications involved in the deployment of this site.
 1. Create an account at aws.amazon.com.
 2. Open the S3 application and create an S3 bucket named "velo-city-rc".
 
- ![AWS deployment step 1](media/images/readme/S3-1.png)
+    ![AWS deployment step 1](media/images/readme/S3-1.png)
 
 3. Enable ACLs and tick the "Block All Public access" setting.
 
- ![AWS deployment step 1](media/images/readme/S3-2.png)
+    ![AWS deployment step 1](media/images/readme/S3-2.png)
 
 4. Under the Properties section, turn on "Static Website Hosting", and set the index.html and the error.html values.
 
- ![AWS deployment step 2](media/images/readme/S3-3.png)
+    ![AWS deployment step 2](media/images/readme/S3-3.png)
 
 5. Under 'Permissions', paste in the following CORS configuration to set up the required access between Heroku and S3.
 
- ![AWS deployment step 3](media/images/readme/cors-configuration.png)
+    ![AWS deployment step 3](media/images/readme/cors-configuration.png)
 
 6. Click to edit the bucket policy and generate and set the below configuration:
 
- ![AWS deployment step 4](media/images/readme/S3-4.png)
- ![AWS deployment step 4](media/images/readme/S3-5.png)
+    ![AWS deployment step 4](media/images/readme/S3-4.png)
+    ![AWS deployment step 4](media/images/readme/S3-5.png)
 
 7. Go to the Access Control List and set the List objects permission for everyone under the Public Access section.
 
- ![AWS deployment step 4](media/images/readme/S3-6.png)
+    ![AWS deployment step 4](media/images/readme/S3-6.png)
 
 8. Open the IAM application to control access to the bucket and set up a user group called manage-velo-city
 
- ![AWS deployment step 4](media/images/readme/S3-7.png)
+     ![AWS deployment step 4](media/images/readme/S3-7.png)
 
 9. Click on Policies, and Create Policy.
 
-![AWS deployment step 4](media/images/readme/S3-8.png)
+    ![AWS deployment step 4](media/images/readme/S3-8.png)
 
 10. Click on the JSON tab and import a pre-built Amazon policy called AmazonS3FullAccess:
 
-![AWS deployment step 4](media/images/readme/S3-9.png)
+    ![AWS deployment step 4](media/images/readme/S3-9.png)
 
 11. Set the following settings in the JSON tab:
 
-![AWS deployment step 4](media/images/readme/S3-10.png)
+    ![AWS deployment step 4](media/images/readme/S3-10.png)
 
 12. Click Review Policy, give it a name and description and click Create Policy.
 
 13. To attach the policy to the group, navigate to Groups, then Permissions, and under Add Permissions, select Attach Policy.
 
-![AWS deployment step 4](media/images/readme/S3-11.png)
+    ![AWS deployment step 4](media/images/readme/S3-11.png)
 
 14. To create a user for the group, click Add User, and create one, e.g. 'velocity-staticfiles-user'.
 
-![AWS deployment step 4](media/images/readme/S3-12.png)
+    ![AWS deployment step 4](media/images/readme/S3-12.png)
 
 15. Add the user to the group created earlier, making sure to download the CSV file which contains the user's access credentials.
 
 16. Note the following AWS code in Settings.py. An environment variable called USE_AWS must be set to use these settings, otherwise it will use local storage:
 
-![AWS deployment Settings.py](media/images/readme/S3-14.png)
+    ![AWS deployment Settings.py](media/images/readme/S3-14.png)
 
 ## Local Deployment
 
@@ -843,13 +841,12 @@ os.environ.setdefault("DEVELOPMENT", '1')
 9. Start the application by running "python3 manage.py runserver".
 
 
-
 ## Heroku and Postgres
 
 1. Create an account at heroku.com and create an app with a name in line with your repository, e.g. 'velo-city-rc'.
 2. Under the Resources tab, add the Postgres database to the app.
 
-![Heroku Deployment](media/images/readme/add-postgres.png)
+    ![Heroku Deployment](media/images/readme/add-postgres.png)
 
 The Postgres database url can be set as an environment variable in Heroku and your local env.py file.
 
@@ -879,7 +876,7 @@ The Postgres database url can be set as an environment variable in Heroku and yo
 
 12. Ensure the following environment variables are set in Heroku:
 
-![Heroku Deployment](media/images/readme/config-vars.png)
+    ![Heroku Deployment](media/images/readme/config-vars.png)
 
 13. Connect the Heroku app to GitHub, and enable automatic deploys.
 
@@ -953,7 +950,7 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   * 1.2 As a user not logged in, I see a Register/Login link in the nav bar. Clicking this leads me to the registration or sign in pages and enables me to register or sign in (#6 and #7). 
 
-    ![Desktop register/signin option when logged out](static/images/signin-reg-1.png)
+    ![Desktop register/signin option when logged out](media/images/readme/signin-reg-1.png)
     ![Desktop reg page](media/images/readme/desktop-reg.png)
     ![Mobile reg page](media/images/readme/mobile-reg.png)
     ![Desktop sign in page](media/images/readme/desktop-signin.png)
@@ -974,7 +971,7 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
     ![Registration confirmation email](media/images/readme/reg-conf-email.png)
     ![Email confirmation success](media/images/readme/mail-confirmation-success.png)
 
-   Result: Pass 
+    Result: Pass 
 
   * 1.5 As a user I can view the website logo in the header on desktop at all times, and a home link is present in the mobile nav menu at all times. Clicking these will bring me to the homepage.
 
@@ -985,7 +982,7 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   * 1.6 As a user I can click the all product, service, blog and event nav links which bring me to the relevant pages.
 
-    ![All products](media/images/all-prod.png)
+    ![All products](media/images/readme/all-prod.png)
     ![Service Booking](media/images/readme/service-b.png)
     ![Blog](media/images/readme/blog.png)
     ![Events](media/images/readme/events.png)
@@ -996,300 +993,303 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
     Error messages are displayed for the following events on the site:
 
-   (i) If a non-admin user attempts to create, edit or delete a product, blog or event post:
+    (i) If a non-admin user attempts to create, edit or delete a product, blog or event post:
 
-   ![non-admin crud attempt](media/images/readme/non-admin-crud-attempt.png)
+    ![non-admin crud attempt](media/images/readme/non-admin-crud-attempt.png)
 
-   (ii) If a passed date is selected when submitting the date of a service booking:
+    (ii) If a passed date is selected when submitting the date of a service booking:
 
-   ![service date passed](media/images/readme/service-date-passed.png)
+    ![service date passed](media/images/readme/service-date-passed.png)
 
-   (iv) If an invalid form is attempted to be submitted:
+    (iii) If an invalid form is attempted to be submitted:
 
-   ![Invalid form](media/images/readme/checkout-form-validation.png)
+    ![Invalid form](media/images/readme/checkout-form-validation.png)
 
-   (iii) If an unfound page is searched:
+    (iv) If an unfound page is searched:
 
-   ![page not found](media/images/readme/custom-404.png)
+    ![page not found](media/images/readme/custom-404.png)
 
-   The 500.html template has also been created so that a custom error page will be displayed to the user when a 500 error occurs.
+    The 500.html template has also been created so that a custom error page will be displayed to the user when a 500 error occurs.
 
-   Result: Pass
+    Result: Pass
 
   * 1.8 As a user, I can easily recover my password if I forget it so that I can easily get into the site if I forget my password without re-registering (#8).
 
-  ![Reset password 1](media/images/readme/reset-p-1.png)
-  ![Reset password 2](media/images/readme/reset-p-2.png)
-  ![Reset password 3](media/images/readme/reset-p-3.png)
-  ![Reset password 4](media/images/readme/reset-p-4.png)
+    ![Reset password 1](media/images/readme/reset-p-1.png)
+    ![Reset password 2](media/images/readme/reset-p-2.png)
+    ![Reset password 3](media/images/readme/reset-p-3.png)
+    ![Reset password 4](media/images/readme/reset-p-4.png)
 
   Result: Pass
 
   * 1.9 As a user, I can have a personalised user profile so that I can view my order history, order confirmations, saved favourite products and save my payment information(#10).
 
-  ![User-profile](media/images/readme/user-profile.png)
+     ![User-profile](media/images/readme/user-profile.png)
 
-  Result: Pass
+    Result: Pass
 
   * 1.10 As a user, I can search for a product by name or description so that I can easily find specific products that I want to purchase (#14).
 
-  ![User-profile](media/images/readme/user-profile.png)
+    ![User-profile](media/images/readme/user-profile.png)
 
   * 1.11 As a user, I can easily see what I've searched for and the number of results so that I can quickly decide if the product I want is available (#15).
 
-  ![User-profile](media/images/readme/.png)
+    ![User-profile](media/images/readme/search-results-readme.png)
 
-  Result: Pass
+    Result: Pass
 
-  * 1.12 As a user, I cannot access areas of the site that are restricted to admin users, and I receive an appropriate error message when I try to do so.
+  * 1.12 As a user, I cannot access areas of the site that are restricted to admin users (e.g. product/blog/event management), and I receive an appropriate error message when I try to do so.
 
-  INPUT IMAGES:
-  -CRUD link e.g. add/edit product
+    Add/edit product:
+    ![User-profile](media/images/readme/regular-user-error.png)
+
+    Add/edit blog post:
+    ![User-profile](media/images/readme/add-blog-regular.png)
+
+    Add/edit event:
+    ![User-profile](media/images/readme/add-event-regular.png)
   
-
-
-
 
 **Feature 2. Home page**
 
   * 2.1 As a user, I want to see a homepage to contain a navigation bar and footer which clearly direct me to all available site pages.
 
-  ![Desktop](media/images/readme/desktop1.png)
-  ![Desktop](media/images/readme/desktop2.png)
-  ![Mobile](media/images/readme/mob1.png)
-  ![Mobile](media/images/readme/mob2.png)
+    ![Desktop](media/images/readme/desktop1.png)
+    ![Desktop](media/images/readme/desktop2.png)
+    ![Mobile](media/images/readme/mob1.png)
+    ![Mobile](media/images/readme/mob2.png)
 
-  Result: Pass
+    Result: Pass
 
   * 2.2 As a user, I want to see call to action button which directs me to the primary purpose of the site - to shop.
 
-  ![Desktop](media/images/readme/desktop-calltoaction.png)
-  ![Mobile](media/images/readme/mob-call-to-action.png)
+    ![Desktop](media/images/readme/desktop-calltoaction.png)
+    ![Mobile](media/images/readme/mob-call-to-action.png)
 
-  Result: Pass
+    Result: Pass
 
 **Feature 3. All Products page**
 
   * 3.1 As a user, I want to see a neatly displayed list of products with visually appealing images, clearly listing the name, price, category and rating of each product so I can decide on which products to view more detail on based on whether they are popular, relevant and within my price range (#1, #2, and #3).
 
-  ![Desktop](media/images/readme/all-prod-desktop.png)
-  ![Mobile](media/images/readme/all-prod-mobile.png)
+    ![Desktop](media/images/readme/all-prod-desktop.png)
+    ![Mobile](media/images/readme/all-prod-mobile.png)
 
-  Result: Pass
+    Result: Pass
 
   * 3.2 As a user if there are more than 8 products on the page, the page is paginated in order to maintain the neat look of the site and to avoid endless scrolling for the user.
 
-  ![Desktop](media/images/readme/desktop-pagination1.png)
-  ![Desktop](media/images/readme/desktop-pagination2.png)
-  ![Mobile](media/images/readme/mobile-pagination.png)
+    ![Desktop](media/images/readme/desktop-pagination1.png)
+    ![Desktop](media/images/readme/desktop-pagination2.png)
+    ![Mobile](media/images/readme/mobile-pagination.png)
 
-  Result: Pass
+    Result: Pass
 
   * 3.3 As a user, I want to quickly identify offers and deals so that I can get the best value (#4).
 
-  The website currently only has one discount offer available, which is for free delivery on orders over 50 euro. This is displayed prominently on both desktop and mobile:
+    The website currently only has one discount offer available, which is for free delivery on orders over 50 euro. This is displayed prominently on both desktop and mobile:
 
-  ![Desktop](media/images/readme/deliverybanner-desktop.png)
-  ![Mobile](media/images/readme/deliverybanner-mobile.png)
+    ![Desktop](media/images/readme/deliverybanner-desktop.png)
+    ![Mobile](media/images/readme/deliverybanner-mobile.png)
 
-  Result: Pass
+    Result: Pass
 
   * 3.4 As an admin, I want to be able to edit or delete products from the all products page.
 
-  ![Desktop](media/images/readme/all-prod-editdelete.png)
-  ![Mobile](media/images/readme/mob-editdelete.png)
+    ![Desktop](media/images/readme/all-prod-editdelete.png)
+    ![Mobile](media/images/readme/mob-editdelete.png)
 
-  Result: Pass
+    Result: Pass
 
   * 3.5 As a user, I can sort the list of available products so that I can easily identify the best value, best rated and categorically sorted products (#11).
 
-  ![Sorting options](media/images/readme/sortoptions.png)
-  ![Sorting example: price low to high](media/images/readme/sort-eg-lowhigh.png)
+    ![Sorting options](media/images/readme/sortoptions.png)
+    ![Sorting example: price low to high](media/images/readme/sort-eg-lowhigh.png)
 
-  Result: Pass
+    Result: Pass
 
   * 3.6 As a user, I can sort a specific category of product so that I can find the best-priced or best-rated product in a specific category, or sort by name in that category (#12).
 
-  ![Desktop](media/images/readme/category-sorted.png)
+    ![Desktop](media/images/readme/category-sorted.png)
 
-  Result: Pass
+    Result: Pass
 
   * 3.7 As a user, I can sort multiple categories of products simultaneously so that I can find the best-priced or best-rated products across broad categories, such as "clothing" and "bikes" (#13).
 
-  ![Desktop](media/images/readme/multiple-categories-price-lowhigh.png)
- 
-  Result: Pass
+    ![Desktop](media/images/readme/multiple-categories-price-lowhigh.png)
+  
+    Result: Pass
 
 **Feature 4. Category-specific product page**
 
   * 4.1 As a user, I want to be able to easily access a catergory-specific product page so that I can access the content that I am interested in quickly and easily.
 
-  ![Desktop](media/images/readme/category-sorted.png)
+    ![Desktop](media/images/readme/category-sorted.png)
 
-  Result: Pass
+    Result: Pass
 
 **Feature 5. Product detail page**
 
   * 5.1 As an admin user, I want to be able to edit or delete a product from the detail page so that I can easily edit products as an admin.
 
-  ![Desktop](media/images/readme/prod-detail-editdelete.png)
+    ![Desktop](media/images/readme/prod-detail-editdelete.png)
 
-  Result: Pass
+    Result: Pass
 
   * 5.2 As a user, I want to be able to view all product information on the product detail page including an image, price, rating, category, description and size.
 
-  ![Desktop](media/images/readme/prod-detail.png)
+    ![Desktop](media/images/readme/prod-detail.png)
 
-  Result: Pass
+    Result: Pass
 
   * 5.3 As a user, I want to be able to view a size chart for the product I am interested in so that I can be sure I am selecting the correct size for myself (#40).
 
-  ![Desktop](media/images/readme/size-guide.png)
-  ![Desktop](media/images/readme/size-guide-2.png)
+    ![Desktop](media/images/readme/size-guide.png)
+    ![Desktop](media/images/readme/size-guide-2.png)
 
-  Result: Pass
+    Result: Pass
 
   * 5.4 As a user, I want to be able to select the quantity of items I want and put a product in my shopping cart directly from the product detail page so that I can shop efficiently (#16).
 
-  ![Desktop](media/images/readme/quantity-addtocart.png)
-  ![Desktop](media/images/readme/quantity-addtocart-2.png)
+    ![Desktop](media/images/readme/quantity-addtocart.png)
+    ![Desktop](media/images/readme/quantity-addtocart-2.png)
 
-  Result: Pass
+    Result: Pass
 
   * 5.5 As a user, I can see similar/recommended items so that I can enjoy a personalised shopping experience and be aware of the products I am most likely to like and purchase (#28).  
 
-  ![Desktop](media/images/readme/recommended-products.png)
+    ![Desktop](media/images/readme/recommended-products.png)
 
-  Result: Pass
+    Result: Pass
 
 **Feature 6. Service Booking page**
 
   * 6.1 As an user, I want to be able to book a bike service easily and efficiently, so that I can arrange to resolve an issue with my bike quickly and easily (#26).
 
-  ![Service booking](media/images/readme/book-service-1.png)
+    ![Service booking](media/images/readme/book-service-1.png)
 
-  Result: Pass
+    Result: Pass
 
   * 6.2 As a user, I want to receive a confirmation message so I know that I have successfully submitted my booking form.
 
-  ![Service booking](media/images/readme/book-service-2.png)
+    ![Service booking](media/images/readme/book-service-2.png)
 
-  Result: Pass
+    Result: Pass
 
   * 6.3 As a user, I want to receive a notification if I have accidentally selected a booking date in the past so I know that I need to fill out the form again.
 
-  ![Service booking](media/images/readme/service-date-passed.png)
+    ![Service booking](media/images/readme/service-date-passed.png)
 
-  Result: Pass
+    Result: Pass
 
 **Feature 7. Blog**
   
   * 7.1 As an user, I want to be able to access blog content with cycling tips and guides so that I can improve my knowledge of cycling and become a better cyclist (#31).
 
-   ![Blog post list](media/images/readme/blog-postlist-desktop-1.png)
-   ![Blog post list](media/images/readme/blog-postlist-desktop-2.png)
-   ![Blog post detail](media/images/readme/blog-postdetail-desktop-1.png)
-   ![Blog post detail](media/images/readme/blog-postdetail-desktop-2.png)
+    ![Blog post list](media/images/readme/blog-postlist-desktop-1.png)
+    ![Blog post list](media/images/readme/blog-postlist-desktop-2.png)
+    ![Blog post detail](media/images/readme/blog-postdetail-desktop-1.png)
+    ![Blog post detail](media/images/readme/blog-postdetail-desktop-2.png)
 
-   Result: Pass
+    Result: Pass
 
 **Feature 8. Events Page**
 
   * 8.1 As a user, I want to see a list of upcoming Irish cycling events in order of event date so that I can engage with the cycling community and potentially take part in competitive events (#33).
 
-  ![Events List](media/images/readme/event-list-desktop.png)
+    ![Events List](media/images/readme/event-list-desktop.png)
 
-  Result: Pass
+    Result: Pass
 
   * 8.2 As a user, I want to be able to filter the cycling events for categories that are relevant to me.
 
-  ![Events List](media/images/readme/events-category-filter.png)
+    ![Events List](media/images/readme/events-category-filter.png)
 
-  Result: Pass
+    Result: Pass
 
 **Feature 9. Shopping Cart and Checkout**
 
   * 9.1 As a user, I can click on a product, select a size and quantity and add it to my bag (receiving a notification when I've done so) in order to purchase it. 
 
-  ![Checkout process](media/images/readme/desktop-checkout-process-1.png)
+    ![Checkout process](media/images/readme/desktop-checkout-process-1.png)
 
-  Result: Pass
+    Result: Pass
 
   * 9.2 As a user, I can click on the cart icon and be brought to my bag to see the contents in order to know what I have selected so far and the subtotal. If no contents are there, I will see a message that the cart is empty (#17).
 
-  ![Checkout process](media/images/readme/desktop-checkout-process-1.png)
-  ![Checkout process - empty cart](media/images/readme/empty-cart.png)
+    ![Checkout process](media/images/readme/desktop-checkout-process-1.png)
+    ![Checkout process - empty cart](media/images/readme/empty-cart.png)
 
-  Result: Pass
+    Result: Pass
 
   * 9.3 As a user, I can update the quantity or remove an item from my shopping bag (#18).
 
-  (i)![Checkout process - cart](media/images/readme/cart.png)
-  (ii)![Checkout process - adjusted](media/images/readme/adjusted-cart.png)
+    (i)![Checkout process - cart](media/images/readme/cart.png)
+    (ii)![Checkout process - adjusted](media/images/readme/adjusted-cart.png)
 
-  Result: Pass 
+    Result: Pass 
 
   * 9.4 As a user, I can click on the Secure Checkout button on the cart page or toast message, and will be directed to the checkout page.
   * 9.5 As a user, I can fill in my personal information, or have it auto-populated if it is already filled in on my profile.
 
-  (i)![Checkout process - adjusted](media/images/readme/secure-checkout-1.png)
-  (ii)![Checkout process - adjusted](media/images/readme/secure-checkout-1.png)
+    (i)![Checkout process - adjusted](media/images/readme/secure-checkout-1.png)
+    (ii)![Checkout process - adjusted](media/images/readme/secure-checkout-1.png)
 
-  Result: Pass
+    Result: Pass
   
   * 9.6 As a user I can view an order summary with a subtotal of all items in cart and which includes a calculated delivery charge.
 
-  ![Checkout process - adjusted](media/images/readme/order-summary.png)
+    ![Checkout process - adjusted](media/images/readme/order-summary.png)
 
-  Result: Pass
+    Result: Pass
 
   * 9.7 As a user I can easily enter my credit card payment information to make a purchase (#19).
 
-  ![Checkout process - card info](media/images/readme/enter-card-info.png)
+    ![Checkout process - card info](media/images/readme/enter-card-info.png)
 
-  Result: Pass
+    Result: Pass
 
   * 9.8 As a user on the checkout page, if I click 'Complete Order' and the transaction is unsuccessful for some reason, a message will be displayed.
 
-  ![Checkout process - unsuccessful transaction](media/images/readme/unsuccessful-transaction.png)
+    ![Checkout process - unsuccessful transaction](media/images/readme/unsuccessful-transaction.png)
 
-  Result: Pass
+    Result: Pass
 
   * 9.10 As a user who has completed a successful purchase, my order details will be summarised and displayed on my profile page (#21).
 
-  (i)![Checkout process - summary](media/images/readme/order-summary-confirmation.png)
-  (ii)![Checkout process - summary profile](media/images/readme/order-summary-profile.png)
+    (i)![Checkout process - summary](media/images/readme/order-summary-confirmation.png)
+    (ii)![Checkout process - summary profile](media/images/readme/order-summary-profile.png)
 
-  Result: Pass
+    Result: Pass
 
   * 9.11 As a user who has completed a successful purchase, I will receive a confirmation email (#22).
 
-  ![Checkout process - email confirmation](media/images/readme/order-email-confirmation.png)
+    ![Checkout process - email confirmation](media/images/readme/order-email-confirmation.png)
 
-  Result: Pass
+    Result: Pass
 
   * 9.12 As a user, I do not need to be logged in to make a purchase.
 
-  (i)![Checkout process - logged out purchase](media/images/readme/loggedout-order-1.png)
-  (ii)![Checkout process - logged out purchase](media/images/readme/loggedout-order-2.png)
+    (i)![Checkout process - logged out purchase](media/images/readme/loggedout-order-1.png)
+    (ii)![Checkout process - logged out purchase](media/images/readme/loggedout-order-2.png)
 
-  Result: Pass
+    Result: Pass
 
   * 9.13 As a user, I can easily view the total of my purchases at any time so that I can avoid spending too much (#5).
 
-  The cart total is visible and up to date at all times on the header of the page:
-  ![Checkout process - cart total visible](media/images/readme/cart-total-visible.png)
+    The cart total is visible and up to date at all times on the header of the page:
+    ![Checkout process - cart total visible](media/images/readme/cart-total-visible.png)
 
-  Result: Pass
+    Result: Pass
 
   * 9.14 As a user, I can feel my personal and payment information is safe and secure so that I can confidently provide the required information to make a purchase (#20).
 
-  Users are invited to make a secure checkout where they are given an extra notification that their card will be charged. Once submitted the payment details are passed through Stripe's secure overlay.
-  
-  ![Checkout process - input payment details](media/images/readme/enter-card-info.png)
-  ![Checkout process - stripe overlay](media/images/readme/overlay.png)
+    Users are invited to make a secure checkout where they are given an extra notification that their card will be charged. Once submitted the payment details are passed through Stripe's secure overlay.
+    
+    ![Checkout process - input payment details](media/images/readme/enter-card-info.png)
+    ![Checkout process - stripe overlay](media/images/readme/overlay.png)
 
-  Result: Pass
+    Result: Pass
 
 **Feature 10. User Profile page**
 
@@ -1351,83 +1351,83 @@ User stories relating to Admin:
 
   * 12.1 As an admin user, I can view checkout orders in the Django admin page including the order number, date, full name, order total, delivery cost and grand total.
 
-  ![Admin checkout orders](media/images/readme/admin-checkout-orders-2.png)
+    ![Admin checkout orders](media/images/readme/admin-checkout-orders-2.png)
 
-  Result: Pass
+    Result: Pass
 
   * 12.2 As an admin user, I can view users in the Django admin page, including their username, email address, first name, last name and staff status.
 
-  ![Admin users](media/images/readme/admin-users.png)
+    ![Admin users](media/images/readme/admin-users.png)
 
-  Result: Pass
+    Result: Pass
 
   * 12.3 As an admin user, I can view blog posts in the Django admin page, including title, slug, status, creation date and image.
 
-  ![Admin blog posts](media/images/readme/admin-blog-posts.png)
+    ![Admin blog posts](media/images/readme/admin-blog-posts.png)
 
-  Result: Pass
+    Result: Pass
 
   * 12.4 As an admin user, I can view event posts in the Django admin page, including title, status, creation date, image, event category and event date.
 
-  ![Admin events](media/images/readme/admin-event-posts.png)
+    ![Admin events](media/images/readme/admin-event-posts.png)
 
-  Result: Pass
+    Result: Pass
 
   * 12.5 As an admin user, I can view service bookings in the Django admin page, including user first name, last name, date requested and service type. 
 
-  ![Admin service bookings](media/images/readme/admin-service-bookings.png)
+    ![Admin service bookings](media/images/readme/admin-service-bookings.png)
 
-  Result: Pass
+    Result: Pass
 
   * 12.6 As an admin user, I can view product categories, their names and friendly names in the Django admin page.
 
-  ![Admin product categories](media/images/readme/admin-product-categories.png)
+    ![Admin product categories](media/images/readme/admin-product-categories.png)
 
-  Result: Pass
+    Result: Pass
 
   * 12.7 As an admin user, I can view products in the Django admin page, including their SKU, name, category, price, rating and image.
 
-  ![Admin Products](media/images/readme/admin-products.png)
+    ![Admin Products](media/images/readme/admin-products.png)
 
-  Result: Pass
+    Result: Pass
 
 **Feature 13. Footer**
 
   * 13.1 As a user, I can sign up to a Vélo City Mailchimp newsletter so that I can keep up to date with new products and offers (#27).
 
-  (i)![Mailchimp form](media/images/readme/signup-mailchimp.png)
-  (ii)![Mailchimp form](media/images/readme/useradded-MC-campaign.png)
+    (i)![Mailchimp form](media/images/readme/signup-mailchimp.png)
+    (ii)![Mailchimp form](media/images/readme/useradded-MC-campaign.png)
 
-  Result: Pass
+    Result: Pass
 
   * 13.2 As a user I can easily find information about the business, including contact information so that I can know more about the company I am buying from (#30).
 
-  ![About business](media/images/readme/aboutus-1.png)
-  ![About business](media/images/readme/aboutus-2.png)
+    ![About business](media/images/readme/aboutus-1.png)
+    ![About business](media/images/readme/aboutus-2.png)
 
-  Result: Pass
+    Result: Pass
 
   * 13.3 As a user, I can view the company's Privacy Policy so I feel like my privacy is protected while using the site and that the site is trustworthy.
 
-  ![Privacy policy](media/images/readme/privacy-1.png)
-  ![Privacy policy](media/images/readme/privacy-2.png)
+    ![Privacy policy](media/images/readme/privacy-1.png)
+    ![Privacy policy](media/images/readme/privacy-2.png)
 
-  Result: Pass
+    Result: Pass
 
   * 13.4 As a user, I can view and follow the company's Facebook for Business page so that I can stay up to date with news and offers (#41).
 
-  ![FB Page](media/images/readme/fb-1.png)
-  ![FB Page](media/images/readme/fb-desktop-1.png)
-  ![FB Page](media/images/readme/fb-desktop-2.png)
+    ![FB Page](media/images/readme/fb-1.png)
+    ![FB Page](media/images/readme/fb-desktop-1.png)
+    ![FB Page](media/images/readme/fb-desktop-2.png)
 
-  Result: Pass
+    Result: Pass
 
   * 13.5 As a user, I can view the company's return and refund policy so that I feel secure when making purchases on the site.
 
-  ![Returns](media/images/readme/returns.png)
-  ![Returns](media/images/readme/returns-desktop.png)
+    ![Returns](media/images/readme/returns-link.png)
+    ![Returns](media/images/readme/returns-desktop.png)
 
-  Result: Pass
+    Result: Pass
 
 ## Validator Testing
 
@@ -1436,25 +1436,25 @@ User stories relating to Admin:
 1. Checkout page errors:
 ![Checkout errors](media/images/readme/checkout-page-errors.png)
 
-Comment:
-There are several HTML validation errors and warnings on the Checkout page which can be seen below. These are a result of a fix that was implemented to correct an issue with the decrement and increment quantity buttons whereby they did not work correctly on a large screen device. This issue was flagged during the Boutique Ado walkthrough project. I would have tried to address this issue if I had more time, however it did not seem possible without re-writing the code from scratch at a late stage of the project.
+    Comment:
+    There are several HTML validation errors and warnings on the Checkout page which can be seen below. These are a result of a fix that was implemented to correct an issue with the decrement and increment quantity buttons whereby they did not work correctly on a large screen device. This issue was flagged during the Boutique Ado walkthrough project. I would have tried to address this issue if I had more time, however it did not seem possible without re-writing the code from scratch at a late stage of the project.
 
 2. Event page error:
 ![Event page error](media/images/readme/event-page-error.png)
 
-  Fix: Replace the `h2`-wrapped event post headings with `span`-wrapped headings including in-line styling to increase the font size.
+    Fix: Replace the `h2`-wrapped event post headings with `span`-wrapped headings including in-line styling to increase the font size.
 
 3. Loading overlay error:
 ![Overlay error](media/images/readme/loading-overlay-error.png)
 
-  Comment:
-  This `h1` is empty as it is intended to contain an overlay icon only. This is part of the Stripe code.
+    Comment:
+    This `h1` is empty as it is intended to contain an overlay icon only. This is part of the Stripe code.
 
 4. Add Product/Blog/Event post error:
 ![Add post error](media/images/readme/add-product-blog-event-error.png)
 
-  Comment:
-  These errors have been raised by code from Django and so cannot be accessed to address.
+    Comment:
+    These errors have been raised by code from Django and so cannot be accessed to address.
 
 ## PEP8
 
