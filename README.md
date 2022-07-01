@@ -336,16 +336,16 @@ All images were sourced from [Pexels](https://www.pexels.com/) and [Unsplash](ht
 User stories relating to Navigation bar and home page:
 
   * 1.1 As a user, I see the navigation bar with a logo on all pages and with a search box on a desktop, tablet and mobile.
-  * 1.2 As a user not logged in, I see a Register/Login link in the nav bar. Clicking this leads me to the registration or sign in pages and enables me to register or sign in (#6 and #7).
+  * 1.2 As a user not logged in, I see a Register/Login link in the nav bar. Clicking this leads me to the registration or sign in pages and enables me to register or sign in ([#6](https://github.com/rocrill/velo_city/issues/6) and [#7](https://github.com/rocrill/velo_city/issues/7)).
   * 1.3 As a logged in user, I am notified when I am logged in and I see a logout link in the nav which enables me to click sign out which logs me out.
-  * 1.4 As a user, I can easily receive email confirmation after registering so that I can verify that my account registration was successful #9.
+  * 1.4 As a user, I can easily receive email confirmation after registering so that I can verify that my account registration was successful [#9](https://github.com/rocrill/velo_city/issues/9).
   * 1.5 As a user I can view the website logo in the header at all times, and clicking this will bring me to the homepage.
   * 1.6 As a user I can click the all product, service, blog and event nav links which bring me to the relevant pages.
   * 1.7 As a user if I encounter an error on the site, an applicable error message will be shown.
-  * 1.8 As a user, I can easily recover my password if I forget it so that I can easily get into the site if I forget my password without re-registering #8.
-  * 1.9 As a user, I can have a personalised user profile so that I can view my order history, order confirmations, saved favourite products and save my payment information #10.
-  * 1.10 As a user, I can search for a product by name or description so that I can easily find specific products that I want to purchase #14.
-  * 1.11 As a shopper, I can easily see what I've searched for and the number of results so that I can quickly decide if the product I want is available #15.
+  * 1.8 As a user, I can easily recover my password if I forget it so that I can easily get into the site if I forget my password without re-registering [#8](https://github.com/rocrill/velo_city/issues/8).
+  * 1.9 As a user, I can have a personalised user profile so that I can view my order history, order confirmations, saved favourite products and save my payment information [#10](https://github.com/rocrill/velo_city/issues/10).
+  * 1.10 As a user, I can search for a product by name or description so that I can easily find specific products that I want to purchase [#14](https://github.com/rocrill/velo_city/issues/14).
+  * 1.11 As a shopper, I can easily see what I've searched for and the number of results so that I can quickly decide if the product I want is available [#15](https://github.com/rocrill/velo_city/issues/15).
   * 1.12 As a user, I cannot access areas of the site that are restricted to admin users, and I receive an appropriate error message when I try to do so.
 
 **Feature 2. Home page**
@@ -384,13 +384,13 @@ User stories relating to the Home page:
 
 User stories relating to the All Products page:
 
-  * 3.1 As a user, I want to see a neatly displayed list of products with visually appealing images, clearly listing the name, price, category and rating of each product so I can decide on which products to view more detail on based on whether they are popular, relevant and within my price range (#1, #2, and #3).
+  * 3.1 As a user, I want to see a neatly displayed list of products with visually appealing images, clearly listing the name, price, category and rating of each product so I can decide on which products to view more detail on based on whether they are popular, relevant and within my price range ([#1](https://github.com/rocrill/velo_city/issues/1), [#2](https://github.com/rocrill/velo_city/issues/2), and [#3](https://github.com/rocrill/velo_city/issues/3)).
   * 3.2 As a user if there are more than 8 products on the page, the page is paginated in order to maintain the neat look of the site and to avoid endless scrolling for the user.
-  * 3.3 As a user, I want to quickly identify offers and deals so that I can get the best value #4.
+  * 3.3 As a user, I want to quickly identify offers and deals so that I can get the best value [#4](https://github.com/rocrill/velo_city/issues/4).
   * 3.4 As an admin, I want to be able to edit or delete products from the all products page.
-  * 3.5 As a user, I can sort the list of available products so that I can easily identify the best value, best rated and categorically sorted products #11.
-  * 3.6 As a user, I can sort a specific category of product so that I can find the best-priced or best-rated product in a specific category, or sort by name in that category #12.
-  * 3.7 As a user, I can sort multiple categories of products simultaneously so that I can find the best-priced or best-rated products across broad categories, such as "clothing" and "accessories" #13.
+  * 3.5 As a user, I can sort the list of available products so that I can easily identify the best value, best rated and categorically sorted products [#11](https://github.com/rocrill/velo_city/issues/11).
+  * 3.6 As a user, I can sort a specific category of product so that I can find the best-priced or best-rated product in a specific category, or sort by name in that category [#12](https://github.com/rocrill/velo_city/issues/12).
+  * 3.7 As a user, I can sort multiple categories of products simultaneously so that I can find the best-priced or best-rated products across broad categories, such as "clothing" and "accessories" [#13](https://github.com/rocrill/velo_city/issues/13).
 
 
 **Feature 4. Category-specific product page**
@@ -435,9 +435,9 @@ User stories relating to the All Products page:
   
   * 5.1 As an admin user, I want to be able to edit or delete a product from the detail page so that I can easily edit products as an admin.
   * 5.2 As a user, I want to be able to view all product information on the product detail page including an image, price, rating, category, description and size.
-  * 5.3 As a user, I want to be able to view a size chart for the product I am interested in so that I can be sure I am selecting the correct size for myself #40.
-  * 5.4 As a user, I want to be able to select the quantity of items I want and put a product in my shopping cart directly from the product detail page so that I can shop efficiently #16.
-  * 5.5 As a user, I can see similar/recommended items so that I can enjoy a personalised shopping experience and be aware of the products I am most likely to like and purchase #28.
+  * 5.3 As a user, I want to be able to view a size chart for the product I am interested in so that I can be sure I am selecting the correct size for myself [#40](https://github.com/rocrill/velo_city/issues/40).
+  * 5.4 As a user, I want to be able to select the quantity of items I want and put a product in my shopping cart directly from the product detail page so that I can shop efficiently [#16](https://github.com/rocrill/velo_city/issues/16).
+  * 5.5 As a user, I can see similar/recommended items so that I can enjoy a personalised shopping experience and be aware of the products I am most likely to like and purchase [#28](https://github.com/rocrill/velo_city/issues/28).
 
 
 **Feature 6. Service Booking page**
@@ -456,7 +456,7 @@ User stories relating to the All Products page:
 
   User stories relating to the Service Booking page:
   
-  * 6.1 As an user, I want to be able to book a bike service easily and efficiently, so that I can arrange to resolve an issue with my bike quickly and easily #26.
+  * 6.1 As an user, I want to be able to book a bike service easily and efficiently, so that I can arrange to resolve an issue with my bike quickly and easily [#26](https://github.com/rocrill/velo_city/issues/26).
   * 6.2 As a user, I want to receive a confirmation message so I know that I have successfully submitted my booking form.
   * 6.3 As a user, I want to receive a notification if I have accidentally selected a booking date in the past so I know that I need to fill out the form again.
 
@@ -488,7 +488,7 @@ User stories relating to the All Products page:
 
   User stories relating to the Blog:
   
-  * 7.1 As an user, I want to be able to access blog content with cycling tips and guides so that I can improve my knowledge of cycling and become a better cyclist #31.
+  * 7.1 As an user, I want to be able to access blog content with cycling tips and guides so that I can improve my knowledge of cycling and become a better cyclist [#31](https://github.com/rocrill/velo_city/issues/31).
 
 **Feature 8. Events Page**
 
@@ -506,7 +506,7 @@ User stories relating to the All Products page:
   
   User stories relating Events list:
 
-  * 8.1 As a user, I want to see a list of upcoming Irish cycling events so that I can engage with the cycling community and potentially take part in competitive events #33.
+  * 8.1 As a user, I want to see a list of upcoming Irish cycling events so that I can engage with the cycling community and potentially take part in competitive events [#33](https://github.com/rocrill/velo_city/issues/33).
   * 8.2 As a user, I want to be able to filter the cycling events for categories that are relevant to me.
 
 **Feature 9. Shopping Cart and Checkout**
@@ -541,18 +541,18 @@ Mobile shopping cart:
 User stories relating to the shopping cart and checkout:
 
   * 9.1 As a user, I can click on a product, select a size and quantity and add it to my bag (receiving a notification when I've done so) in order to purchase it. 
-  * 9.2 As a user, I can click on the cart icon and be brought to my bag to see the contents in order to know what I have selected so far and the subtotal. If no contents are there, I will see a message that the cart is empty #17.
-  * 9.3 As a user, I can update the quantity or remove an item from my shopping bag #18.
+  * 9.2 As a user, I can click on the cart icon and be brought to my bag to see the contents in order to know what I have selected so far and the subtotal. If no contents are there, I will see a message that the cart is empty [#17](https://github.com/rocrill/velo_city/issues/17).
+  * 9.3 As a user, I can update the quantity or remove an item from my shopping bag [#18](https://github.com/rocrill/velo_city/issues/18).
   * 9.4 As a user, I can click on the Secure Checkout button on the cart page or toast message, and will be directed to the checkout page.
   * 9.5 As a user, I can fill in my personal information, or have it auto-populated if it is already filled in on my profile.
   * 9.6 As a user I can view an order summary with a subtotal of all items in cart and which includes a calculated delivery charge.
-  * 9.7 As a user I can easily enter my credit card payment information to make a purchase #19.
+  * 9.7 As a user I can easily enter my credit card payment information to make a purchase [#19](https://github.com/rocrill/velo_city/issues/19).
   * 9.8 As a user on the checkout page, if I click 'Complete Order' and the transaction is unsuccessful for some reason, a message will be displayed.
-  * 9.10 As a user who has completed a successful purchase, my order details will be summarised and displayed on my profile page #21.
-  * 9.11 As a user who has completed a successful purchase, I will receive a confirmation email #22.
+  * 9.10 As a user who has completed a successful purchase, my order details will be summarised and displayed on my profile page [#21](https://github.com/rocrill/velo_city/issues/21).
+  * 9.11 As a user who has completed a successful purchase, I will receive a confirmation email [#22](https://github.com/rocrill/velo_city/issues/22).
   * 9.12 As a user, I do not need to be logged in to make a purchase.
-  * 9.13 As a user, I can easily view the total of my purchases at any time so that I can avoid spending too much #5.
-  * 9.14 As a user, I can feel my personal and payment information is safe and secure so that I can confidently provide the required information to make a purchase #20.
+  * 9.13 As a user, I can easily view the total of my purchases at any time so that I can avoid spending too much [#5](https://github.com/rocrill/velo_city/issues/5).
+  * 9.14 As a user, I can feel my personal and payment information is safe and secure so that I can confidently provide the required information to make a purchase [#20](https://github.com/rocrill/velo_city/issues/20).
 
 **Feature 10. User Profile Page**
 
@@ -594,12 +594,12 @@ Mobile product management page:
 
 User stories relating to the Product, Blog and Event Management pages:
 
-  * 11.1 As an admin user, I can add products on the Product Managmenet page and receive confirmation when done #23.
-  * 11.2 As an admin user, I can add blog posts on the Blog Management page and receive confirmation when done #34.
-  * 11.3 As an admin user, I can add event posts on the Event Management page and receive confirmation when done #37.
-  * 11.4 As an admin user, I can edit and delete products on the all products and product detail pages and receive confirmation when done (#24 and #25).
-  * 11.5 As an admin user, I can edit and delete Blog posts from the blog post detail page and receive confirmation when done (#35 and #36).
-  * 11.6 As an admin user, I can edit and delete Event posts from the events list page and receive confirmation when done (#38 and #39).
+  * 11.1 As an admin user, I can add products on the Product Managmenet page and receive confirmation when done [#23](https://github.com/rocrill/velo_city/issues/23).
+  * 11.2 As an admin user, I can add blog posts on the Blog Management page and receive confirmation when done [#34](https://github.com/rocrill/velo_city/issues/34).
+  * 11.3 As an admin user, I can add event posts on the Event Management page and receive confirmation when done [#37](https://github.com/rocrill/velo_city/issues/37).
+  * 11.4 As an admin user, I can edit and delete products on the all products and product detail pages and receive confirmation when done ([#24](https://github.com/rocrill/velo_city/issues/24) and [#25](https://github.com/rocrill/velo_city/issues/25)).
+  * 11.5 As an admin user, I can edit and delete Blog posts from the blog post detail page and receive confirmation when done ([#35](https://github.com/rocrill/velo_city/issues/35) and [#36](https://github.com/rocrill/velo_city/issues/36)).
+  * 11.6 As an admin user, I can edit and delete Event posts from the events list page and receive confirmation when done ([#38](https://github.com/rocrill/velo_city/issues/38) and [#39](https://github.com/rocrill/velo_city/issues/39)).
 
 **Feature 12. Admin**
 
@@ -669,10 +669,10 @@ Email subscription sign up form mobile:
 
 User Stories relating to the footer: 
 
-  * 13.1 As a user, I can sign up to a Vélo City newsletter so that I can keep up to date with new products and offers #27.
-  * 13.2 As a user I can easily find information about the business, including contact information so that I can know more about the company I am buying from #30.
+  * 13.1 As a user, I can sign up to a Vélo City newsletter so that I can keep up to date with new products and offers [#27](https://github.com/rocrill/velo_city/issues/27).
+  * 13.2 As a user I can easily find information about the business, including contact information so that I can know more about the company I am buying from [#30](https://github.com/rocrill/velo_city/issues/30).
   * 13.3 As a user, I can view the company's Privacy Policy so I feel like my privacy is protected while using the site and that the site is trustworthy.
-  * 13.4 As a user, I can view and follow the company's Facebook for Business page so that I can stay up to date with news and offers #41.
+  * 13.4 As a user, I can view and follow the company's Facebook for Business page so that I can stay up to date with news and offers [#41](https://github.com/rocrill/velo_city/issues/41).
   * 13.5 As a user, I can view the company's return and refund policy so that I feel secure when making purchases on the site.
 
 
@@ -943,7 +943,7 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
     Result: Pass 
 
-  * 1.2 As a user not logged in, I see a Register/Login link in the nav bar. Clicking this leads me to the registration or sign in pages and enables me to register or sign in (#6 and #7). 
+  * 1.2 As a user not logged in, I see a Register/Login link in the nav bar. Clicking this leads me to the registration or sign in pages and enables me to register or sign in ([#6](https://github.com/rocrill/velo_city/issues/6) and [#7](https://github.com/rocrill/velo_city/issues/7)). 
 
     ![Desktop register/signin option when logged out](media/images/readme/signin-reg-1.png)
     ![Desktop reg page](media/images/readme/desktop-reg.png)
@@ -961,7 +961,7 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
     Result: Pass
 
-  * 1.4 As a user, I can easily receive email confirmation after registering so that I can verify that my account registration was successful #9.
+  * 1.4 As a user, I can easily receive email confirmation after registering so that I can verify that my account registration was successful [#9](https://github.com/rocrill/velo_city/issues/9).
 
     ![Registration confirmation email](media/images/readme/reg-conf-email.png)
     ![Email confirmation success](media/images/readme/mail-confirmation-success.png)
@@ -1008,7 +1008,7 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
     Result: Pass
 
-  * 1.8 As a user, I can easily recover my password if I forget it so that I can easily get into the site if I forget my password without re-registering #8.
+  * 1.8 As a user, I can easily recover my password if I forget it so that I can easily get into the site if I forget my password without re-registering [#8](https://github.com/rocrill/velo_city/issues/8).
 
     ![Reset password 1](media/images/readme/reset-p-1.png)
     ![Reset password 2](media/images/readme/reset-p-2.png)
@@ -1017,17 +1017,17 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   Result: Pass
 
-  * 1.9 As a user, I can have a personalised user profile so that I can view my order history, order confirmations, saved favourite products and save my payment information#10.
+  * 1.9 As a user, I can have a personalised user profile so that I can view my order history, order confirmations, saved favourite products and save my payment information[#10](https://github.com/rocrill/velo_city/issues/10).
 
      ![User-profile](media/images/readme/user-profile.png)
 
     Result: Pass
 
-  * 1.10 As a user, I can search for a product by name or description so that I can easily find specific products that I want to purchase #14.
+  * 1.10 As a user, I can search for a product by name or description so that I can easily find specific products that I want to purchase [#14](https://github.com/rocrill/velo_city/issues/14).
 
     ![User-profile](media/images/readme/user-profile.png)
 
-  * 1.11 As a user, I can easily see what I've searched for and the number of results so that I can quickly decide if the product I want is available #15.
+  * 1.11 As a user, I can easily see what I've searched for and the number of results so that I can quickly decide if the product I want is available [#15](https://github.com/rocrill/velo_city/issues/15).
 
     ![User-profile](media/images/readme/search-results-readme.png)
 
@@ -1065,7 +1065,7 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
 **Feature 3. All Products page**
 
-  * 3.1 As a user, I want to see a neatly displayed list of products with visually appealing images, clearly listing the name, price, category and rating of each product so I can decide on which products to view more detail on based on whether they are popular, relevant and within my price range (#1, #2, and #3).
+  * 3.1 As a user, I want to see a neatly displayed list of products with visually appealing images, clearly listing the name, price, category and rating of each product so I can decide on which products to view more detail on based on whether they are popular, relevant and within my price range ([#1](https://github.com/rocrill/velo_city/issues/1), [#2](https://github.com/rocrill/velo_city/issues/2), and [#3](https://github.com/rocrill/velo_city/issues/3)).
 
     ![Desktop](media/images/readme/all-prod-desktop.png)
     ![Mobile](media/images/readme/all-prod-mobile.png)
@@ -1080,7 +1080,7 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
     Result: Pass
 
-  * 3.3 As a user, I want to quickly identify offers and deals so that I can get the best value #4.
+  * 3.3 As a user, I want to quickly identify offers and deals so that I can get the best value [#4](https://github.com/rocrill/velo_city/issues/4).
 
     The website currently only has one discount offer available, which is for free delivery on orders over 50 euro. This is displayed prominently on both desktop and mobile:
 
@@ -1096,20 +1096,20 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
     Result: Pass
 
-  * 3.5 As a user, I can sort the list of available products so that I can easily identify the best value, best rated and categorically sorted products #11.
+  * 3.5 As a user, I can sort the list of available products so that I can easily identify the best value, best rated and categorically sorted products [#11](https://github.com/rocrill/velo_city/issues/11).
 
     ![Sorting options](media/images/readme/sortoptions.png)
     ![Sorting example: price low to high](media/images/readme/sort-eg-lowhigh.png)
 
     Result: Pass
 
-  * 3.6 As a user, I can sort a specific category of product so that I can find the best-priced or best-rated product in a specific category, or sort by name in that category #12.
+  * 3.6 As a user, I can sort a specific category of product so that I can find the best-priced or best-rated product in a specific category, or sort by name in that category [#12](https://github.com/rocrill/velo_city/issues/12).
 
     ![Desktop](media/images/readme/category-sorted.png)
 
     Result: Pass
 
-  * 3.7 As a user, I can sort multiple categories of products simultaneously so that I can find the best-priced or best-rated products across broad categories, such as "clothing" and "bikes" #13.
+  * 3.7 As a user, I can sort multiple categories of products simultaneously so that I can find the best-priced or best-rated products across broad categories, such as "clothing" and "bikes" [#13](https://github.com/rocrill/velo_city/issues/13).
 
     ![Desktop](media/images/readme/multiple-categories-price-lowhigh.png)
   
@@ -1137,21 +1137,21 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
     Result: Pass
 
-  * 5.3 As a user, I want to be able to view a size chart for the product I am interested in so that I can be sure I am selecting the correct size for myself #40.
+  * 5.3 As a user, I want to be able to view a size chart for the product I am interested in so that I can be sure I am selecting the correct size for myself [#40](https://github.com/rocrill/velo_city/issues/40).
 
     ![Desktop](media/images/readme/size-guide.png)
     ![Desktop](media/images/readme/size-guide-2.png)
 
     Result: Pass
 
-  * 5.4 As a user, I want to be able to select the quantity of items I want and put a product in my shopping cart directly from the product detail page so that I can shop efficiently #16.
+  * 5.4 As a user, I want to be able to select the quantity of items I want and put a product in my shopping cart directly from the product detail page so that I can shop efficiently [#16](https://github.com/rocrill/velo_city/issues/16).
 
     ![Desktop](media/images/readme/quantity-addtocart.png)
     ![Desktop](media/images/readme/quantity-addtocart-2.png)
 
     Result: Pass
 
-  * 5.5 As a user, I can see similar/recommended items so that I can enjoy a personalised shopping experience and be aware of the products I am most likely to like and purchase #28.  
+  * 5.5 As a user, I can see similar/recommended items so that I can enjoy a personalised shopping experience and be aware of the products I am most likely to like and purchase [#28](https://github.com/rocrill/velo_city/issues/28).  
 
     ![Desktop](media/images/readme/recommended-products.png)
 
@@ -1159,7 +1159,7 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
 **Feature 6. Service Booking page**
 
-  * 6.1 As an user, I want to be able to book a bike service easily and efficiently, so that I can arrange to resolve an issue with my bike quickly and easily #26.
+  * 6.1 As an user, I want to be able to book a bike service easily and efficiently, so that I can arrange to resolve an issue with my bike quickly and easily [#26](https://github.com/rocrill/velo_city/issues/26).
 
     ![Service booking](media/images/readme/book-service-1.png)
 
@@ -1179,7 +1179,7 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
 **Feature 7. Blog**
   
-  * 7.1 As an user, I want to be able to access blog content with cycling tips and guides so that I can improve my knowledge of cycling and become a better cyclist #31.
+  * 7.1 As an user, I want to be able to access blog content with cycling tips and guides so that I can improve my knowledge of cycling and become a better cyclist [#31](https://github.com/rocrill/velo_city/issues/31).
 
     ![Blog post list](media/images/readme/blog-postlist-desktop-1.png)
     ![Blog post list](media/images/readme/blog-postlist-desktop-2.png)
@@ -1190,7 +1190,7 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
 **Feature 8. Events Page**
 
-  * 8.1 As a user, I want to see a list of upcoming Irish cycling events in order of event date so that I can engage with the cycling community and potentially take part in competitive events #33.
+  * 8.1 As a user, I want to see a list of upcoming Irish cycling events in order of event date so that I can engage with the cycling community and potentially take part in competitive events [#33](https://github.com/rocrill/velo_city/issues/33).
 
     ![Events List](media/images/readme/event-list-desktop.png)
 
@@ -1210,14 +1210,14 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
     Result: Pass
 
-  * 9.2 As a user, I can click on the cart icon and be brought to my bag to see the contents in order to know what I have selected so far and the subtotal. If no contents are there, I will see a message that the cart is empty #17.
+  * 9.2 As a user, I can click on the cart icon and be brought to my bag to see the contents in order to know what I have selected so far and the subtotal. If no contents are there, I will see a message that the cart is empty [#17](https://github.com/rocrill/velo_city/issues/17).
 
     ![Checkout process](media/images/readme/desktop-checkout-process-1.png)
     ![Checkout process - empty cart](media/images/readme/empty-cart.png)
 
     Result: Pass
 
-  * 9.3 As a user, I can update the quantity or remove an item from my shopping bag #18.
+  * 9.3 As a user, I can update the quantity or remove an item from my shopping bag [#18](https://github.com/rocrill/velo_city/issues/18).
 
     (i)![Checkout process - cart](media/images/readme/cart.png)
     (ii)![Checkout process - adjusted](media/images/readme/adjusted-cart.png)
@@ -1238,7 +1238,7 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
     Result: Pass
 
-  * 9.7 As a user I can easily enter my credit card payment information to make a purchase #19.
+  * 9.7 As a user I can easily enter my credit card payment information to make a purchase [#19](https://github.com/rocrill/velo_city/issues/19).
 
     ![Checkout process - card info](media/images/readme/enter-card-info.png)
 
@@ -1250,14 +1250,14 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
     Result: Pass
 
-  * 9.10 As a user who has completed a successful purchase, my order details will be summarised and displayed on my profile page #21.
+  * 9.10 As a user who has completed a successful purchase, my order details will be summarised and displayed on my profile page [#21](https://github.com/rocrill/velo_city/issues/21).
 
     (i)![Checkout process - summary](media/images/readme/order-summary-confirmation.png)
     (ii)![Checkout process - summary profile](media/images/readme/order-summary-profile.png)
 
     Result: Pass
 
-  * 9.11 As a user who has completed a successful purchase, I will receive a confirmation email #22.
+  * 9.11 As a user who has completed a successful purchase, I will receive a confirmation email [#22](https://github.com/rocrill/velo_city/issues/22).
 
     ![Checkout process - email confirmation](media/images/readme/order-email-confirmation.png)
 
@@ -1270,14 +1270,14 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
     Result: Pass
 
-  * 9.13 As a user, I can easily view the total of my purchases at any time so that I can avoid spending too much #5.
+  * 9.13 As a user, I can easily view the total of my purchases at any time so that I can avoid spending too much [#5](https://github.com/rocrill/velo_city/issues/5).
 
     The cart total is visible and up to date at all times on the header of the page:
     ![Checkout process - cart total visible](media/images/readme/cart-total-visible.png)
 
     Result: Pass
 
-  * 9.14 As a user, I can feel my personal and payment information is safe and secure so that I can confidently provide the required information to make a purchase #20.
+  * 9.14 As a user, I can feel my personal and payment information is safe and secure so that I can confidently provide the required information to make a purchase [#20](https://github.com/rocrill/velo_city/issues/20).
 
     Users are invited to make a secure checkout where they are given an extra notification that their card will be charged. Once submitted the payment details are passed through Stripe's secure overlay.
     
@@ -1298,27 +1298,27 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
 **Feature 11. Admin CRUD pages for Products, Events and Blog**
 
-* 11.1 As an admin user, I can add products on the Product Managmenet page and receive confirmation when done #23.
+* 11.1 As an admin user, I can add products on the Product Managmenet page and receive confirmation when done [#23](https://github.com/rocrill/velo_city/issues/23).
 
   (i)![Admin add product](media/images/readme/admin-add-product-view.png)
   (ii)![Admin add product](media/images/readme/admin-addproduct-2.png)
 
   Result: Pass
 
-* 11.2 As an admin user, I can add blog posts on the Blog Management page and receive confirmation when done #34.
+* 11.2 As an admin user, I can add blog posts on the Blog Management page and receive confirmation when done [#34](https://github.com/rocrill/velo_city/issues/34).
 
   (i)![Admin add blog post](media/images/readme/admin-addblogpost-1.png)
   (ii)![Admin add blog post](media/images/readme/admin-addblogpost-2.png)
 
   Result: Pass
 
-* 11.3 As an admin user, I can add event posts on the Event Management page and receive confirmation when done #37.
+* 11.3 As an admin user, I can add event posts on the Event Management page and receive confirmation when done [#37](https://github.com/rocrill/velo_city/issues/37).
 
   ![Admin add event post](media/images/readme/admin-addevent.png)
 
   Result: Pass
 
-* 11.4 As an admin user, I can edit and delete products on the all products and product detail pages and receive confirmation when done (#24 and #25).
+* 11.4 As an admin user, I can edit and delete products on the all products and product detail pages and receive confirmation when done ([#24](https://github.com/rocrill/velo_city/issues/24) and [#25](https://github.com/rocrill/velo_city/issues/25)).
 
   (i)![Admin edit product](media/images/readme/admin-edit-product.png)
   (ii)![Admin edit product](media/images/readme/admin-edit-product-2.png)
@@ -1326,14 +1326,14 @@ At the final stages of the project the W3C Markup Validator, W3C CSS Validator S
 
   Result: Pass
 
-* 11.5 As an admin user, I can edit and delete Blog posts from the blog post detail page and receive confirmation when done (#35 and #36).
+* 11.5 As an admin user, I can edit and delete Blog posts from the blog post detail page and receive confirmation when done ([#35](https://github.com/rocrill/velo_city/issues/35) and [#36](https://github.com/rocrill/velo_city/issues/36)).
 
   ![Admin blog edit](media/images/readme/edit-blogpost.png)
   ![Admin blog delete](media/images/readme/delete-blogpost.png)
 
   Result: Pass
 
-* 11.6 As an admin user, I can edit and delete Event posts from the events list page and receive confirmation when done (#38 and #39).
+* 11.6 As an admin user, I can edit and delete Event posts from the events list page and receive confirmation when done ([#38](https://github.com/rocrill/velo_city/issues/38) and [#39](https://github.com/rocrill/velo_city/issues/39)).
 
   ![Admin edit event](media/images/readme/admin-edit-event.png)
   ![Admin delete event](media/images/readme/admin-delete-event.png)
@@ -1388,14 +1388,14 @@ User stories relating to Admin:
 
 **Feature 13. Footer**
 
-  * 13.1 As a user, I can sign up to a Vélo City Mailchimp newsletter so that I can keep up to date with new products and offers #27.
+  * 13.1 As a user, I can sign up to a Vélo City Mailchimp newsletter so that I can keep up to date with new products and offers [#27](https://github.com/rocrill/velo_city/issues/27).
 
     (i)![Mailchimp form](media/images/readme/signup-mailchimp.png)
     (ii)![Mailchimp form](media/images/readme/useradded-MC-campaign.png)
 
     Result: Pass
 
-  * 13.2 As a user I can easily find information about the business, including contact information so that I can know more about the company I am buying from #30.
+  * 13.2 As a user I can easily find information about the business, including contact information so that I can know more about the company I am buying from [#30](https://github.com/rocrill/velo_city/issues/30).
 
     ![About business](media/images/readme/aboutus-1.png)
     ![About business](media/images/readme/aboutus-2.png)
@@ -1409,7 +1409,7 @@ User stories relating to Admin:
 
     Result: Pass
 
-  * 13.4 As a user, I can view and follow the company's Facebook for Business page so that I can stay up to date with news and offers #41.
+  * 13.4 As a user, I can view and follow the company's Facebook for Business page so that I can stay up to date with news and offers [#41](https://github.com/rocrill/velo_city/issues/41).
 
     ![FB Page](media/images/readme/fb-1.png)
     ![FB Page](media/images/readme/fb-desktop-1.png)
