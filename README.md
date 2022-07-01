@@ -6,14 +6,7 @@
 
 Vélo City is an e-commerce cycling website where users can purchase bikes and cycling kit. 
 
-There are two types of users, for which the test account details are as follows:
-* Admins:
-Username: superuser
-Password: password4963!
-
-* Shoppers/regular users:
-Username: rosuper
-Password: password4963!
+There are two types of users, regular users and admin. The login details for test regular and admin users have been submitted with this project.
 
 Visit the live site here: https://velo-city-rc.herokuapp.com/
 
