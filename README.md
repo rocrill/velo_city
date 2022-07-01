@@ -111,6 +111,8 @@ The following site description, keywords and key phrases were included in the pr
 
 ![SEO description and keywords](media/images/readme/seo-keywords.png)
 
+Where possible, images were also re-named to be SEO-optimized, e.g. updated from names with no meaning attached to terms which would help the SEO rating of a cycling e-commerce site.
+
 ### Project Goals
 
 * To create an e-commerce cycling website which sells bikes and cycling kit. The site also features a cycling blog and events page which aims to attract cyclists to the site, and keep potential shoppers interested so that they might spend more time on the site.
